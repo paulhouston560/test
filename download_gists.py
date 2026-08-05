@@ -26,15 +26,12 @@ def get_gist_meta(gist_url):
     r.raise_for_status()
     return r.json()
 
-def download_and_overwrite(item):
-    gist_url = item["gist_url"]
-    file_name = item["file_name"]
-    save_as = item.get("save_as", file_name)
-
+def download_gist_all_yaml(gist_url, save_as):
     meta = get_gist_meta(gist_url)
-    file_info = meta["files"].get(file_name)
+
+    file_info = meta["files"].get("all.yaml")
     if not file_info:
-        print(f"未找到文件: {file_name}")
+        print(f"未找到文件: all.yaml -> {gist_url}")
         return
 
     raw_url = file_info["raw_url"]
@@ -49,13 +46,14 @@ def download_and_overwrite(item):
 def main():
     gists = load_gists()
 
-    for i, item in enumerate(gists):
+    for idx, gist_url in enumerate(gists, start=1):
         try:
-            download_and_overwrite(item)
+            save_as = f"{idx}.yaml"
+            download_gist_all_yaml(gist_url, save_as)
         except Exception as e:
-            print(f"下载失败: {item.get('gist_url')} -> {e}")
+            print(f"下载失败: {gist_url} -> {e}")
 
-        if i < len(gists) - 1:
+        if idx < len(gists):
             time.sleep(5)
 
 if __name__ == "__main__":

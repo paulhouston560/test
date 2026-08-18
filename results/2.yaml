@@ -1,223 +1,37 @@
 proxies:
-    - auth: Pwd_23g4oqdgv8uQJlgcmv_2026
-      name: "\U0001F1EF\U0001F1F5JP_1|3.2MB/s|GPT⁺|YT-CN|NF|D+|0%"
-      password: Pwd_23g4oqdgv8uQJlgcmv_2026
-      port: 19659
-      server: 38.143.180.241
-      skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria2
-    - alpn:
-        - h3
-      congestion-controller: bbr
-      disable-sni: false
-      name: "\U0001F1FA\U0001F1F8US_1|1.0MB/s|GPT⁺|YT-US|NF|GM|0%"
-      password: giBv2JToqH
-      port: 8443
-      reduce-rtt: false
-      request-timeout: 0
-      server: 107.172.243.149
-      skip-cert-verify: true
-      sni: services.digitaleast.mobi
-      type: tuic
-      udp-relay-mode: native
-      uuid: fa0f1a88-70d9-45b2-a51d-c56cc252cd6d
-    - multiplexing: MULTIPLEXING_LOW
-      name: "\U0001F1FA\U0001F1F8US_2|2.3MB/s|GPT⁺|YT-CN|NF|D+|0%"
-      password: dongtaiwang.com
-      port: 34567
-      server: 157.254.223.44
-      transport: TCP
-      type: mieru
-      username: dongtaiwang.com
-    - down: null
-      name: "\U0001F1EB\U0001F1F7FR_1|2.4MB/s|GPT⁺|YT-US|NF|D+"
-      password: github.com/Alvin9999-newpac/fanqiang
-      port: 60111
-      server: 62.210.7.139
-      skip-cert-verify: true
-      sni: bing.com
-      type: hysteria2
-      up: null
-    - flow: xtls-rprx-vision
-      name: "\U0001F1F8\U0001F1ECSG_1|4.2MB/s|GPT⁺|D+|GM|0%"
-      network: tcp
-      port: 33102
-      server: 36.248.14.90
-      servername: sgg.knhqf.com
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      uuid: fb957ee2-2ca0-43f3-ab86-724a9ca0b628
     - cipher: chacha20-ietf
-      name: "\U0001F1ED\U0001F1F0HK_1|1.9MB/s|GPT|YT-HK|NF|D+|0%"
-      obfs: plain
-      obfs-param: 87c276924.douyin.com
-      password: di15PV
-      port: 2112
-      protocol: auth_aes128_md5
-      protocol-param: 276924:CPFGip
-      server: api.meituan88.com
-      type: ssr
-    - cipher: chacha20-ietf
-      name: "\U0001F1F9\U0001F1FCTW_1|3.6MB/s|YT-TW|NF|0%"
-      obfs: plain
-      obfs-param: 87c276924.douyin.com
-      password: di15PV
-      port: 23491
-      protocol: auth_aes128_md5
-      protocol-param: 276924:CPFGip
-      server: api.meituan88.com
-      type: ssr
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1E9\U0001F1EADE_1|2.2MB/s|GPT⁺|YT-DE|NF|0%"
-      obfs: ""
-      obfs-password: ""
-      password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
-      port: "443"
-      server: fr194.mechvpn.online
-      skip-cert-verify: false
-      sni: fr194.mechvpn.online
-      type: hysteria2
-      up: ""
-    - cipher: chacha20-ietf
-      name: "\U0001F1ED\U0001F1F0HK_2|3.5MB/s|GPT⁺|YT-HK|NF|D+|13%"
-      obfs: plain
-      obfs-param: 87c276924.douyin.com
-      password: di15PV
-      port: 2104
-      protocol: auth_aes128_md5
-      protocol-param: 276924:CPFGip
-      server: api.meituan88.com
-      type: ssr
-    - cipher: rc4-md5
-      name: "\U0001F1F8\U0001F1ECSG_2|4.1MB/s|GPT|YT-CN|NF|D+|GM|0%"
-      obfs: plain
-      obfs-param: 665203463.douyin.com
-      password: di15PV
-      port: 63699
-      protocol: auth_aes128_md5
-      protocol-param: 203463:YMo3sn
-      server: api.meituan88.com
-      type: ssr
-    - cipher: rc4-md5
-      name: "\U0001F1EF\U0001F1F5JP_2|4.4MB/s|GPT⁺|YT-CN|NF|D+|0%"
-      obfs: plain
-      obfs-param: 665203463.douyin.com
-      password: di15PV
-      port: 9051
-      protocol: auth_aes128_md5
-      protocol-param: 203463:YMo3sn
-      server: api.meituan88.com
-      type: ssr
-    - cipher: aes-256-cfb
-      name: "\U0001F1ED\U0001F1F0HK_3|2.6MB/s|YT-HK|NF|0%"
-      obfs: tls1.2_ticket_auth
-      obfs-param: 87c276924.douyin.com
-      password: di15PV
-      port: 2103
-      protocol: auth_aes128_md5
-      protocol-param: 276924:CPFGip
-      server: api.meituan88.com
-      type: ssr
-    - cipher: rc4-md5
-      name: "\U0001F1F8\U0001F1ECSG_3|1.3MB/s|YT-SG|NF|D+|GM|0%"
+      name: "\U0001F1ED\U0001F1F0HK_1|1.3MB/s|GPT|YT-HK|D+|0%"
       obfs: tls1.2_ticket_auth
       obfs-param: 665203463.douyin.com
       password: di15PV
-      port: 28150
-      protocol: auth_aes128_md5
-      protocol-param: 203463:YMo3sn
-      server: api.meituan88.com
-      type: ssr
-    - cipher: chacha20-ietf
-      name: "\U0001F1F9\U0001F1FCTW_2|1.0MB/s|GPT⁺|YT-TW|D+|GM"
-      obfs: tls1.2_ticket_auth
-      obfs-param: 665203463.douyin.com
-      password: di15PV
-      port: 61714
+      port: 7005
       protocol: auth_aes128_md5
       protocol-param: 203463:YMo3sn
       server: api.meituan88.com
       type: ssr
     - cipher: rc4-md5
-      name: "\U0001F1ED\U0001F1F0HK_4|1.1MB/s|YT-HK|D+|0%"
+      name: "\U0001F1F0\U0001F1F7KR_1|1.2MB/s|GPT|YT-KR|29%"
       obfs: tls1.2_ticket_auth
       obfs-param: 99e144391.douyin.com
       password: di15PV
-      port: 41155
+      port: 17348
       protocol: auth_aes128_md5
       protocol-param: 144391:uBtVcY
       server: api.meituan88.com
       type: ssr
     - cipher: chacha20-ietf
-      name: "\U0001F1ED\U0001F1F0HK_5|2.5MB/s|YT-HK|NF|D+|0%"
-      obfs: tls1.2_ticket_auth
-      obfs-param: 665203463.douyin.com
-      password: di15PV
-      port: 19623
-      protocol: auth_aes128_md5
-      protocol-param: 203463:YMo3sn
-      server: api.meituan88.com
-      type: ssr
-    - cipher: chacha20-ietf
-      name: "\U0001F1F9\U0001F1FCTW_3|1.7MB/s|YT-TW"
+      name: "\U0001F1F8\U0001F1ECSG_1|2.4MB/s|GPT⁺|YT-CN|NF"
       obfs: plain
       obfs-param: 87c276924.douyin.com
       password: di15PV
-      port: 28198
+      port: 2201
       protocol: auth_aes128_md5
       protocol-param: 276924:CPFGip
       server: api.meituan88.com
       type: ssr
-    - cipher: rc4-md5
-      name: "\U0001F1ED\U0001F1F0HK_6|2.7MB/s|YT-HK|NF|D+|0%"
-      obfs: tls1.2_ticket_auth
-      obfs-param: 87c276924.douyin.com
-      password: di15PV
-      port: 2111
-      protocol: auth_aes128_md5
-      protocol-param: 276924:CPFGip
-      server: api.meituan88.com
-      type: ssr
-    - cipher: chacha20-ietf
-      name: "\U0001F1EF\U0001F1F5JP_3|1.4MB/s|GPT⁺|13%"
-      obfs: plain
-      obfs-param: 87c276924.douyin.com
-      password: di15PV
-      port: 2601
-      protocol: auth_aes128_md5
-      protocol-param: 276924:CPFGip
-      server: api.meituan88.com
-      type: ssr
-    - name: "\U0001F1FA\U0001F1F8US_3|1.9MB/s|GPT⁺|YT-CN|NF|9%"
-      password: e1dee7c0-cff7-11eb-a8bf-f23c91cfbbc9
-      port: 443
-      server: 5446dfd3-tcxds0-tdd7ea-19xg1.sj.oshuawei.com
-      sni: 5446dfd3-tcxds0-tdd7ea-19xg1.sj.oshuawei.com
-      tls: true
+    - name: "\U0001F1FF\U0001F1E6ZA_1|1.1MB/s|0%"
+      password: aa
+      port: 89
+      server: 160.124.240.188
       type: http
-      username: e1dee7c0-cff7-11eb-a8bf-f23c91cfbbc9
-    - cipher: rc4-md5
-      name: "\U0001F1F0\U0001F1F7KR_1|2.0MB/s|GPT⁺|YT-KR|NF"
-      obfs: plain
-      obfs-param: 99e144391.douyin.com
-      password: di15PV
-      port: 32414
-      protocol: auth_aes128_md5
-      protocol-param: 144391:uBtVcY
-      server: api.meituan88.com
-      type: ssr
-    - down: ""
-      fingerprint: ""
-      name: ❓Other_1|2.8MB/s
-      obfs: ""
-      obfs-password: ""
-      password: 55b71f97202647049ce999646de57c50
-      port: "8444"
-      server: f1b.wareznet.ru
-      skip-cert-verify: false
-      sni: f1b.wareznet.ru
-      type: hysteria2
-      up: ""
+      username: aa

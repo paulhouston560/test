@@ -1,22 +1,87 @@
 proxies:
-    - auth: DWUWPXNSLv23EqVH
-      name: "\U0001F1F0\U0001F1F7KR_1|7.0MB/s"
-      password: DWUWPXNSLv23EqVH
-      port: 46001
-      server: 15.165.42.204
-      skip-cert-verify: true
-      sni: kor-ls-c-4.nebulacloud.win
-      type: hysteria2
-    - auth: NjpqMyHOlMjWTcjE
-      name: "\U0001F1F0\U0001F1F7KR_2|5.0MB/s"
-      password: NjpqMyHOlMjWTcjE
-      port: 56001
-      server: 3.39.237.40
-      skip-cert-verify: true
-      sni: kor-ls-6.nebulacloud.win
-      type: hysteria2
     - cipher: chacha20-ietf
-      name: "\U0001F1F9\U0001F1FCTW_1|2.9MB/s"
+      name: "\U0001F1EF\U0001F1F5JP_1|3.2MB/s"
+      obfs: plain
+      obfs-param: 87c276924.douyin.com
+      password: di15PV
+      port: 2602
+      protocol: auth_aes128_md5
+      protocol-param: 276924:CPFGip
+      server: api.meituan88.com
+      type: ssr
+    - cipher: aes-256-cfb
+      name: "\U0001F1E9\U0001F1EADE_1|1.7MB/s"
+      password: amazonskr05
+      port: 443
+      server: 3.79.230.55
+      type: ss
+      udp: true
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1F8\U0001F1ECSG_1|2.0MB/s"
+      obfs: ""
+      obfs-password: ""
+      password: 1427eb10-7529-4d38-a6a2-01b337868b37
+      port: "1935"
+      server: sg1.xiaoliyu.cyou
+      skip-cert-verify: true
+      sni: sg1.xiaoliyu.cyou
+      type: hysteria2
+      up: ""
+    - delay: 1205
+      name: "\U0001F1F7\U0001F1F4RO_1|2.0MB/s"
+      password: None
+      port: 9002
+      server: 84.239.49.197
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - delay: 2046
+      name: "\U0001F1F7\U0001F1F4RO_2|1.1MB/s"
+      password: None
+      port: 9002
+      server: 193.176.84.31
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1EB\U0001F1F7FR_1|2.2MB/s"
+      network: ws
+      password: humanity
+      port: "443"
+      server: 165.215.250.14
+      skip-cert-verify: false
+      sni: www.ignitelimit.com
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 Safari/537.36
+        path: /assignment
+    - name: "\U0001F1F0\U0001F1F7KR_1|3.0MB/s"
+      password: EQ30679154
+      port: 443
+      server: 3.36.124.155
+      skip-cert-verify: false
+      sni: novel-kodiak.rooster465.autos
+      type: trojan
+    - name: "\U0001F1EF\U0001F1F5JP_2|2.0MB/s"
+      password: EQ30679154
+      port: 443
+      server: 57.180.56.235
+      skip-cert-verify: false
+      sni: gentle-perch.rooster465.autos
+      type: trojan
+    - cipher: aes-256-cfb
+      name: "\U0001F1E9\U0001F1EADE_2|1.3MB/s"
+      password: 7eadc6dbe2ae
+      port: 65443
+      server: 120.232.250.163
+      type: ss
+    - cipher: chacha20-ietf
+      name: "\U0001F1F9\U0001F1FCTW_1|3.4MB/s"
       obfs: plain
       obfs-param: 87c276924.douyin.com
       password: di15PV
@@ -25,7 +90,47 @@ proxies:
       protocol-param: 276924:CPFGip
       server: api.meituan88.com
       type: ssr
-    - name: "\U0001F1ED\U0001F1F0HK_1|2.4MB/s"
+    - cipher: rc4-md5
+      name: "\U0001F1ED\U0001F1F0HK_1|1.2MB/s"
+      obfs: plain
+      obfs-param: 87c276924.douyin.com
+      password: di15PV
+      port: 2101
+      protocol: auth_aes128_md5
+      protocol-param: 276924:CPFGip
+      server: api.meituan88.com
+      type: ssr
+    - cipher: aes-256-cfb
+      name: "\U0001F1ED\U0001F1F0HK_2|1.5MB/s"
+      obfs: tls1.2_ticket_auth
+      obfs-param: 99e144391.douyin.com
+      password: di15PV
+      port: 2106
+      protocol: auth_aes128_md5
+      protocol-param: 144391:uBtVcY
+      server: api.meituan88.com
+      type: ssr
+    - cipher: chacha20-ietf
+      name: "\U0001F1ED\U0001F1F0HK_3|1.6MB/s"
+      obfs: tls1.2_ticket_auth
+      obfs-param: 99e144391.douyin.com
+      password: di15PV
+      port: 39514
+      protocol: auth_aes128_md5
+      protocol-param: 144391:uBtVcY
+      server: api.meituan88.com
+      type: ssr
+    - cipher: chacha20-ietf
+      name: "\U0001F1F0\U0001F1F7KR_2|2.1MB/s"
+      obfs: plain
+      obfs-param: 99e144391.douyin.com
+      password: di15PV
+      port: 35798
+      protocol: auth_aes128_md5
+      protocol-param: 144391:uBtVcY
+      server: api.meituan88.com
+      type: ssr
+    - name: "\U0001F1ED\U0001F1F0HK_4|2.1MB/s"
       password: 13f0acfa-38c1-4e82-a758-583aa31740df
       port: 24318
       server: yzany01.jdoanst2026.com
@@ -33,68 +138,13 @@ proxies:
       sni: hk08.alytest.cc
       type: anytls
       udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_1|2.1MB/s"
-      port: 9002
-      server: 84.239.14.148
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_2|1.8MB/s"
-      password: None
-      port: 9002
-      server: 84.239.49.62
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_3|2.1MB/s"
-      port: 9002
-      server: 84.239.49.160
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_4|1.8MB/s"
-      port: 9002
-      server: 84.239.49.211
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_5|1.3MB/s"
-      port: 9002
-      server: 84.239.49.207
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_6|1.5MB/s"
-      password: None
-      port: 9002
-      server: 84.239.14.148
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1FA\U0001F1F8US_1|2.0MB/s"
-      port: 9002
-      server: 138.199.35.215
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1FA\U0001F1F8US_2|2.0MB/s"
-      port: 9002
-      server: 156.146.59.4
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1FA\U0001F1F8US_3|1.4MB/s"
-      port: 9002
-      server: 156.146.59.5
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
+    - cipher: rc4-md5
+      name: "\U0001F1ED\U0001F1F0HK_5|1.1MB/s"
+      obfs: tls1.2_ticket_auth
+      obfs-param: 87c276924.douyin.com
+      password: di15PV
+      port: 2111
+      protocol: auth_aes128_md5
+      protocol-param: 276924:CPFGip
+      server: api.meituan88.com
+      type: ssr

@@ -1,81 +1,64 @@
 proxies:
-    - encryption: mlkem768x25519plus.native.0rtt.rPW8pXayEtxBkyZNGYSePgq0pmVbEWS5TLUwulMtcFc
-      name: "\U0001F1FA\U0001F1F8US_1|970KB/s"
-      network: xhttp
-      port: "30903"
-      server: alirezapan.vanguardia.ir
-      type: vless
-      udp: true
-      uuid: f92259d6-7cc1-4b47-b469-48a7863b8b09
-      xhttp-opts:
-        mode: auto
-        path: /
-      xudp: true
-    - encryption: none
-      http-opts:
-        headers:
-            Host:
-                - zula.ir
-        path:
-            - /
-      name: "\U0001F1E9\U0001F1EADE_1|716KB/s"
-      network: http
-      port: "55397"
-      server: 164.90.171.176
-      type: vless
-      udp: true
-      uuid: daf386b8-d5a7-43ad-83d7-bb9b31bb4270
-      xudp: true
-    - encryption: none
-      name: "\U0001F1EB\U0001F1EEFI_1|916KB/s"
-      network: tcp
-      port: "24854"
-      server: 65.109.211.136
-      type: vless
-      udp: true
-      uuid: 0de36006-3fab-40a6-ac2b-b9663b815a17
-      xudp: true
-    - alpn:
-        - ""
-      alterId: "0"
-      cipher: auto
-      name: "\U0001F1ED\U0001F1F0HK_1|1.3MB/s"
+    - client-fingerprint: chrome
+      name: "\U0001F1EB\U0001F1F7FR_1|827KB/s"
       network: ws
-      port: "16632"
-      server: planb.mojcn.com.linuxlh.xin
+      password: humanity
+      port: "443"
+      server: 104.18.152.207
       skip-cert-verify: false
-      tls: false
-      type: vmess
+      sni: www.ignitelimit.com
+      type: trojan
       udp: true
-      uuid: 97c638c6-86d5-4cf6-b70b-114c6809b637
       ws-opts:
         headers:
-            Host: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
-        path: /
-      xudp: true
-    - name: "\U0001F1EE\U0001F1F3IN_1|884KB/s"
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36
+        path: /assignment
+    - client-fingerprint: chrome
+      name: "\U0001F1EB\U0001F1F7FR_2|843KB/s"
+      network: ws
+      password: humanity
+      port: "443"
+      server: 104.18.152.73
+      skip-cert-verify: false
+      sni: www.ignitelimit.com
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
+        path: /assignment
+    - client-fingerprint: chrome
+      name: "\U0001F1EB\U0001F1F7FR_3|881KB/s"
+      network: ws
+      password: humanity
+      port: "443"
+      server: 104.16.174.36
+      skip-cert-verify: false
+      sni: www.ignitelimit.com
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36
+        path: /assignment
+    - client-fingerprint: chrome
+      name: "\U0001F1EB\U0001F1F7FR_4|821KB/s"
+      network: ws
+      password: humanity
+      port: "443"
+      server: 104.18.152.133
+      skip-cert-verify: false
+      sni: www.ignitelimit.com
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.3 (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
+        path: /assignment
+    - name: "\U0001F1EE\U0001F1F3IN_1|700KB/s"
       password: ""
       port: "1088"
       server: 144.24.111.128
       skip-cert-verify: true
       type: socks5
       username: ""
-    - name: "\U0001F1FA\U0001F1F8US_2|701KB/s"
-      password: test123
-      port: "1080"
-      server: 104.168.249.36
-      skip-cert-verify: true
-      type: socks5
-      username: test123
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1F8\U0001F1ECSG_1|1.5MB/s"
-      obfs: ""
-      obfs-password: ""
-      password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-      port: "443"
-      server: 47.129.98.169
-      skip-cert-verify: true
-      sni: vpn-sg-001.fastervpn.world
-      type: hysteria2
-      up: ""

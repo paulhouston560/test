@@ -1,14 +1,83 @@
 proxies:
-    - auth: 146e49e3-c86d-4607-b5ac-acc1997f025e
-      name: "\U0001F1EC\U0001F1E7GB_1|3.3MB/s"
-      password: 146e49e3-c86d-4607-b5ac-acc1997f025e
+    - alpn:
+        - h3
+      auth: EkF2Yw0Lc7
+      name: "\U0001F1F3\U0001F1F1NL_1|4.1MB/s"
+      password: EkF2Yw0Lc7
       port: 443
-      server: 2.26.148.207
-      sni: yula.ultimagamest.com
+      server: hys34.wba-pn.ru
+      skip-cert-verify: true
       type: hysteria2
+    - client-fingerprint: chrome
+      grpc-opts:
+        grpc-mode: gun
+        grpc-service-name: update
+      name: "\U0001F1F8\U0001F1ECSG_1|3.3MB/s"
+      network: grpc
+      port: 10038
+      reality-opts:
+        public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+        short-id: 686c0ef0
+      server: sg3-r.link-t7.com
+      servername: d1.awsstatic.com
+      tls: true
+      type: vless
       udp: true
+      uuid: 690FC783-6CE9-4137-8559-40DBA8EDAD31
+    - client-fingerprint: chrome
+      grpc-opts:
+        grpc-mode: gun
+        grpc-service-name: update
+      name: "\U0001F1F0\U0001F1F7KR_1|3.0MB/s"
+      network: grpc
+      port: 10048
+      reality-opts:
+        public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+        short-id: 686c0ef0
+      server: kr3-r.link-t7.com
+      servername: s0.awsstatic.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 690FC783-6CE9-4137-8559-40DBA8EDAD31
+    - client-fingerprint: ios
+      flow: xtls-rprx-vision
+      name: "\U0001F1ED\U0001F1F0HK_1|2.0MB/s"
+      network: tcp
+      port: 60015
+      reality-opts:
+        public-key: gKZGA_p7s3uJwYL5JvSnyfqH5Ne9HlZYVxUtI7tSFVM
+        short-id: 070c9118
+      server: hk5.mfm-oss.top
+      servername: wangsuceshi.bmcx.com
+      tls: true
+      type: vless
+      uuid: 7c11e20f-c75f-482f-bf13-65a1eed87b18
+    - cipher: aes-256-cfb
+      name: "\U0001F1F9\U0001F1EDTH_1|2.5MB/s"
+      password: 7eadc6dbe2ae
+      port: 65443
+      server: 103.169.67.34
+      type: ss
+      udp: true
+    - alterId: "0"
+      cipher: auto
+      name: "\U0001F1ED\U0001F1F0HK_2|1.5MB/s"
+      network: ws
+      port: 16632
+      server: t.cnmjcn.cyou
+      type: vmess
+      uuid: 62319519-82bc-46ff-99cd-237bd0882cef
+      ws-opts:
+        headers:
+            Host: 1b24b66c02c843942070b76b27406898.mobgslb.tbcache.com
+        path: /
+    - name: "\U0001F1E6\U0001F1F9AT_1|1.0MB/s"
+      port: 3131
+      server: 193.233.232.49
+      type: http
     - auth: b492c1192f7aa3433c9818baf5ebb4ff
-      name: "\U0001F1F8\U0001F1ECSG_1|3.2MB/s"
+      name: "\U0001F1F8\U0001F1ECSG_2|3.7MB/s"
       password: b492c1192f7aa3433c9818baf5ebb4ff
       port: 443
       server: 134.185.87.191
@@ -16,100 +85,32 @@ proxies:
       sni: sb.jmx666.eu.cc
       type: hysteria2
       udp: true
-    - cipher: aes-256-cfb
-      name: "\U0001F1F9\U0001F1EDTH_1|2.3MB/s"
-      password: 7eadc6dbe2ae
-      port: 65443
-      server: 103.169.67.34
-      type: ss
-    - alpn:
-        - h3
-      auth_str: dongtaiwang.com
-      down: "55"
-      name: "\U0001F1E9\U0001F1EADE_1|1.8MB/s"
-      port: 54177
-      server: 5.83.129.90
-      skip-cert-verify: true
-      sni: bing.com
-      type: hysteria
-      udp: true
-      up: "11"
-    - alpn:
-        - h3
-      auth_str: dongtaiwang.com
-      down: "1000"
-      name: "\U0001F1E9\U0001F1EADE_2|1.8MB/s"
-      port: 20088
-      server: 5.83.129.153
-      skip-cert-verify: true
-      sni: apple.com
-      type: hysteria
-      udp: true
-      up: "500"
-    - name: "\U0001F1FA\U0001F1F8US_1|1.7MB/s"
-      password: ""
+    - name: "\U0001F1F3\U0001F1F1NL_2|1.1MB/s"
+      password: null
       port: 9002
-      server: 138.199.35.196
+      server: 84.17.47.148
       skip-cert-verify: true
       tls: true
       type: http
-      username: ""
-    - alpn:
-        - h3
-      auth_str: dongtaiwang.com
-      down: "1000"
-      name: "\U0001F1E9\U0001F1EADE_3|1.0MB/s"
-      port: 54177
-      server: 5.83.129.90
+      username: null
+    - name: "\U0001F1FA\U0001F1F8US_1|1.1MB/s"
+      port: 9002
+      server: 138.199.35.202
       skip-cert-verify: true
-      sni: apple.com
-      type: hysteria
+      tls: true
+      type: http
       udp: true
-      up: "500"
-    - alterId: "0"
-      cipher: auto
-      name: "\U0001F1ED\U0001F1F0HK_1|2.3MB/s"
-      network: http
-      port: 34253
-      server: 103.224.80.62
-      type: vmess
-      uuid: f9fd4db6-95fb-4914-8acd-f4444c5202b7
-    - alterId: "0"
-      cipher: auto
-      name: "\U0001F1ED\U0001F1F0HK_2|1.4MB/s"
-      network: http
-      port: 58068
-      server: 38.147.188.69
-      type: vmess
-      uuid: 6d215617-3506-41ef-bb8f-ee1c546fc1f3
-    - alterId: "0"
-      cipher: auto
-      name: "\U0001F1ED\U0001F1F0HK_3|1.8MB/s"
-      network: http
-      port: 20684
-      server: 38.147.188.43
-      type: vmess
-      uuid: 180aaf60-f9fe-4e39-a6e1-7ec2d3669b06
-    - alterId: "0"
-      cipher: auto
-      name: "\U0001F1ED\U0001F1F0HK_4|1.7MB/s"
-      network: http
-      port: 25118
-      server: 38.147.189.45
-      type: vmess
-      uuid: 3495062a-a4f7-47bd-89b1-7e53069f0908
-    - name: "\U0001F1ED\U0001F1F0HK_5|1.2MB/s"
-      password: admin
-      port: 8899
-      server: 47.242.19.215
+    - name: "\U0001F1FA\U0001F1F8US_2|2.2MB/s"
+      port: 9002
+      server: 138.199.35.220
       skip-cert-verify: true
-      type: socks5
-      username: admin
-    - alterId: "0"
-      cipher: auto
-      name: ❓Other_1|2.0MB/s
-      network: http
-      port: 55314
-      server: 103.240.197.112
-      type: vmess
-      uuid: bdb68629-1c6a-4eed-8083-7d4379a2dd52
+      tls: true
+      type: http
+      udp: true
+    - name: ❓Other_1|1.1MB/s
+      password: 067bcf2d-0bf0-4ca6-ac86-2df9c8327ea3
+      port: 3601
+      server: in.bjnet3.org
+      skip-cert-verify: true
+      sni: b.azure.com
+      type: anytls

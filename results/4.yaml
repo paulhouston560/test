@@ -1,25 +1,16 @@
 proxies:
-    - alpn:
-        - h3
-      auth: EkF2Yw0Lc7
-      name: "\U0001F1F3\U0001F1F1NL_1|4.1MB/s"
-      password: EkF2Yw0Lc7
-      port: 443
-      server: hys34.wba-pn.ru
-      skip-cert-verify: true
-      type: hysteria2
     - client-fingerprint: chrome
       grpc-opts:
         grpc-mode: gun
         grpc-service-name: update
-      name: "\U0001F1F8\U0001F1ECSG_1|3.3MB/s"
+      name: "\U0001F1EF\U0001F1F5JP_1|3.2MB/s"
       network: grpc
-      port: 10038
+      port: 10036
       reality-opts:
         public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
         short-id: 686c0ef0
-      server: sg3-r.link-t7.com
-      servername: d1.awsstatic.com
+      server: jp6-r.link-t7.com
+      servername: s0.awsstatic.com
       tls: true
       type: vless
       udp: true
@@ -28,7 +19,39 @@ proxies:
       grpc-opts:
         grpc-mode: gun
         grpc-service-name: update
-      name: "\U0001F1F0\U0001F1F7KR_1|3.0MB/s"
+      name: "\U0001F1F0\U0001F1F7KR_1|2.7MB/s"
+      network: grpc
+      port: 10049
+      reality-opts:
+        public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+        short-id: 686c0ef0
+      server: kr4-r.link-t7.com
+      servername: s0.awsstatic.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 690FC783-6CE9-4137-8559-40DBA8EDAD31
+    - client-fingerprint: chrome
+      grpc-opts:
+        grpc-mode: gun
+        grpc-service-name: update
+      name: "\U0001F1F0\U0001F1F7KR_2|2.5MB/s"
+      network: grpc
+      port: 10050
+      reality-opts:
+        public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+        short-id: 686c0ef0
+      server: kr5-r.link-t7.com
+      servername: s0.awsstatic.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 690FC783-6CE9-4137-8559-40DBA8EDAD31
+    - client-fingerprint: chrome
+      grpc-opts:
+        grpc-mode: gun
+        grpc-service-name: update
+      name: "\U0001F1F0\U0001F1F7KR_3|2.5MB/s"
       network: grpc
       port: 10048
       reality-opts:
@@ -40,77 +63,139 @@ proxies:
       type: vless
       udp: true
       uuid: 690FC783-6CE9-4137-8559-40DBA8EDAD31
-    - client-fingerprint: ios
-      flow: xtls-rprx-vision
-      name: "\U0001F1ED\U0001F1F0HK_1|2.0MB/s"
-      network: tcp
-      port: 60015
+    - client-fingerprint: chrome
+      grpc-opts:
+        grpc-mode: gun
+        grpc-service-name: update
+      name: "\U0001F1EF\U0001F1F5JP_2|2.5MB/s"
+      network: grpc
+      port: 10033
       reality-opts:
-        public-key: gKZGA_p7s3uJwYL5JvSnyfqH5Ne9HlZYVxUtI7tSFVM
-        short-id: 070c9118
-      server: hk5.mfm-oss.top
-      servername: wangsuceshi.bmcx.com
+        public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+        short-id: 686c0ef0
+      server: jp3-r.link-t7.com
+      servername: s0.awsstatic.com
       tls: true
       type: vless
-      uuid: 7c11e20f-c75f-482f-bf13-65a1eed87b18
+      udp: true
+      uuid: 690FC783-6CE9-4137-8559-40DBA8EDAD31
+    - client-fingerprint: chrome
+      grpc-opts:
+        grpc-mode: gun
+        grpc-service-name: update
+      name: "\U0001F1F0\U0001F1F7KR_4|2.3MB/s"
+      network: grpc
+      port: 10046
+      reality-opts:
+        public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+        short-id: 686c0ef0
+      server: kr1-r.link-t7.com
+      servername: s0.awsstatic.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 690FC783-6CE9-4137-8559-40DBA8EDAD31
+    - client-fingerprint: chrome
+      grpc-opts:
+        grpc-mode: gun
+        grpc-service-name: update
+      name: "\U0001F1F0\U0001F1F7KR_5|2.5MB/s"
+      network: grpc
+      port: 10047
+      reality-opts:
+        public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+        short-id: 686c0ef0
+      server: kr2-r.link-t7.com
+      servername: s0.awsstatic.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 690FC783-6CE9-4137-8559-40DBA8EDAD31
+    - client-fingerprint: chrome
+      grpc-opts:
+        grpc-mode: gun
+        grpc-service-name: update
+      name: "\U0001F1F8\U0001F1ECSG_1|4.5MB/s"
+      network: grpc
+      port: 10037
+      reality-opts:
+        public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+        short-id: 686c0ef0
+      server: sg2-r.link-t7.com
+      servername: s0.awsstatic.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 690FC783-6CE9-4137-8559-40DBA8EDAD31
+    - client-fingerprint: firefox
+      encryption: none
+      flow: xtls-rprx-vision
+      http-opts:
+        headers: {}
+        path:
+            - /
+      name: "\U0001F1F8\U0001F1ECSG_2|1.4MB/s"
+      network: tcp
+      port: 24146
+      reality-opts:
+        public-key: VeluC9A7XDurAWQNgXKShS2SJSgoK79QHFgiAMYrvGo
+        short-id: 7205d9079521832c
+      server: 54.251.9.130
+      servername: www.intel.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 9d9a048b-3aea-4b3e-b106-1106bf301feb
+      xudp: true
+    - client-fingerprint: firefox
+      encryption: none
+      flow: xtls-rprx-vision
+      http-opts:
+        headers: {}
+        path:
+            - /
+      name: "\U0001F1EF\U0001F1F5JP_3|2.4MB/s"
+      network: tcp
+      port: 33486
+      reality-opts:
+        public-key: 0XefSfdaAV77RBJrVSVBIdRNUHUlaMGmFT5mX_Aw6G8
+        short-id: 1671781f157ac27e
+      server: 52.194.245.53
+      servername: www.intel.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: eddee2c9-fdf9-4b55-b8ac-3481a680b060
+      xudp: true
+    - client-fingerprint: firefox
+      encryption: none
+      flow: xtls-rprx-vision
+      http-opts:
+        headers: {}
+        path:
+            - /
+      name: "\U0001F1EF\U0001F1F5JP_4|1.5MB/s"
+      network: tcp
+      port: 14422
+      reality-opts:
+        public-key: WA02heAP6997PPTwF6hbbFXwbYmXRz1bH2ZXWk6ipEw
+        short-id: 9b0f012413fd
+      server: 13.113.195.74
+      servername: www.tesla.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 75f0b53b-ff3b-483a-b25e-5269b0229d14
+      xudp: true
+    - cipher: 2022-blake3-chacha20-poly1305
+      name: "\U0001F1E9\U0001F1EADE_1|2.9MB/s"
+      password: OXzmL1h7BLzI+gF8+61lZtiiltHgo2wphibbeQntWv0=
+      port: 59924
+      server: 130.61.148.71
+      type: ss
     - cipher: aes-256-cfb
-      name: "\U0001F1F9\U0001F1EDTH_1|2.5MB/s"
+      name: "\U0001F1FA\U0001F1F8US_1|1.8MB/s"
       password: 7eadc6dbe2ae
       port: 65443
-      server: 103.169.67.34
+      server: 121.46.230.232
       type: ss
-      udp: true
-    - alterId: "0"
-      cipher: auto
-      name: "\U0001F1ED\U0001F1F0HK_2|1.5MB/s"
-      network: ws
-      port: 16632
-      server: t.cnmjcn.cyou
-      type: vmess
-      uuid: 62319519-82bc-46ff-99cd-237bd0882cef
-      ws-opts:
-        headers:
-            Host: 1b24b66c02c843942070b76b27406898.mobgslb.tbcache.com
-        path: /
-    - name: "\U0001F1E6\U0001F1F9AT_1|1.0MB/s"
-      port: 3131
-      server: 193.233.232.49
-      type: http
-    - auth: b492c1192f7aa3433c9818baf5ebb4ff
-      name: "\U0001F1F8\U0001F1ECSG_2|3.7MB/s"
-      password: b492c1192f7aa3433c9818baf5ebb4ff
-      port: 443
-      server: 134.185.87.191
-      skip-cert-verify: true
-      sni: sb.jmx666.eu.cc
-      type: hysteria2
-      udp: true
-    - name: "\U0001F1F3\U0001F1F1NL_2|1.1MB/s"
-      password: null
-      port: 9002
-      server: 84.17.47.148
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: null
-    - name: "\U0001F1FA\U0001F1F8US_1|1.1MB/s"
-      port: 9002
-      server: 138.199.35.202
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1FA\U0001F1F8US_2|2.2MB/s"
-      port: 9002
-      server: 138.199.35.220
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: ❓Other_1|1.1MB/s
-      password: 067bcf2d-0bf0-4ca6-ac86-2df9c8327ea3
-      port: 3601
-      server: in.bjnet3.org
-      skip-cert-verify: true
-      sni: b.azure.com
-      type: anytls

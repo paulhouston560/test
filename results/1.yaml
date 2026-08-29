@@ -1,5 +1,5 @@
 proxies:
-    - name: "\U0001F1FF\U0001F1E6ZA_1|2.6MB/s|TK-ZA|YT-US|GPT⁺-US|GM-US"
+    - name: "\U0001F1FF\U0001F1E6ZA_1|3.2MB/s|TK-ZA|YT-US|GPT-US|GM-US"
       password: ""
       port: 8443
       server: 154.81.36.92
@@ -7,24 +7,7 @@ proxies:
       tls: true
       type: http
       username: ""
-    - name: "\U0001F1FA\U0001F1F8US_1|2.6MB/s|TK-US|YT-US|GPT⁺-US|GM-US"
-      password: c870fe5a-0729-11f0-8cf9-f23c93136cb3
-      port: 8300
-      server: 76842b4a-tb71c0-tgprfk-ddgs.losjan20.west.wctype.com
-      skip-cert-verify: true
-      sni: 76842b4a-tb71c0-tgprfk-ddgs.losjan20.west.wctype.com
-      tls: true
-      type: anytls
-      udp: true
-    - name: "\U0001F1FA\U0001F1F8US_2|2.4MB/s|TK-US|YT-US|GPT⁺-US|GM-US"
-      password: ""
-      port: 443
-      server: 45.63.38.134
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: ""
-    - name: "\U0001F1FA\U0001F1F8US_3|2.4MB/s|TK-US|YT-US|GPT⁺-US|GM-US"
+    - name: "\U0001F1FA\U0001F1F8US_1|4.4MB/s|TK-US|YT-US|GPT⁺-US|GM-US"
       password: ""
       port: 9002
       server: 69.63.209.199
@@ -32,212 +15,11 @@ proxies:
       tls: true
       type: http
       username: ""
-    - name: "\U0001F1FA\U0001F1F8US_4|2.5MB/s|TK-US|YT-US|GPT⁺-US|GM-US"
-      password: ""
-      port: 2096
-      server: 67.230.174.244
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: ""
-    - name: "\U0001F1EC\U0001F1E7GB_1|2.8MB/s|TK-GB|YT-GB|GPT⁺-GB|GM-GB"
-      password: ""
-      port: 8443
-      server: 95.179.235.43
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: ""
-    - name: ❓Other_1|1.8MB/s|YT-RU
-      password: ""
-      port: 1446
-      server: 46.29.166.134
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: ""
-    - auth: YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc
-      name: "\U0001F1E7\U0001F1F7BR_1|2.1MB/s|TK-CO|YT-RU|GPT⁺-PL"
-      password: YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc
-      port: 443
-      server: go2.wwwinternetvideo.click
-      skip-cert-verify: true
-      sni: admin.wwwinternetvideo.click
-      type: hysteria2
-    - name: "\U0001F1F1\U0001F1FBLV_1|2.2MB/s|TK-FI|YT-RU|GPT⁺-LV"
-      password: ""
-      port: 443
-      server: 46.8.70.139
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: ""
-    - cc: 16
-      delay: 375
-      name: ❓Other_2|2.0MB/s|TK-NL|YT-NL|GPT⁺-NL|GM-NL
-      port: 443
-      server: 5.255.118.82
-      skip-cert-verify: true
-      speed: 1.8
-      tls: true
-      type: http
-      vv: 260626.144
-    - down: null
-      name: "\U0001F1EB\U0001F1F7FR_1|2.4MB/s|TK-FR|YT-RU|GPT⁺-FR"
-      password: github.com/Alvin9999-newpac/fanqiang
-      port: 60111
-      server: 62.210.7.139
-      skip-cert-verify: true
-      sni: bing.com
-      type: hysteria2
-      up: null
-    - name: "\U0001F1EF\U0001F1F5JP_1|1.7MB/s|YT-US|GPT⁺-JP|GM-US"
-      password: ""
-      port: 1443
-      server: 118.184.157.67
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: ""
-    - name: ❓Other_3|1.9MB/s|TK-DE|GPT⁺-DE
-      password: ""
-      port: 9002
-      server: 158.173.154.5
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: ""
-    - name: "\U0001F1F0\U0001F1F7KR_1|1.7MB/s|YT-KR|GPT⁺-KR|GM-KR"
-      password: ""
-      port: 443
-      server: 152.69.230.221
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: ""
-    - client-fingerprint: firefox
-      encryption: none
-      flow: xtls-rprx-vision
-      name: ❓Other_4|2.0MB/s|TK-FI|GPT⁺-FI
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE
-        short-id: ff776ff77be48b88
-      server: fin2.helper-internet.com
-      servername: fin2.helper-internet.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: ae8e0f7d-b661-41ca-b55d-d8c383adb2f8
-      xudp: true
-    - name: ❓Other_5|3.0MB/s|TK-US|YT-US|GPT⁺-US|GM-US
-      password: ""
-      port: 9002
-      server: 138.199.35.212
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: ""
-    - name: "\U0001F1EF\U0001F1F5JP_2|5.2MB/s|YT-JP|GPT⁺-JP|GM-JP"
-      password: ""
-      port: 343
-      server: 133.18.200.207
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: ""
-    - name: ❓Other_6|1.7MB/s|TK-US|YT-US|GPT⁺-US|GM-US
-      port: 443
-      server: 44.239.226.15
-      sin: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1EF\U0001F1F5JP_3|7.3MB/s|TK-JP|YT-US|GPT⁺-JP|GM-US"
-      password: ""
-      port: 1443
-      server: 118.184.140.90
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: ""
-    - name: ❓Other_7|3.3MB/s|TK-GB|YT-GB|GPT⁺-GB|GM-GB
-      password: ""
-      port: 443
-      server: 51.68.199.48
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: ""
-    - name: ❓Other_8|3.2MB/s|YT-KR|GPT⁺-KR|GM-KR
-      password: ""
-      port: 8443
-      server: 158.247.204.254
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: ""
-    - name: "\U0001F1E9\U0001F1EADE_1|3.3MB/s|TK-DE|GPT⁺-DE|GM-DE"
-      password: ""
-      port: 443
-      server: 87.106.163.174
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: ""
-    - name: ❓Other_9|2.4MB/s|TK-US|YT-US|GPT⁺-US|GM-US
-      password: '"None"'
-      port: 9002
-      server: 138.199.35.196
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1F8\U0001F1ECSG_1|2.5MB/s|TK-SG|YT-SG|GPT⁺-SG|GM-SG"
-      password: e4b72b531a2d10900519
-      port: 443
-      server: 146.70.29.45
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: testuser1
-    - client-fingerprint: chrome
-      grpc-opts:
-        grpc-mode: gun
-        grpc-service-name: movie
-      name: "\U0001F1FA\U0001F1F8US_5|1.4MB/s|TK-US|YT-CN"
-      network: grpc
-      port: 10242
-      reality-opts:
-        public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-        short-id: 686c0ef0
-      server: us5-r.link-t7.com
-      servername: s0.awsstatic.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 690FC783-6CE9-4137-8559-40DBA8EDAD31
     - client-fingerprint: chrome
       grpc-opts:
         grpc-mode: gun
         grpc-service-name: update
-      name: "\U0001F1F0\U0001F1F7KR_2|3.4MB/s|YT-KR|GM-KR"
-      network: grpc
-      port: 10047
-      reality-opts:
-        public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-        short-id: 686c0ef0
-      server: kr2-r.link-t7.com
-      servername: s0.awsstatic.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 690FC783-6CE9-4137-8559-40DBA8EDAD31
-    - client-fingerprint: chrome
-      grpc-opts:
-        grpc-mode: gun
-        grpc-service-name: update
-      name: "\U0001F1F0\U0001F1F7KR_3|5.2MB/s|YT-KR"
+      name: "\U0001F1F0\U0001F1F7KR_1|3.4MB/s|YT-KR|GM-KR"
       network: grpc
       port: 10048
       reality-opts:
@@ -249,29 +31,63 @@ proxies:
       type: vless
       udp: true
       uuid: 690FC783-6CE9-4137-8559-40DBA8EDAD31
-    - client-fingerprint: qq
-      flow: xtls-rprx-vision
-      name: ❓Other_10|2.6MB/s|TK-FR|GPT⁺-FR
-      network: raw
-      port: "443"
+    - client-fingerprint: chrome
+      grpc-opts:
+        grpc-mode: gun
+        grpc-service-name: update
+      name: "\U0001F1F0\U0001F1F7KR_2|4.7MB/s|YT-KR|GM-KR"
+      network: grpc
+      port: 10047
       reality-opts:
-        public-key: gPTBA-gVUWAK9yziB_v_sGSncm0LwBQvEAsTQZK4jEE
-        short-id: 5a8e1a04f3d92b67
-      server: 2.26.129.246
-      servername: ukrop.mycdn-me.ru
+        public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+        short-id: 686c0ef0
+      server: kr2-r.link-t7.com
+      servername: s0.awsstatic.com
       tls: true
       type: vless
       udp: true
-      uuid: 4f9b1ec3-b3d7-4dcc-8035-d813ab89785f
+      uuid: 690FC783-6CE9-4137-8559-40DBA8EDAD31
+    - client-fingerprint: firefox
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8US_2|3.7MB/s|TK-US|YT-US|GPT⁺-US|GM-US"
+      network: tcp
+      port: "43595"
+      reality-opts:
+        public-key: waNzNRIL_3TaF3UfgeAy1M5r8YVUeOA0nx3jPiXYZSE
+        short-id: e482c0320674c651
+      server: 45.33.62.166
+      servername: www.amd.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 2642f590-2bce-4031-8f93-7eed983621f5
       xudp: true
-    - name: "\U0001F1FA\U0001F1F8US_6|1.9MB/s|TK-US|YT-US|GPT⁺|GM-US"
-      password: '"None"'
-      port: 9002
-      server: 138.199.35.197
+    - client-fingerprint: firefox
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8US_3|2.6MB/s|YT-US|GPT⁺-US|GM-US"
+      network: tcp
+      port: "51486"
+      reality-opts:
+        public-key: UB7YAOLuxMOFBejs3SSOIaiYCYk2X4UZH5j9iWbbIS4
+        short-id: 2576868adedf9fc0
+      server: 45.33.107.237
+      servername: www.nvidia.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 72e4f3f6-3382-4a68-9817-8d65927e9bbd
+      xudp: true
+    - name: ❓Other_1|2.0MB/s|YT-JP|GPT⁺-JP|GM-JP
+      password: ""
+      port: 8443
+      server: 64.176.51.83
       skip-cert-verify: true
       tls: true
       type: http
-    - name: "\U0001F1F0\U0001F1F7KR_4|2.0MB/s|YT-KR|GPT⁺-KR|GM-KR"
+      username: ""
+    - name: ❓Other_2|2.3MB/s|YT-KR|GPT⁺-KR|GM-KR
       password: ""
       port: 443
       server: 141.164.39.178
@@ -279,152 +95,185 @@ proxies:
       tls: true
       type: http
       username: ""
-    - name: ❓Other_11|3.6MB/s|TK-US|YT-US|GPT⁺-US|GM-US
-      password: None
-      port: 9002
-      server: 138.199.35.210
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: ""
-    - name: ❓Other_12|3.3MB/s|GPT⁺-US
-      password: "null"
-      port: 9002
-      server: 138.199.35.199
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: "null"
-    - name: ❓Other_13|2.4MB/s|TK-US|GPT⁺-US|GM-US
-      password: "null"
-      port: 9002
-      server: 138.199.35.205
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: "null"
-    - name: ❓Other_14|3.2MB/s|TK-US|GPT⁺-US
-      password: None
-      port: 9002
-      server: 138.199.35.204
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: ""
-    - name: "\U0001F1FA\U0001F1F8US_7|3.3MB/s|TK-US|GPT⁺-US"
+    - name: ❓Other_3|3.2MB/s|YT-RU
       password: ""
-      port: 9002
-      server: 138.199.35.196
+      port: 1446
+      server: 46.29.166.134
       skip-cert-verify: true
       tls: true
       type: http
       username: ""
-    - name: "\U0001F1E9\U0001F1EADE_2|2.4MB/s|TK-DE|GPT⁺-DE|GM-DE"
+    - auth: github.com/Alvin9999-newpac/fanqiang
+      name: "\U0001F1EB\U0001F1F7FR_1|4.2MB/s|TK-FR|YT-FR|GPT⁺-FR"
+      password: github.com/Alvin9999-newpac/fanqiang
+      port: 43115
+      server: 62.210.147.2
+      skip-cert-verify: true
+      sni: www.microsoft.com
+      type: hysteria2
+      udp: true
+    - name: ❓Other_4|1.6MB/s|YT-KR|GPT⁺-KR|GM-KR
+      password: 32315324-cf6b-11ed-979b-f23c9164ca5d
+      port: 31433
+      server: eb742aed-tanwg0-tc4j28-nx3b.kr.oshuawei.com
+      tls: true
+      type: http
+      username: 32315324-cf6b-11ed-979b-f23c9164ca5d
+    - name: "\U0001F1FA\U0001F1F8US_4|3.4MB/s|YT-US|GPT-US|GM-US"
+      password: ""
+      port: 2096
+      server: 67.230.174.244
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: ""
+    - alpn:
+        - h2
+        - http/1.1
+        - h3
+      client-fingerprint: chrome
+      encryption: none
+      name: ❓Other_5|3.2MB/s|TK-US|YT-US|GPT⁺-US
+      network: ws
+      port: "443"
+      server: inetchnl-production-f987.up.railway.app
+      servername: inetchnl-production-f987.up.railway.app
+      tls: true
+      type: vless
+      udp: true
+      uuid: b87df517-d7c4-d51b-3dd4-a1c663c55eec
+      ws-opts:
+        headers:
+            Host: inetchnl-production-f987.up.railway.app
+            User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36
+        path: /ws/b87df517-d7c4-d51b-3dd4-a1c663c55eec
+      xudp: true
+    - name: "\U0001F1EF\U0001F1F5JP_1|5.1MB/s|YT-JP|GPT⁺-JP|GM-JP"
+      password: ""
+      port: 343
+      server: 133.18.200.207
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: ""
+    - client-fingerprint: chrome
+      grpc-opts:
+        grpc-mode: gun
+        grpc-service-name: update
+      name: "\U0001F1F0\U0001F1F7KR_3|3.7MB/s|YT-KR|GM-KR"
+      network: grpc
+      port: 10050
+      reality-opts:
+        public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+        short-id: 686c0ef0
+      server: kr5-r.link-t7.com
+      servername: s0.awsstatic.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 690FC783-6CE9-4137-8559-40DBA8EDAD31
+    - name: "\U0001F1FA\U0001F1F8US_5|2.6MB/s|TK-US|YT-US|GPT⁺-US|GM-US"
       password: ""
       port: 443
-      server: 212.132.126.182
+      server: 172.64.69.89
       skip-cert-verify: true
       tls: true
       type: http
       username: ""
-    - name: "\U0001F1F3\U0001F1F1NL_1|1.3MB/s|TK-NL|GPT⁺-NL|GM-NL"
-      password: ""
-      port: 443
-      server: 89.150.35.94
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: ""
-    - name: ❓Other_15|2.9MB/s|TK-US|YT-US|GPT⁺-US|GM-US
-      password: null
+    - name: ❓Other_6|2.3MB/s|TK-US|YT-US|GPT⁺-US|GM-US
+      password: "null"
       port: 9002
-      server: 138.199.35.200
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: null
-    - name: ❓Other_16|1.0MB/s|TK-US|YT-US|GPT⁺-US|GM-US
-      password: null
-      port: 9002
-      server: 138.199.35.214
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: null
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1F7\U0001F1F4RO_1|3.1MB/s|TK-RO|YT-RU|GPT⁺-DE"
-      obfs: ""
-      obfs-password: ""
-      password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
-      port: "8443"
-      server: 162.249.124.117
-      skip-cert-verify: false
-      sni: hopp-germany-new.ddnsguru.com
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1E6\U0001F1EAAE_1|3.3MB/s|TK-AE|YT-RU|GPT⁺-DE"
-      obfs: ""
-      obfs-password: ""
-      password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
-      port: "8080"
-      server: 85.204.107.177
-      skip-cert-verify: false
-      sni: hopp-romania-new.roxa.org
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EC\U0001F1F1GL_1|2.1MB/s|YT-RU|GPT⁺-GB"
-      obfs: ""
-      obfs-password: ""
-      password: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT
-      port: "8080"
-      server: 103.246.248.233
-      skip-cert-verify: false
-      sni: hopp-legend-se.roxa.org
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1F3\U0001F1F1NL_2|2.1MB/s|TK-RO|YT-RO|GPT⁺-NL|GM-RO"
-      obfs: ""
-      obfs-password: ""
-      password: Oz_Kx9342gefwJ89x3_M9z32kzf9KJq003_s
-      port: "8443"
-      server: 205.237.109.166
-      skip-cert-verify: false
-      sni: hopp-netherland-new.dynuddns.net
-      type: hysteria2
-      up: ""
-    - name: "\U0001F1F3\U0001F1F1NL_3|2.0MB/s|TK-NL|GPT⁺-NL|GM-NL"
-      port: 9002
-      server: 84.17.47.149
+      server: 138.199.35.206
       skip-cert-verify: true
       tls: true
       type: http
       udp: true
-    - cc: 0
-      delay: 258
-      name: "\U0001F1F3\U0001F1F1NL_4|3.4MB/s|GPT⁺-NL|GM-NL"
-      port: 443
-      server: 5.255.120.238
+      username: "null"
+    - client-fingerprint: firefox
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1E6\U0001F1FAAU_1|3.1MB/s|YT-AU|GPT⁺-AU|GM-AU"
+      network: tcp
+      port: "44717"
+      reality-opts:
+        public-key: TsJcNVjxAYCcp5vc8XPAgQQrXe2u6bDJ6igc4MYmvkk
+        short-id: e4a5aeecb8319d
+      server: 3.25.92.214
+      servername: www.sony.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: f4ae4cd4-7e7b-47a0-9817-e81ffa826b53
+      xudp: true
+    - name: ❓Other_7|2.6MB/s|TK-NL|GPT⁺-NL|GM-NL
+      password: '"None"'
+      port: 23856
+      server: 51.159.225.196
       skip-cert-verify: true
-      speed: 1.8
       tls: true
       type: http
-      vv: 260626.1313
-    - name: ❓Other_17|3.7MB/s|TK-DE|GPT⁺-DE|GM-DE
+    - name: ❓Other_8|2.1MB/s|TK-FR|GPT⁺-FI|GM-FI
       password: ""
-      port: 443
-      server: 87.106.223.158
+      port: 8443
+      server: 163.5.153.163
       skip-cert-verify: true
       tls: true
       type: http
       username: ""
-    - name: ❓Other_18|1.6MB/s|TK-US|YT-US|GPT⁺-US|GM-US
+    - name: "\U0001F1EF\U0001F1F5JP_2|5.1MB/s|YT-US|GPT⁺-JP|GM-US"
+      password: ""
+      port: 1443
+      server: 118.184.140.90
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: ""
+    - name: ❓Other_9|1.4MB/s|TK-US|YT-US|GPT⁺-US
+      password: null
+      port: 9002
+      server: 138.199.35.211
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: null
+    - name: "\U0001F1F7\U0001F1F4RO_1|2.1MB/s|TK-CZ|YT-RU|GPT⁺-RO"
+      password: 41f0d6d3-4a45-4635-8225-2abd2284189b
+      port: 2056
+      server: lmny.mangshe.xyz
+      skip-cert-verify: true
+      sni: lmny.mangshe.xyz
+      type: hysteria2
+    - client-fingerprint: firefox
+      grpc-opts:
+        grpc-mode: gun
+        grpc-service-name: grpc
+      name: "\U0001F1F5\U0001F1F1PL_1|2.3MB/s|TK-PL|YT-RU|GPT⁺-PL"
+      network: grpc
+      port: 8090
+      reality-opts:
+        public-key: J5ITJbg5FQFembAfkogKHHQB6DigsFXQxK7xu-QMWUs
+        short-id: 6b2f4e6ac9b1d2f0
+      server: 144.31.1.201
+      servername: mold.speedload.online
+      tls: true
+      type: vless
+      udp: true
+      uuid: 5f829d2f-2f13-450c-81ac-e9832b8e47ec
+    - name: ❓Other_10|2.4MB/s
+      password: null
+      port: 3131
+      server: 193.233.232.49
+      type: http
+      username: null
+    - name: ❓Other_11|1.4MB/s|TK-FI|YT-RU|GPT⁺-LV
+      password: ""
+      port: 443
+      server: 46.8.70.139
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: ""
+    - name: "\U0001F1FA\U0001F1F8US_6|2.0MB/s|YT-US|GPT⁺-US"
       password: '""'
       port: 9002
       server: 138.199.35.217
@@ -432,903 +281,15 @@ proxies:
       tls: true
       type: http
       uuid: '""'
-    - name: "\U0001F1F3\U0001F1F1NL_5|1.2MB/s|TK-NL|GPT⁺-NL|GM-NL"
-      password: ""
-      port: 21384
-      server: 51.158.204.46
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: ""
-    - name: ❓Other_19|2.6MB/s|TK-RO|GPT⁺-RO
-      password: None
-      port: 9002
-      server: 193.176.84.20
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: ""
-    - name: ❓Other_20|2.0MB/s|TK-NL|GPT⁺-NL|GM-NL
-      password: '""'
-      port: 9002
-      server: 84.17.47.146
-      skip-cert-verify: true
-      tls: true
-      type: http
-      uuid: '""'
-    - name: "\U0001F1E8\U0001F1FFCZ_1|2.1MB/s|TK-NL|YT-US|GPT⁺-CZ|GM-TM"
-      password: ""
-      port: 443
-      server: 178.208.78.58
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: ""
-    - alpn:
-        - h3
-      auth: EkF2Yw0Lc7
-      name: "\U0001F1F3\U0001F1F1NL_6|3.2MB/s|TK-US|YT-RU|GPT⁺-NL"
-      password: EkF2Yw0Lc7
-      port: 443
-      server: hys34.wba-pn.ru
-      skip-cert-verify: true
-      type: hysteria2
-    - name: ❓Other_21|2.6MB/s|TK-US|YT-US|GPT⁺-US|GM-US
-      password: ""
-      port: 9002
-      server: 138.199.35.210
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: ""
-    - name: ❓Other_22|2.5MB/s|TK-RO|GPT⁺-RO|GM-RO
-      port: 9002
-      server: 193.176.84.22
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - client-fingerprint: firefox
-      grpc-opts:
-        grpc-mode: gun
-        grpc-service-name: grpc-tunnel
-      name: "\U0001F1FA\U0001F1F8US_8|3.1MB/s|TK-US|YT-RU|GPT⁺-DE"
-      network: grpc
-      port: 9880
-      reality-opts:
-        public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
-      server: 168.222.194.138
-      servername: dl.google.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 064a967e-0862-4cea-bdbd-9458cb7b6070
-    - client-fingerprint: chrome
-      encryption: none
-      name: ❓Other_23|2.6MB/s|TK-DE|GPT⁺-DE
-      network: tcp
-      port: "1824"
-      reality-opts:
-        public-key: JIv_D-Lpo1cosiCUgu-qzGSJwOCGciyXSZ8ucNn6aBo
-        short-id: 8390ee7a5996648b
-      server: ger22.orangesms.ir
-      servername: amp-api-edge.apps.apple.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 708f0033-c6c0-4359-8bc6-a18bc8300f9c
-      xudp: true
-    - client-fingerprint: chrome
-      name: "\U0001F1F3\U0001F1F1NL_7|3.6MB/s|TK-RU|YT-RU|GPT-NL"
-      network: ws
-      port: "443"
-      server: wsnl7.wba-pn.ru
-      servername: wsnl7.wba-pn.ru
-      tls: true
-      type: vless
-      udp: true
-      uuid: 053440e6-fc8d-48d9-bb4f-2675e367f64f
-      ws-opts:
-        headers:
-            Host: ""
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36
-        path: /
-      xudp: true
-    - cc: 1
-      delay: 238
-      name: "\U0001F1F3\U0001F1F1NL_8|2.5MB/s|TK-NL|GPT⁺-NL|GM-NL"
-      port: 9002
-      server: 84.17.47.147
-      skip-cert-verify: true
-      speed: 1.6
-      tls: true
-      type: http
-      vv: 260626.1313
-    - name: ❓Other_24|3.4MB/s|TK-IE|GPT⁺-IE|GM-IE
-      password: ""
-      port: 443
-      server: 18.200.158.139
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: ""
-    - name: ❓Other_25|1.7MB/s|TK-US|YT-US|GPT⁺-US|GM-US
-      port: 443
-      server: 52.55.81.168
-      sin: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1FA\U0001F1F8US_9|3.0MB/s|TK-US|GPT⁺-US|GM-US"
+    - name: ❓Other_12|1.5MB/s|TK-US|YT-US|GPT⁺-US
       password: "null"
       port: 9002
-      server: 138.199.35.213
+      server: 138.199.35.195
       skip-cert-verify: true
       tls: true
       type: http
       username: "null"
-    - name: "\U0001F1F3\U0001F1F1NL_9|3.0MB/s|TK-NL|YT-NL|GPT⁺-NL|GM-NL"
-      port: 443
-      server: 185.140.209.235
-      skip-cert-verify: true
-      sni: 482c8436a1f7c908b48a1757abb5dd79-ce85c45206570905.apache-iv.com
-      tls: true
-      type: http
-    - name: ❓Other_26|1.6MB/s|TK-FR|GPT⁺-FR|GM-FR
-      password: ""
-      port: 443
-      server: 130.180.211.56
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: ""
-    - name: ❓Other_27|1.6MB/s|TK-RO|GPT⁺-RO|GM-RO
-      password: None
-      port: 9002
-      server: 193.176.84.25
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: ""
-    - name: ❓Other_28|2.5MB/s|TK-US|YT-US|GPT⁺-US|GM-US
-      password: '""'
-      port: 9002
-      server: 138.199.35.218
-      skip-cert-verify: true
-      tls: true
-      type: http
-      uuid: '""'
-    - name: "\U0001F1FA\U0001F1F8US_10|1.2MB/s|TK-US|YT-US|GPT⁺-US|GM-US"
-      password: "null"
-      port: 9002
-      server: 138.199.35.206
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: "null"
-    - name: ❓Other_29|2.6MB/s|TK-US|YT-US|GPT⁺-US|GM-US
-      password: '""'
-      port: 9002
-      server: 138.199.35.205
-      skip-cert-verify: true
-      tls: true
-      type: http
-      uuid: '""'
-    - name: ❓Other_30|2.6MB/s|TK-US|YT-US|GPT⁺-US|GM-US
-      port: 9002
-      server: 138.199.35.203
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1EB\U0001F1F7FR_2|2.9MB/s|TK-FR|GPT⁺-FR|GM-FR"
-      port: 443
-      server: 103.82.101.44
-      skip-cert-verify: true
-      sni: f3a61d8406d537345747f99f8a281007-3f754ed5da1bba09.apache-iv.com
-      tls: true
-      type: http
-    - name: ❓Other_31|1.0MB/s|TK-US|YT-US|GPT⁺-US|GM-US
-      password: "null"
-      port: 9002
-      server: 138.199.35.215
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: "null"
-    - name: ❓Other_32|3.4MB/s|TK-US|YT-US|GPT⁺-US|GM-US
-      password: None
-      port: 9002
-      server: 138.199.35.218
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: ❓Other_33|2.0MB/s|TK-FR|GPT⁺-FR|GM-FR
-      password: ""
-      port: 443
-      server: 84.235.228.156
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: ""
-    - name: ❓Other_34|1.7MB/s|TK-US|YT-US|GPT⁺-US|GM-US
-      password: "null"
-      port: 9002
-      server: 138.199.35.207
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: "null"
-    - name: ❓Other_35|1.3MB/s|TK-US|YT-US|GPT⁺-US|GM-US
-      password: '"null"'
-      port: 9002
-      server: 138.199.35.211
-      skip-cert-verify: true
-      tls: true
-      type: http
-      uuid: '"null"'
-    - name: ❓Other_36|3.4MB/s|TK-US|YT-US|GPT⁺-US|GM-US
-      password: ""
-      port: 9002
-      server: 138.199.35.220
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: ""
-    - delay: 2242
-      name: "\U0001F1FA\U0001F1F8US_11|1.4MB/s|TK-US|YT-US|GPT⁺-US|GM-US"
-      password: "null"
-      port: 9002
-      server: 138.199.35.216
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-      username: "null"
-    - auth: 7c5566a7-4b55-4659-975f-06507d32fd3f
-      name: "\U0001F1EC\U0001F1E7GB_2|2.5MB/s|TK-US|YT-RU|GPT⁺-LT|GM-LT"
-      password: 7c5566a7-4b55-4659-975f-06507d32fd3f
-      port: 443
-      server: ltu-01.node.lumixnet.com
-      skip-cert-verify: true
-      sni: ltu-01.node.lumixnet.com
-      type: hysteria2
-    - name: "\U0001F1ED\U0001F1F0HK_1|2.8MB/s|YT-HK"
-      password: 067bcf2d-0bf0-4ca6-ac86-2df9c8327ea3
-      port: 3601
-      server: in.bjnet3.org
-      skip-cert-verify: true
-      sni: b.azure.com
-      type: anytls
-    - client-fingerprint: firefox
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1F3\U0001F1F1NL_10|3.1MB/s|TK-NL|GPT⁺-NL"
-      network: tcp
-      port: "13443"
-      reality-opts:
-        public-key: gc9oXe37KCCm3J1dJ03wdGsnxPBdeEkRPOvl_t-vfVM
-        short-id: a7f3c91b2e6d84c0
-      server: 87.121.221.200
-      servername: auto.cendora.ru
-      tls: true
-      type: vless
-      udp: true
-      uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-      xudp: true
-    - name: ❓Other_37|1.9MB/s|YT-RU
-      password: 41f0d6d3-4a45-4635-8225-2abd2284189b
-      port: 2056
-      server: els2.mangshe.xyz
-      skip-cert-verify: true
-      sni: els2.mangshe.xyz
-      type: hysteria2
-    - name: ❓Other_38|2.0MB/s|TK-NL|GPT⁺-NL|GM-NL
-      port: 9002
-      server: 84.17.47.146
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: ❓Other_39|2.5MB/s|TK-RO|GPT⁺-RO|GM-RO
-      port: 9002
-      server: 193.176.84.21
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - cipher: aes-256-cfb
-      name: "\U0001F1FA\U0001F1F8US_12|2.8MB/s|TK-US|GPT⁺-US"
-      password: 7eadc6dbe2ae
-      port: 65443
-      server: 121.46.230.233
-      type: ss
-      udp: true
-    - name: ❓Other_40|2.6MB/s|TK-US|YT-US|GPT⁺-US|GM-US
-      port: 9002
-      server: 138.199.35.218
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: ❓Other_41|2.5MB/s|TK-DE|GPT⁺-DE|GM-DE
-      password: ""
-      port: 9002
-      server: 158.173.154.4
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: ""
-    - name: ❓Other_42|2.1MB/s|TK-US|YT-US|GPT⁺-US|GM-US
-      port: 9002
-      server: 138.199.35.205
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: ❓Other_43|1.6MB/s|TK-RO|GPT⁺-RO|GM-RO
-      password: '"None"'
-      port: 9002
-      server: 193.176.84.26
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: ❓Other_44|3.4MB/s|TK-US|YT-US|GPT⁺-US|GM-US
-      password: '""'
-      port: 9002
-      server: 138.199.35.219
-      skip-cert-verify: true
-      tls: true
-      type: http
-      uuid: '""'
-    - name: ❓Other_45|2.0MB/s|TK-NL|GPT⁺-NL
-      password: '"None"'
-      port: 23856
-      server: 51.159.225.196
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: ❓Other_46|1.3MB/s|YT-IN|GPT⁺-SG|GM-IN
-      port: 443
-      server: 154.26.138.157
-      sin: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: ❓Other_47|3.1MB/s|YT-HK|GPT⁺-BR
-      password: ""
-      port: 443
-      server: 69.63.209.199
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: ""
-    - name: ❓Other_48|2.0MB/s|TK-NL|GPT⁺-NL|GM-NL
-      password: "null"
-      port: 9002
-      server: 84.17.47.148
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: "null"
-    - name: ❓Other_49|2.0MB/s|TK-NL|GPT⁺-NL|GM-NL
-      password: '"null"'
-      port: 9002
-      server: 84.17.47.148
-      skip-cert-verify: true
-      tls: true
-      type: http
-      uuid: '"null"'
-    - name: "\U0001F1F3\U0001F1F1NL_11|2.0MB/s|TK-NL|GPT⁺-NL|GM-NL"
-      password: "null"
-      port: 23856
-      server: 51.159.225.196
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: "null"
-    - name: ❓Other_50|2.4MB/s|TK-US|YT-US|GPT⁺-US|GM-US
-      password: ""
-      port: 443
-      server: 44.196.66.215
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: ""
-    - name: ❓Other_51|1.2MB/s|TK-RO|GPT⁺-RO|GM-RO
-      password: ""
-      port: 9002
-      server: 193.176.84.21
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: ""
-    - alpn:
-        - h2
-        - http/1.1
-      client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_13|2.3MB/s|TK-US|GPT⁺-US|GM-US"
-      network: xhttp
-      port: 37379
-      server: xuius.907737.xyz
-      servername: xuius.907737.xyz
-      skip-cert-verify: true
-      sni: xuius.907737.xyz
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: a4bec43e-8073-4725-b307-47edad331fee
-      xhttp-opts:
-        headers:
-            Host: xuius.907737.xyz
-        host: xuius.907737.xyz
-        mode: auto
-        path: /
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_14|2.4MB/s|TK-US|GPT⁺-US|GM-US"
-      network: xhttp
-      port: 32932
-      reality-opts:
-        public-key: i0EJqjDTrTlMqJJKaDmFr8E3lEI3H1VEC7qhwCEI5W8
-        short-id: 98a6439e
-        spider-x: /
-      server: xuius.907737.xyz
-      servername: aws.amazon.com
-      skip-cert-verify: true
-      sni: aws.amazon.com
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: dc7b1d7a-23ae-436b-996d-23cbfbe8ab8d
-      xhttp-opts:
-        headers:
-            Host: aws.amazon.com
-        host: aws.amazon.com
-        mode: auto
-        path: /
-    - name: ❓Other_52|1.1MB/s|TK-NL|GPT⁺-NL|GM-NL
-      password: ""
-      port: 9002
-      server: 84.17.47.125
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: ""
-    - name: "\U0001F1E9\U0001F1EADE_3|3.4MB/s|TK-DE|YT-DE|GPT⁺-DE|GM-DE"
-      password: ""
-      port: 443
-      server: 217.154.160.160
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: ""
-    - name: "\U0001F1EB\U0001F1F7FR_3|1.6MB/s|TK-FR|GPT⁺-FR|GM-FR"
-      password: ""
-      port: 443
-      server: 212.129.2.41
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: ""
-    - name: "\U0001F1FA\U0001F1F8US_15|2.5MB/s|TK-US|YT-US|GPT-US|GM-US"
-      password: ""
-      port: 9002
-      server: 138.199.35.199
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: ""
-    - name: ❓Other_53|2.1MB/s|TK-DE|GPT⁺-DE|GM-DE
-      password: ""
-      port: 9002
-      server: 158.173.154.3
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: ""
-    - name: "\U0001F1FA\U0001F1F8US_16|2.5MB/s|TK-US|YT-US|GPT⁺-US|GM-US"
-      password: ""
-      port: 9002
-      server: 138.199.35.209
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: ""
-    - name: ❓Other_54|2.6MB/s|TK-US|YT-US|GPT⁺-US|GM-US
-      password: ""
-      port: 443
-      server: 129.153.93.183
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: ""
-    - name: ❓Other_55|3.5MB/s
-      password: ""
-      port: 3128
-      server: 117.236.124.166
-      skip-cert-verify: true
-      type: http
-      username: ""
-    - name: ❓Other_56|1.2MB/s|TK-NL|GPT⁺-NL
-      password: ""
-      port: 9002
-      server: 84.17.47.124
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: ""
-    - client-fingerprint: firefox
-      encryption: none
-      grpc-opts:
-        grpc-service-name: api.v1.StreamService
-      name: "\U0001F1F1\U0001F1F9LT_1|3.1MB/s|TK-LT|YT-RU|GPT⁺-SE"
-      network: grpc
-      port: "443"
-      reality-opts:
-        public-key: 2j9MbL9p_z1tmhfAOg8yJttmipPiG4IobC-RWYHkomM
-        short-id: 57b9dece2c7ebfcf
-      server: sync.on3ok.com
-      servername: sync.on3ok.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 2b15627c-f62b-465f-81d1-0b5f7d4277ba
-      xudp: true
-    - name: ❓Other_57|1.8MB/s|TK-NL|GPT⁺-NL
-      password: None
-      port: 9002
-      server: 84.17.47.125
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: ❓Other_58|1.0MB/s|TK-US|YT-US|GPT⁺-US|GM-US
-      password: None
-      port: 9002
-      server: 138.199.35.216
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: null
-    - name: ❓Other_59|2.2MB/s|GPT⁺-GB
-      password: None
-      port: 9443
-      server: 37.120.233.34
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: null
-    - name: ❓Other_60|2.4MB/s|GPT⁺-GB
-      port: 443
-      server: 185.235.0.2
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: ❓Other_61|2.4MB/s|GPT⁺-GB
-      password: null
-      port: 443
-      server: 37.120.233.18
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: null
-    - name: ❓Other_62|2.3MB/s
-      password: null
-      port: 8889
-      server: 37.114.34.217
-      type: http
-      username: null
-    - name: ❓Other_63|1.9MB/s|GPT⁺-AL
-      port: 443
-      server: 87.120.103.226
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - client-fingerprint: random
-      encryption: none
-      flow: xtls-rprx-vision
-      name: ❓Other_64|1.4MB/s|TK-US|YT-RU|GPT⁺-BG
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE
-        short-id: ff776ff77be48b88
-      server: bul2.helper-internet.com
-      servername: bul2.helper-internet.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: ae8e0f7d-b661-41ca-b55d-d8c383adb2f8
-      xudp: true
-    - client-fingerprint: firefox
-      flow: xtls-rprx-vision
-      name: "\U0001F1F8\U0001F1EASE_1|3.8MB/s|TK-SE|YT-RU|GPT⁺-SE|GM-NO"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: pU7ElcbPMVObHoWqGThioVD4i5ux_phWFwElN97aDSQ
-        short-id: 0f4dacf89993e21f
-      server: 84.32.106.178
-      servername: sw.api-yandex.net
-      tls: true
-      type: vless
-      udp: true
-      uuid: 4928c901-be72-4f81-8d59-091ce9e01692
-    - name: ❓Other_65|1.0MB/s|TK-RO|GPT⁺-RO|GM-RO
-      port: 9002
-      server: 193.176.84.27
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - alpn:
-        - h3
-        - h2
-        - http/1.1
-      client-fingerprint: firefox
-      name: ❓Other_66|1.6MB/s|TK-FR|GPT⁺-GB
-      network: xhttp
-      port: 2096
-      server: 193.227.99.253
-      servername: tf.monister.ir
-      tls: true
-      type: vless
-      udp: true
-      uuid: b07fa744-dd60-4a35-afbe-bd84e2dc86af
-      xhttp-opts:
-        host: tf.monister.ir
-        path: /
-    - name: ❓Other_67|1.9MB/s
-      port: 9898
-      server: 31.31.74.185
-      type: http
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1F1\U0001F1FBLV_2|3.8MB/s|TK-LV|YT-RU|GPT⁺-LV"
-      network: tcp
-      port: "5269"
-      reality-opts:
-        public-key: fFmp4fFO2wuoJKvc2_e5MF5C92H6Ei4c_AfV7toZO1c
-        short-id: a62ae57fa46a0d6d
-      server: 82.202.177.148
-      servername: max.ru
-      tls: true
-      type: vless
-      udp: true
-      uuid: 2e483b48-ad25-4c80-8806-73000fd5b031
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: ❓Other_68|2.9MB/s|TK-US|GPT⁺-NL|GM-NL
-      network: ws
-      port: "443"
-      server: afa-production-479a.up.railway.app
-      tls: true
-      type: vless
-      udp: true
-      uuid: 3ab31593-94d3-9d01-8fc8-b7d99a53b7bf
-      ws-opts:
-        headers:
-            Host: ""
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
-        path: /ws/3ab31593-94d3-9d01-8fc8-b7d99a53b7bf
-      xudp: true
-    - cc: 30
-      delay: 385
-      name: "\U0001F1F7\U0001F1F4RO_2|1.5MB/s|TK-RO|GPT⁺-RO|GM-RO"
-      port: 9002
-      server: 193.176.84.19
-      skip-cert-verify: true
-      sni: www.bing.com
-      speed: 0.7138671875
-      tls: true
-      type: http
-      vv: 260626.144
-    - cc: 50
-      delay: 393
-      name: ❓Other_69|1.7MB/s|TK-RO|GPT⁺-RO|GM-RO
-      port: 9002
-      qx: 0
-      server: 193.176.84.25
-      skip-cert-verify: true
-      sni: www.bing.com
-      speed: 0.572265625
-      tls: true
-      type: http
-      vv: 260626.144
-    - name: ❓Other_70|2.3MB/s|TK-GB|GPT⁺-GB|GM-GB
-      port: 443
-      server: 37.120.233.34
-      sin: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1ED\U0001F1F0HK_2|3.1MB/s|YT-HK"
-      port: 443
-      server: 146.70.9.242
-      sin: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1ED\U0001F1F7HR_1|2.3MB/s|TK-HR|GPT⁺-HR|GM-HR"
-      port: 443
-      server: 154.47.29.161
-      sin: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: ❓Other_71|1.6MB/s|TK-CY|YT-US|GPT⁺-CY
-      password: ""
-      port: 443
-      server: 213.207.130.34
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: ""
-    - name: ❓Other_72|2.2MB/s|YT-US|GPT⁺-BA
-      password: ""
-      port: 9443
-      server: 185.164.35.16
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: ""
-    - name: ❓Other_73|2.3MB/s|TK-RO|GPT⁺-RO|GM-RO
-      password: None
-      port: 9002
-      server: 193.176.84.19
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: ❓Other_74|2.0MB/s|YT-US|GPT⁺-CA|GM-CA
-      port: 443
-      server: 181.215.52.101
-      sin: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: ❓Other_75|2.2MB/s|TK-DE|GPT⁺-DE|GM-DE
-      password: ""
-      port: 443
-      server: 152.233.20.206
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: ""
-    - client-fingerprint: chrome
-      name: ❓Other_76|2.8MB/s|YT-US|GPT⁺-US|GM-US
-      network: xhttp
-      port: 23388
-      reality-opts:
-        public-key: soYkwxW3RiSu0df2R6ghpK7NctfQbUygMOawOKCtkQc
-        short-id: 5d5beabb0ad9
-        spider-x: /B6tziHA9rOvnCE8
-      server: xuius.907737.xyz
-      servername: www.nvidia.com
-      skip-cert-verify: true
-      sni: www.nvidia.com
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: bd9a6031-d6b2-4ad9-827c-3c2b87ed7779
-      xhttp-opts:
-        headers:
-            Host: www.nvidia.com
-        host: www.nvidia.com
-        mode: auto
-        path: /
-    - name: ❓Other_77|2.2MB/s|YT-US|GPT⁺-CA|GM-CA
-      password: ""
-      port: 9443
-      server: 181.215.52.122
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: ""
-    - name: ❓Other_78|2.4MB/s|TK-CZ|GPT⁺-CZ|GM-CZ
-      password: ""
-      port: 9443
-      server: 152.233.16.174
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: ""
-    - name: ❓Other_79|1.4MB/s|YT-US|GPT⁺-IL
-      password: ""
-      port: 9443
-      server: 185.191.204.98
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: ""
-    - name: ❓Other_80|1.7MB/s|TK-US|YT-US|GPT⁺-US|GM-US
-      password: ""
-      port: 8443
-      server: 104.219.236.83
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: ""
-    - name: ❓Other_81|1.7MB/s|TK-US|YT-US|GPT⁺-US|GM-US
-      password: ""
-      port: 443
-      server: 198.44.135.27
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: ""
-    - name: ❓Other_82|2.2MB/s|YT-EC|GPT⁺-EC|GM-EC
-      password: ""
-      port: 9443
-      server: 38.165.231.71
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: ""
-    - name: "\U0001F1EB\U0001F1F7FR_4|2.8MB/s"
-      password: ""
-      port: 8888
-      server: 37.59.125.131
-      skip-cert-verify: true
-      type: http
-      username: ""
-    - name: ❓Other_83|2.2MB/s|TK-US|YT-US|GPT⁺-US|GM-US
-      port: 443
-      server: 68.235.56.59
-      sin: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: ❓Other_84|1.5MB/s|YT-US|GPT⁺-CA|GM-US
-      password: ""
-      port: 9443
-      server: 149.57.28.9
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: ""
-    - name: ❓Other_85|2.9MB/s|TK-US|YT-US|GPT⁺-US|GM-US
-      password: ""
-      port: 443
-      server: 149.34.248.65
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: ""
-    - name: ❓Other_86|1.8MB/s|TK-US|GPT⁺-CA|GM-CA
-      password: ""
-      port: 9443
-      server: 181.215.52.2
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: ""
-    - name: "\U0001F1ED\U0001F1F0HK_3|2.0MB/s|YT-HK"
-      port: 443
-      server: 84.17.57.113
-      sin: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1E6\U0001F1FAAU_1|4.4MB/s|YT-AU|GPT⁺-AU|GM-AU"
-      port: 443
-      server: 103.137.14.34
-      sin: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: ❓Other_87|3.2MB/s|TK-GB|GPT⁺-GB|GM-GB
-      password: ""
-      port: 9443
-      server: 84.17.50.129
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: ""
-    - name: "\U0001F1FA\U0001F1F8US_17|2.8MB/s|TK-US|YT-US|GPT⁺-US|GM-US"
+    - name: "\U0001F1FA\U0001F1F8US_7|2.1MB/s|YT-US|GPT⁺-US"
       password: None
       port: 9002
       server: 138.199.35.198
@@ -1336,53 +297,300 @@ proxies:
       tls: true
       type: http
       username: ""
-    - name: ❓Other_88|1.3MB/s|TK-NL|GPT⁺-NL|GM-NL
-      password: ""
-      port: 14287
-      server: 51.158.202.56
+    - client-fingerprint: firefox
+      encryption: none
+      flow: xtls-rprx-vision
+      name: ❓Other_13|2.1MB/s|TK-FI|GPT⁺-FI
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE
+        short-id: ff776ff77be48b88
+      server: fin2.helper-internet.com
+      servername: fin2.helper-internet.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: ae8e0f7d-b661-41ca-b55d-d8c383adb2f8
+      xudp: true
+    - name: ❓Other_14|2.5MB/s|TK-US|YT-US|GPT⁺-US|GM-US
+      password: "null"
+      port: 9002
+      server: 138.199.35.207
       skip-cert-verify: true
       tls: true
       type: http
-      username: ""
-    - name: ❓Other_89|2.4MB/s|TK-CZ|GPT⁺-CZ|GM-CZ
-      password: ""
-      port: 9443
-      server: 152.233.16.161
+      udp: true
+      username: "null"
+    - name: "\U0001F1F7\U0001F1F4RO_2|1.4MB/s|TK-RO|GPT⁺-RO|GM-RO"
+      port: 9002
+      server: 193.176.84.17
       skip-cert-verify: true
       tls: true
       type: http
-      username: ""
-    - name: "\U0001F1FA\U0001F1F8US_18|1.7MB/s|TK-US|YT-US|GPT⁺-US|GM-US"
+      udp: true
+    - cipher: aes-256-cfb
+      name: "\U0001F1EE\U0001F1EAIE_1|5.0MB/s|TK-IE|YT-IE|GPT⁺-IE"
+      password: amazonskr05
+      port: "443"
+      server: 176.34.158.52
+      type: ss
+      udp: true
+    - client-fingerprint: firefox
+      flow: xtls-rprx-vision
+      name: "\U0001F1F2\U0001F1FEMY_1|4.7MB/s|YT-MY|GPT⁺-MY|GM-MY"
+      network: tcp
+      port: 21874
+      reality-opts:
+        public-key: 75sTDYJk8ylA97-aBhAlF1tU4OaCfdOaOSIBshPW7Bs
+        short-id: 42e853a5559e1032
+      server: 43.217.16.8
+      servername: www.amd.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 85dd8227-0f12-4826-a712-6313211774b5
+    - name: ❓Other_15|2.1MB/s|YT-US|GPT⁺-US|GM-US
+      password: '""'
+      port: 9002
+      server: 138.199.35.219
+      skip-cert-verify: true
+      tls: true
+      type: http
+      uuid: '""'
+    - name: ❓Other_16|2.5MB/s|TK-RO|GPT⁺-RO|GM-RO
+      password: '"None"'
+      port: 9002
+      server: 193.176.84.27
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: ❓Other_17|2.6MB/s|YT-US|GPT⁺-US|GM-US
+      password: "null"
+      port: 9002
+      server: 138.199.35.213
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: "null"
+    - name: ❓Other_18|1.4MB/s|GPT⁺-NL|GM-NL
       password: ""
       port: 9002
-      server: 138.199.35.206
+      server: 84.17.47.126
       skip-cert-verify: true
       tls: true
       type: http
       username: ""
-    - name: ❓Other_90|3.1MB/s|GPT⁺-DE|GM-DE
+    - name: ❓Other_19|2.1MB/s|TK-US|YT-US|GPT⁺-US|GM-US
+      password: ""
       port: 443
-      server: 149.36.50.157
+      server: 52.15.98.63
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: ""
+    - name: ❓Other_20|2.0MB/s|TK-US|YT-US|GPT⁺-US|GM-US
+      password: '""'
+      port: 9002
+      server: 138.199.35.208
+      skip-cert-verify: true
+      tls: true
+      type: http
+      uuid: '""'
+    - name: "\U0001F1E8\U0001F1EDCH_1|2.8MB/s|TK-CH|GPT⁺-CH|GM-CH"
+      password: ""
+      port: 443
+      server: 87.239.206.115
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: ""
+    - name: "\U0001F1F0\U0001F1F7KR_4|1.1MB/s"
+      password: ""
+      port: 3128
+      server: 1.231.81.166
+      skip-cert-verify: true
+      type: http
+      username: ""
+    - name: ❓Other_21|1.3MB/s|GPT⁺-CA|GM-US
+      password: ""
+      port: 443
+      server: 69.87.223.151
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: ""
+    - client-fingerprint: firefox
+      flow: xtls-rprx-vision
+      name: "\U0001F1EF\U0001F1F5JP_3|3.2MB/s|YT-JP|GPT⁺-JP|GM-JP"
+      network: tcp
+      port: 15309
+      reality-opts:
+        public-key: BWf5EV_voNn27vXrSTA3oOglKDFnq8wLDNiCH4MG0Tk
+        short-id: 681d9219
+      server: 38.47.52.179
+      servername: yahoo.com
+      source_repo: 0o0o0oo/proxy
+      source_url: https://raw.githubusercontent.com/0o0o0oo/proxy/main/nodes.yaml
+      tls: true
+      type: vless
+      udp: true
+      uuid: 1432611c-5ccd-44a3-b2bb-e1da0d9131b5
+    - client-fingerprint: chrome
+      grpc-opts:
+        grpc-mode: gun
+        grpc-service-name: update
+      name: "\U0001F1EF\U0001F1F5JP_4|5.2MB/s|YT-JP|GPT|GM-JP"
+      network: grpc
+      port: 10032
+      reality-opts:
+        public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+        short-id: 686c0ef0
+      server: jp2-r.link-t7.com
+      servername: s0.awsstatic.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 690FC783-6CE9-4137-8559-40DBA8EDAD31
+    - client-fingerprint: firefox
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8US_8|3.4MB/s|YT-CN|GPT⁺-US"
+      network: tcp
+      port: "52553"
+      reality-opts:
+        public-key: 7ettAf7U2AG4PQod_xgNpS6591z6HxjxhEmChKboQRI
+        short-id: 61b89ff3c5a9469a
+      server: 172.239.67.231
+      servername: www.amd.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 4c0cae78-1b6c-4860-8295-d938829f1d64
+      xudp: true
+    - client-fingerprint: firefox
+      flow: xtls-rprx-vision
+      name: "\U0001F1EB\U0001F1F7FR_2|4.7MB/s|TK-FR|YT-GB|GPT⁺-FR"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: nilJ07r1KZ0-KhmRNYeICXGhM9HeG9uxnRaqjYz3fWg
+        short-id: 6ed1d644822b2951
+      server: 83.136.208.170
+      servername: fr2.janusgate.org
+      tls: true
+      type: vless
+      udp: true
+      uuid: df880bf8-2635-4a83-a6bf-91bb36df284b
+    - client-fingerprint: firefox
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1EC\U0001F1E7GB_1|4.3MB/s|TK-GB|YT-GB|GPT⁺-GB|GM-GB"
+      network: tcp
+      port: "51847"
+      reality-opts:
+        public-key: S6noV0L8eNASnTe1gXLutLZNdfENsvKMsOJiGQYi6nc
+        short-id: 0eec442e7b34d2f2
+      server: 3.9.135.156
+      servername: www.tesla.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 391a01e9-b664-407b-9158-610fab3f5920
+      xudp: true
+    - client-fingerprint: firefox
+      flow: xtls-rprx-vision
+      name: "\U0001F1F8\U0001F1ECSG_1|4.9MB/s|YT-SG|GPT⁺-SG|GM-SG"
+      network: tcp
+      port: "33164"
+      reality-opts:
+        public-key: Faf18bd52wn8u9_ZGjBvfW4hkzcMhhfZhc1giF8R4G8
+        short-id: 83905567c94f6679
+      server: 47.131.211.4
+      servername: www.amd.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 3b733177-14f5-49d5-91e6-4dce73c038e3
+      xudp: true
+    - client-fingerprint: firefox
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1F8\U0001F1ECSG_2|5.2MB/s|YT-SG|GPT⁺-SG|GM-SG"
+      network: tcp
+      port: "20859"
+      reality-opts:
+        public-key: y1neNdTfDZJDNmNAsexkDXyd8plDxbRr7TH5RBiAJA8
+        short-id: cc7a57d36b14c736
+      server: 47.128.81.182
+      servername: www.amazon.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: dc513ed7-87d0-4309-947a-30b3f89a51c6
+      xudp: true
+    - name: ❓Other_22|1.5MB/s|YT-US|GPT⁺-US|GM-US
+      port: 443
+      server: 44.228.137.206
       sin: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
       skip-cert-verify: true
       tls: true
       type: http
-    - name: ❓Other_91|2.3MB/s|TK-GB|GPT⁺-GB|GM-GB
+    - name: ❓Other_23|2.0MB/s|TK-DE|GPT⁺-DE|GM-DE
       password: ""
-      port: 9443
-      server: 84.17.50.214
+      port: 9002
+      server: 158.173.154.4
       skip-cert-verify: true
       tls: true
       type: http
       username: ""
-    - name: ❓Other_92|2.9MB/s
+    - name: ❓Other_24|1.1MB/s|TK-US|YT-US|GPT⁺-US|GM-US
       password: ""
-      port: 9090
-      server: 128.199.116.219
+      port: 443
+      server: 64.98.50.100
       skip-cert-verify: true
+      tls: true
       type: http
       username: ""
-    - name: ❓Other_93|1.7MB/s|TK-DE|GPT⁺-DE|GM-DE
+    - name: "\U0001F1EB\U0001F1F7FR_3|1.7MB/s|TK-FR|GPT⁺-FR|GM-FR"
+      password: ""
+      port: 443
+      server: 82.64.255.151
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: ""
+    - name: "\U0001F1F7\U0001F1F4RO_3|2.6MB/s|TK-RO|GPT⁺-RO|GM-RO"
+      password: ""
+      port: 9002
+      server: 193.176.84.35
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: ""
+    - name: ❓Other_25|3.5MB/s|TK-DE|GPT⁺-DE|GM-DE
+      password: ""
+      port: 443
+      server: 87.106.223.158
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: ""
+    - name: "\U0001F1FA\U0001F1F8US_9|1.7MB/s|YT-US|GPT⁺-US|GM-US"
+      password: '""'
+      port: 9002
+      server: 138.199.35.199
+      skip-cert-verify: true
+      tls: true
+      type: http
+      uuid: '""'
+    - name: ❓Other_26|1.2MB/s|TK-US|YT-US|GPT⁺-US|GM-US
+      port: 9002
+      server: 138.199.35.210
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: ❓Other_27|1.7MB/s|TK-DE|GPT⁺-DE|GM-DE
       password: ""
       port: 9002
       server: 158.173.154.2
@@ -1390,30 +598,14 @@ proxies:
       tls: true
       type: http
       username: ""
-    - name: ❓Other_94|2.2MB/s|YT-FR|GPT⁺-FR|GM-FR
-      password: ""
-      port: 8090
-      server: 82.96.128.175
+    - name: ❓Other_28|2.7MB/s|TK-RO|GPT⁺-RO|GM-RO
+      password: '"None"'
+      port: 9002
+      server: 193.176.84.25
       skip-cert-verify: true
       tls: true
       type: http
-      username: ""
-    - name: ❓Other_95|2.3MB/s|YT-AR|GPT⁺-AR|GM-AR
-      port: 443
-      server: 190.103.176.146
-      sin: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: ❓Other_96|2.3MB/s|YT-CA|GPT⁺-CA|GM-CA
-      password: ""
-      port: 443
-      server: 15.222.13.132
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: ""
-    - name: "\U0001F1FA\U0001F1F8US_19|2.1MB/s|TK-US|YT-US|GPT⁺-US|GM-US"
+    - name: ❓Other_29|1.3MB/s|TK-US|YT-US|GPT⁺-US|GM-US
       password: None
       port: 9002
       server: 138.199.35.211
@@ -1421,87 +613,1198 @@ proxies:
       tls: true
       type: http
       username: ""
-    - name: ❓Other_97|2.5MB/s|TK-EE|GPT⁺-EE
-      password: ""
-      port: 9443
-      server: 95.153.31.66
+    - name: ❓Other_30|2.0MB/s|YT-US|GPT⁺-US|GM-US
+      password: None
+      port: 9002
+      server: 138.199.35.213
       skip-cert-verify: true
       tls: true
       type: http
       username: ""
-    - name: ❓Other_98|2.3MB/s|YT-CA|GPT⁺-CA|GM-CA
+    - name: ❓Other_31|1.7MB/s|YT-US|GPT⁺-US
+      password: ""
+      port: 9002
+      server: 138.199.35.199
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: ""
+    - name: ❓Other_32|1.6MB/s|TK-US|YT-US|GPT⁺-US|GM-US
+      password: None
+      port: 9002
+      server: 138.199.35.218
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1FA\U0001F1F8US_10|1.6MB/s|YT-US|GPT⁺-US|GM-US"
+      password: '"None"'
+      port: 9002
+      server: 138.199.35.196
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: "\U0001F1E8\U0001F1E6CA_1|2.6MB/s|YT-CA|GPT⁺-CA|GM-CA"
+      password: ""
       port: 443
-      server: 206.223.161.47
+      server: 15.223.66.131
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: ""
+    - name: ❓Other_33|1.1MB/s|TK-RO|GPT⁺-RO|GM-RO
+      password: None
+      port: 9002
+      server: 193.176.84.20
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: ""
+    - name: "\U0001F1F7\U0001F1F4RO_4|2.3MB/s|TK-RO|GPT⁺-RO|GM-RO"
+      password: ""
+      port: 9002
+      server: 193.176.84.22
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: ""
+    - name: "\U0001F1FA\U0001F1F8US_11|3.6MB/s|YT-US|GPT⁺-US"
+      password: c870fe5a-0729-11f0-8cf9-f23c93136cb3
+      port: 8300
+      server: 76842b4a-tb71c0-tgprfk-ddgs.losjan20.west.wctype.com
+      skip-cert-verify: true
+      sni: 76842b4a-tb71c0-tgprfk-ddgs.losjan20.west.wctype.com
+      tls: true
+      type: anytls
+      udp: true
+    - name: ❓Other_34|1.6MB/s
+      port: 3193
+      server: 160.153.172.106
+      type: http
+    - name: "\U0001F1E8\U0001F1FFCZ_1|4.4MB/s"
+      port: 3121
+      server: 194.87.26.137
+      type: http
+    - name: ❓Other_35|1.0MB/s|TK-US|GPT⁺-US
+      password: null
+      port: 9002
+      server: 138.199.35.206
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: null
+    - client-fingerprint: chrome
+      grpc-opts:
+        grpc-mode: gun
+        grpc-service-name: update
+      name: "\U0001F1EF\U0001F1F5JP_5|9.0MB/s|YT-JP|GPT|GM-JP"
+      network: grpc
+      port: 10033
+      reality-opts:
+        public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+        short-id: 686c0ef0
+      server: jp3-r.link-t7.com
+      servername: s0.awsstatic.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 690FC783-6CE9-4137-8559-40DBA8EDAD31
+    - client-fingerprint: chrome
+      grpc-opts:
+        grpc-mode: gun
+        grpc-service-name: update
+      name: "\U0001F1EF\U0001F1F5JP_6|3.8MB/s|YT-JP|GPT|GM-JP"
+      network: grpc
+      port: 10036
+      reality-opts:
+        public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+        short-id: 686c0ef0
+      server: jp6-r.link-t7.com
+      servername: s0.awsstatic.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 690FC783-6CE9-4137-8559-40DBA8EDAD31
+    - name: ❓Other_36|1.8MB/s|TK-US|YT-US|GPT⁺-US|GM-US
+      password: None
+      port: 9002
+      server: 138.199.35.204
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - client-fingerprint: firefox
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8US_12|3.3MB/s|YT-CN|GPT⁺-US"
+      network: tcp
+      port: "25711"
+      reality-opts:
+        public-key: nZTIbfG5GiuGVsNvTrsCAoNT9Fr198HmwMhzzca7Cws
+        short-id: e1d048284849e63e
+      server: 216.167.94.71
+      servername: www.intel.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: c45bc46e-d2e6-4049-b2d1-31b466d1629e
+      xudp: true
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7KR_5|1.2MB/s|YT-CN|GPT⁺-KR"
+      password: 7eadc6dbe2ae
+      port: 65443
+      server: 121.46.230.138
+      type: ss
+    - name: ❓Other_37|2.1MB/s|GPT⁺-NL|GM-NL
+      password: None
+      port: 9002
+      server: 84.17.47.125
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - client-fingerprint: chrome
+      grpc-opts:
+        grpc-mode: gun
+        grpc-service-name: movie
+      name: ❓Other_38|2.4MB/s|YT-CN
+      network: grpc
+      port: 10242
+      reality-opts:
+        public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+        short-id: 686c0ef0
+      server: us5-r.link-t7.com
+      servername: s0.awsstatic.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 690FC783-6CE9-4137-8559-40DBA8EDAD31
+    - name: ❓Other_39|2.9MB/s|TK-US|YT-US|GPT⁺-US
+      password: None
+      port: 9002
+      server: 138.199.35.216
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: null
+    - name: ❓Other_40|2.4MB/s|GPT⁺-EC
+      password: ""
+      port: "9443"
+      server: 38.165.231.71
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: ""
+    - name: ❓Other_41|2.5MB/s|GPT⁺-RO
+      password: ""
+      port: 9002
+      server: 193.176.84.38
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: ""
+    - name: ❓Other_42|2.4MB/s
+      port: 16062
+      server: 104.251.93.55
+      type: http
+    - client-fingerprint: firefox
+      flow: xtls-rprx-vision
+      name: ❓Other_43|2.4MB/s|TK-FI|GPT⁺-FI
+      port: 443
+      reality-opts:
+        public-key: W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE
+        short-id: ff776ff77be48b88
+      server: fin2.helper-internet.com
+      servername: fin2.helper-internet.com
+      skip-cert-verify: true
+      tfo: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: ae8e0f7d-b661-41ca-b55d-d8c383adb2f8
+      xudp: true
+    - name: "\U0001F1F3\U0001F1F1NL_1|3.6MB/s|TK-NL|YT-NL|GPT⁺-NL|GM-NL"
+      port: 443
+      server: 185.246.153.28
+      skip-cert-verify: true
+      sni: 4a8c2906c96058315dffbc2b0e7ff19b-0c66a58858a795df.apache-iv.com
+      tls: true
+      type: http
+    - name: "\U0001F1F3\U0001F1F1NL_2|3.3MB/s|TK-NL|YT-NL|GPT⁺-NL|GM-NL"
+      port: 443
+      server: 185.140.209.235
+      skip-cert-verify: true
+      sni: 482c8436a1f7c908b48a1757abb5dd79-ce85c45206570905.apache-iv.com
+      tls: true
+      type: http
+    - client-fingerprint: firefox
+      name: "\U0001F1E6\U0001F1F1AL_1|1.6MB/s|YT-US|GPT⁺-AL|GM-AL"
+      network: tcp
+      port: "10000"
+      reality-opts:
+        public-key: Du5pk4KuMNA1sRcSpmuoLuC0HmxDBmFljFNfUzqxKiM
+        short-id: cd0a1986719e44c8
+      server: 85.155.228.197
+      servername: amp-api-edge.apps.apple.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 8ad85ca5-7572-4ee7-8a42-a2e5c9a0e479
+      xudp: true
+    - client-fingerprint: chrome
+      name: ❓Other_44|2.2MB/s|YT-US|GPT⁺-AL
+      network: tcp
+      port: "10000"
+      reality-opts:
+        public-key: Du5pk4KuMNA1sRcSpmuoLuC0HmxDBmFljFNfUzqxKiM
+        short-id: cd0a1986719e44c8
+      server: albania-sgood.wopd.butnorwa.butter.silicore.ir
+      servername: amp-api-edge.apps.apple.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 8ad85ca5-7572-4ee7-8a42-a2e5c9a0e479
+      xudp: true
+    - cc: 36
+      delay: 1492
+      name: ❓Other_45|2.4MB/s|TK-RO|GPT⁺-RO|GM-RO
+      port: 9002
+      qx: 0
+      server: 193.176.84.36
+      skip-cert-verify: true
+      sni: www.bing.com
+      speed: 1.3
+      tls: true
+      type: http
+      udp: true
+      vv: 260626.144
+    - cc: 1
+      delay: 241
+      name: ❓Other_46|1.4MB/s|TK-NL|GPT⁺-NL|GM-NL
+      port: 23856
+      server: 51.159.225.196
+      skip-cert-verify: true
+      speed: 1.8
+      tls: true
+      type: http
+      vv: 260626.1313
+    - cc: 11
+      delay: 277
+      name: "\U0001F1F7\U0001F1F4RO_5|1.1MB/s|TK-RO|GPT⁺-RO|GM-RO"
+      port: 9002
+      qx: 0
+      server: 193.176.84.31
+      skip-cert-verify: true
+      sni: www.bing.com
+      speed: 0.8701171875
+      tls: true
+      type: http
+      vv: 260626.1313
+    - cc: 23
+      delay: 242
+      name: ❓Other_47|1.8MB/s|TK-RO|GPT⁺-RO|GM-RO
+      port: 9002
+      qx: 0
+      server: 193.176.84.38
+      skip-cert-verify: true
+      sni: www.bing.com
+      speed: 0.541015625
+      tls: true
+      type: http
+      vv: 260626.1313
+    - name: ❓Other_48|2.5MB/s|YT-SG|GPT⁺-JP|GM-SG
+      password: ""
+      port: 9443
+      server: 152.233.9.239
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: ""
+    - name: ❓Other_49|1.5MB/s|YT-IN|GPT⁺-SG|GM-IN
+      port: 443
+      server: 154.26.138.240
       sin: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
       skip-cert-verify: true
       tls: true
       type: http
-    - name: ❓Other_99|2.9MB/s|TK-US|YT-US|GPT⁺-US|GM-US
+    - name: ❓Other_50|2.3MB/s|YT-US|GPT⁺-US|GM-US
       password: ""
-      port: 8443
-      server: 54.190.176.228
+      port: 9443
+      server: 149.88.21.140
       skip-cert-verify: true
       tls: true
       type: http
       username: ""
-    - name: "\U0001F1FA\U0001F1F8US_20|2.4MB/s|TK-US|YT-US|GPT⁺-US|GM-US"
-      password: None
+    - name: "\U0001F1E6\U0001F1FAAU_2|2.5MB/s|YT-AU|GPT⁺-AU|GM-AU"
+      password: ""
+      port: 9443
+      server: 103.107.197.146
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: ""
+    - name: ❓Other_51|2.2MB/s|TK-GB|GPT⁺-GB|GM-GB
+      port: 443
+      server: 37.120.233.34
+      sin: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: ❓Other_52|2.3MB/s|TK-GB|GPT⁺-BG
+      password: ""
+      port: 443
+      server: 109.204.88.17
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: ""
+    - name: ❓Other_53|1.4MB/s|TK-DE|GPT⁺-DE
+      password: ""
+      port: 443
+      server: 79.76.126.155
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: ""
+    - name: "\U0001F1FA\U0001F1F8US_13|3.3MB/s|YT-US|GPT⁺-US|GM-US"
+      password: ""
       port: 9002
-      server: 138.199.35.209
+      server: 138.199.35.201
       skip-cert-verify: true
       tls: true
       type: http
       username: ""
-    - name: ❓Other_100|1.5MB/s|TK-RO|GPT⁺-RO|GM-RO
+    - name: ❓Other_54|4.2MB/s|YT-US|GPT⁺-US|GM-US
+      port: 443
+      server: 149.50.212.206
+      sin: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: "\U0001F1FA\U0001F1F8US_14|1.7MB/s|TK-US|GPT⁺-US|GM-US"
+      password: '"null"'
+      port: 9002
+      server: 138.199.35.207
+      skip-cert-verify: true
+      tls: true
+      type: http
+      uuid: '"null"'
+    - name: ❓Other_55|2.0MB/s|TK-DE|GPT⁺-DE
+      password: ""
+      port: 9002
+      server: 158.173.154.1
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: ""
+    - name: "\U0001F1ED\U0001F1F0HK_1|4.3MB/s|YT-HK"
+      port: 443
+      server: 146.70.9.242
+      sin: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: "\U0001F1FA\U0001F1F8US_15|2.2MB/s|YT-US|GPT⁺-US|GM-US"
       password: '"None"'
       port: 9002
-      server: 193.176.84.17
+      server: 138.199.35.215
       skip-cert-verify: true
       tls: true
       type: http
-    - name: "\U0001F1EC\U0001F1E7GB_3|2.7MB/s|TK-GB|GPT⁺-GB|GM-GB"
+    - name: ❓Other_56|3.0MB/s|TK-RO|GPT⁺-RO|GM-RO
+      password: ""
+      port: 443
+      server: 185.163.110.194
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: ""
+    - name: ❓Other_57|2.4MB/s|TK-HR|GPT⁺-HR|GM-HR
+      port: 443
+      server: 154.47.29.161
+      sin: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: ❓Other_58|2.3MB/s|TK-CY|YT-US|GPT⁺-CY
+      password: ""
+      port: 443
+      server: 213.207.130.34
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: ""
+    - name: ❓Other_59|2.9MB/s|TK-RO|GPT⁺-RO
+      password: '"None"'
+      port: 9002
+      server: 193.176.84.37
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: ❓Other_60|4.2MB/s|TK-US|YT-US|GPT⁺-US|GM-US
+      port: 443
+      server: 167.88.60.242
+      sin: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: ❓Other_61|2.4MB/s|TK-GB|GPT⁺-GB|GM-GB
+      port: 443
+      server: 185.235.0.2
+      sin: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: "\U0001F1F7\U0001F1F4RO_6|1.7MB/s|TK-RO|GPT⁺-RO|GM-RO"
+      password: None
+      port: 9002
+      server: 193.176.84.26
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: ""
+    - name: ❓Other_62|1.2MB/s|TK-US|YT-US|GPT⁺-US|GM-US
+      password: "null"
+      port: 9002
+      server: 138.199.35.216
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: "null"
+    - name: ❓Other_63|2.3MB/s|TK-LU|GPT⁺-LU|GM-DE
+      password: ""
+      port: 443
+      server: 185.221.132.226
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: ""
+    - name: ❓Other_64|1.5MB/s|TK-FI|GPT⁺-FI
+      password: ""
+      port: 8443
+      server: 198.105.124.180
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: ""
+    - name: ❓Other_65|2.3MB/s|YT-US|GPT⁺-CA|GM-CA
+      port: 443
+      server: 181.215.52.101
+      sin: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: ❓Other_66|2.2MB/s|YT-US|GPT⁺-US|GM-US
+      port: 443
+      server: 149.102.227.77
+      sin: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: ❓Other_67|1.3MB/s|YT-IN|GPT⁺-SG|GM-IN
+      port: 443
+      server: 154.26.138.157
+      sin: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: "\U0001F1FA\U0001F1F8US_16|2.1MB/s|YT-US|GPT⁺-US|GM-US"
+      password: ""
+      port: 9002
+      server: 138.199.35.197
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: ""
+    - name: ❓Other_68|2.3MB/s|TK-GB|GPT⁺-GB|GM-GB
+      port: 443
+      server: 37.120.233.18
+      sin: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: ❓Other_69|2.4MB/s|TK-IE|GPT⁺-IE|GM-IE
+      password: ""
+      port: 9443
+      server: 149.88.96.12
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: ""
+    - name: ❓Other_70|2.4MB/s|TK-CZ|GPT⁺-CZ|GM-CZ
+      password: ""
+      port: 9443
+      server: 152.233.16.174
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: ""
+    - name: ❓Other_71|2.2MB/s|TK-DE|GPT⁺-DE
+      password: ""
+      port: 443
+      server: 213.177.229.161
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: ""
+    - name: "\U0001F1F7\U0001F1F4RO_7|1.3MB/s|TK-RO|GPT⁺-RO|GM-RO"
+      password: "null"
+      port: 9002
+      server: 193.176.84.38
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: "null"
+    - name: ❓Other_72|2.2MB/s|YT-CA|GPT⁺-CA|GM-CA
+      port: 443
+      server: 206.223.183.21
+      sin: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: ❓Other_73|1.3MB/s|TK-RO|GPT⁺-RO|GM-RO
+      port: 9002
+      server: 193.176.84.37
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F8\U0001F1EASE_1|4.1MB/s|TK-SE|GPT⁺-SE|GM-SE"
+      password: ""
+      port: 9443
+      server: 146.70.242.146
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: ""
+    - name: ❓Other_74|2.4MB/s|TK-IT|GPT⁺-IT|GM-IT
+      password: ""
+      port: 443
+      server: 94.177.163.156
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: ""
+    - name: ❓Other_75|1.1MB/s|TK-RO|GPT⁺-RO|GM-RO
+      password: '"None"'
+      port: 9002
+      server: 193.176.84.38
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: "\U0001F1FA\U0001F1F8US_17|1.5MB/s|TK-US|YT-US|GPT⁺-US|GM-US"
+      password: None
+      port: 9002
+      server: 138.199.35.200
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: ""
+    - name: ❓Other_76|2.2MB/s|GPT-AT
+      port: 443
+      server: 146.70.244.18
+      sin: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: ❓Other_77|2.9MB/s|GPT⁺-SG|GM-GB
+      password: ""
+      port: 9443
+      server: 149.88.99.209
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: ""
+    - name: ❓Other_78|2.8MB/s|TK-SE|GPT⁺-SE
+      port: 443
+      server: 79.142.77.63
+      sin: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: ❓Other_79|3.1MB/s|YT-AU|GPT⁺-NZ|GM-AU
+      port: 443
+      server: 116.90.75.226
+      sin: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: "\U0001F1EE\U0001F1F9IT_1|3.5MB/s|TK-IT|YT-IT|GPT⁺-IT|GM-IT"
+      port: 443
+      server: 185.183.105.146
+      sin: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: "\U0001F1EA\U0001F1EAEE_1|4.1MB/s|TK-RU|YT-US|GPT-EE"
+      password: ""
+      port: 9443
+      server: 192.159.101.174
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: ""
+    - name: ❓Other_80|1.7MB/s|YT-US|GPT⁺-US|GM-US
+      password: None
+      port: 9002
+      server: 138.199.35.205
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: ""
+    - name: ❓Other_81|2.3MB/s|YT-US|GPT⁺-US|GM-US
+      password: ""
+      port: 8443
+      server: 155.138.196.9
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: ""
+    - name: "\U0001F1EA\U0001F1F8ES_1|4.1MB/s|TK-ES|GPT⁺-ES|GM-ES"
+      port: 443
+      server: 82.102.17.178
+      sin: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: ❓Other_82|1.9MB/s|TK-NL|GPT⁺-NL|GM-NL
+      password: '"null"'
+      port: 9002
+      server: 84.17.47.148
+      skip-cert-verify: true
+      tls: true
+      type: http
+      uuid: '"null"'
+    - name: ❓Other_83|3.0MB/s|GPT⁺-US|GM-US
+      password: '"None"'
+      port: 9002
+      server: 138.199.35.219
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: "\U0001F1F7\U0001F1F4RO_8|2.1MB/s|TK-RO|GPT⁺-RO|GM-RO"
+      password: ""
+      port: 9002
+      server: 193.176.84.18
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: ""
+    - name: ❓Other_84|1.8MB/s|YT-US|GPT⁺-US
+      password: '"None"'
+      port: 9002
+      server: 138.199.35.220
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: ❓Other_85|1.7MB/s|YT-US|GPT⁺-US|GM-US
+      password: ""
+      port: 9002
+      server: 138.199.35.219
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: ""
+    - name: ❓Other_86|2.3MB/s|TK-US|YT-US|GPT⁺-US|GM-US
+      password: ""
+      port: 8443
+      server: 104.219.236.83
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: ""
+    - name: ❓Other_87|4.5MB/s|TK-GB|GPT⁺-GB|GM-GB
+      password: ""
+      port: 9443
+      server: 193.36.118.210
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: ""
+    - name: ❓Other_88|1.9MB/s|YT-AU|GPT⁺-AU|GM-AU
+      port: 443
+      server: 103.77.234.210
+      sin: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: ❓Other_89|1.5MB/s|YT-US|GPT⁺-US|GM-US
+      password: ""
+      port: 443
+      server: 198.44.135.27
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: ""
+    - name: ❓Other_90|2.2MB/s|YT-MX|GPT⁺-MX|GM-MX
+      password: ""
+      port: 9443
+      server: 149.88.22.46
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: ""
+    - name: "\U0001F1F8\U0001F1EASE_2|3.9MB/s|TK-SE|GPT⁺-SE|GM-SE"
+      port: 443
+      server: 146.70.242.130
+      sin: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: ❓Other_91|2.2MB/s|TK-RO|GPT⁺-RO|GM-RO
+      password: ""
+      port: 9002
+      server: 193.176.84.26
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: ""
+    - name: "\U0001F1EA\U0001F1F8ES_2|3.0MB/s|TK-ES|YT-ES|GPT⁺-ES|GM-ES"
+      port: 443
+      server: 130.195.250.34
+      sin: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: ❓Other_92|2.3MB/s|YT-CA|GPT⁺-CA|GM-CA
+      port: 9443
+      server: 181.215.52.40
+      sin: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: ❓Other_93|2.3MB/s|TK-GB|GPT⁺-GB|GM-GB
+      port: 443
+      server: 185.235.0.66
+      sin: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: ❓Other_94|3.0MB/s|YT-US|GPT⁺-US|GM-US
+      port: 443
+      server: 68.235.56.59
+      sin: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: ❓Other_95|2.5MB/s|TK-US|YT-US|GPT⁺-US|GM-US
+      password: ""
+      port: 9443
+      server: 37.120.147.146
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: ""
+    - name: ❓Other_96|3.2MB/s|YT-US|GPT⁺-US|GM-US
+      password: ""
+      port: 443
+      server: 74.48.45.94
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: ""
+    - name: "\U0001F1F1\U0001F1FBLV_1|3.6MB/s|TK-LV|YT-US|GPT⁺-LV"
+      port: 443
+      server: 109.248.147.66
+      sin: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: ❓Other_97|2.4MB/s|YT-CA|GPT⁺-CA|GM-CA
+      password: ""
+      port: 9443
+      server: 149.57.28.9
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: ""
+    - name: ❓Other_98|2.3MB/s|YT-US|GPT⁺-US|GM-US
+      password: ""
+      port: 443
+      server: 149.34.248.65
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: ""
+    - name: "\U0001F1FA\U0001F1F8US_18|2.1MB/s|TK-US|GPT⁺-US|GM-US"
+      password: ""
+      port: 9002
+      server: 138.199.35.204
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: ""
+    - name: ❓Other_99|1.9MB/s|TK-US|YT-US|GPT⁺-US|GM-US
+      password: '""'
+      port: 9002
+      server: 138.199.35.205
+      skip-cert-verify: true
+      tls: true
+      type: http
+      uuid: '""'
+    - name: "\U0001F1F8\U0001F1EASE_3|4.0MB/s|TK-SE|YT-SE|GPT⁺-SE|GM-SE"
+      port: 443
+      server: 146.70.242.146
+      sin: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: ❓Other_100|2.2MB/s|YT-US|GPT⁺-US|GM-US
+      port: 443
+      server: 199.217.104.226
+      sin: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: ❓Other_101|2.3MB/s|YT-CA|GPT⁺-CA|GM-CA
+      port: 443
+      server: 206.223.183.16
+      sin: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: "\U0001F1E6\U0001F1FAAU_3|2.7MB/s|YT-AU|GPT⁺-AU|GM-AU"
+      port: 443
+      server: 103.137.14.34
+      sin: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: ❓Other_102|2.4MB/s|GPT⁺-US|GM-US
+      password: "null"
+      port: 9002
+      server: 138.199.35.199
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: "null"
+    - name: "\U0001F1F1\U0001F1FBLV_2|4.2MB/s|TK-LV|YT-US|GPT⁺-LV"
+      password: ""
+      port: 443
+      server: 85.203.39.130
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: ""
+    - name: ❓Other_103|2.3MB/s|TK-DE|GPT⁺-DE|GM-DE
+      port: 443
+      server: 149.36.50.129
+      sin: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: ❓Other_104|2.2MB/s|TK-NL|GPT⁺-NL|GM-NL
+      password: ""
+      port: 14287
+      server: 51.158.202.56
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: ""
+    - name: "\U0001F1EA\U0001F1F8ES_3|4.0MB/s|TK-ES|GPT⁺-ES|GM-ES"
+      port: 443
+      server: 130.195.250.18
+      sin: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: ❓Other_105|2.9MB/s|TK-DE|GPT⁺-DE|GM-DE
+      port: 443
+      server: 149.36.50.157
+      sin: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: "\U0001F1EF\U0001F1F5JP_7|4.2MB/s|YT-US|GPT⁺-JP|GM-US"
+      password: ""
+      port: 1443
+      server: 118.184.157.67
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: ""
+    - name: ❓Other_106|2.3MB/s|TK-RO|GPT⁺-RO|GM-RO
+      password: ""
+      port: 9443
+      server: 169.150.199.1
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: ""
+    - name: "\U0001F1E7\U0001F1EABE_1|4.0MB/s|TK-BE|GPT⁺-BE|GM-BE"
+      port: 443
+      server: 146.70.176.242
+      sin: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: "\U0001F1FA\U0001F1F8US_19|3.3MB/s|YT-US|GPT⁺-US"
+      password: None
+      port: 9002
+      server: 138.199.35.196
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: "null"
+    - name: ❓Other_107|2.4MB/s|YT-ID|GPT⁺-ID|GM-ID
+      port: 443
+      server: 103.87.68.146
+      sin: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: "\U0001F1EF\U0001F1F5JP_8|5.8MB/s|YT-JP|GPT⁺-JP|GM-JP"
+      password: ""
+      port: 443
+      server: 3.112.210.73
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: ""
+    - name: ❓Other_108|4.1MB/s|YT-US|GPT⁺-US|GM-US
+      password: ""
+      port: 9443
+      server: 38.95.111.226
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: ""
+    - name: ❓Other_109|4.2MB/s|YT-US|GPT⁺-US|GM-US
+      password: ""
+      port: 443
+      server: 82.102.31.146
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: ""
+    - name: "\U0001F1F1\U0001F1FBLV_3|3.3MB/s|TK-LV|YT-LV|GPT⁺-LV"
+      port: 443
+      server: 109.248.149.34
+      sin: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: ❓Other_110|3.3MB/s|TK-CZ|GPT⁺-CZ|GM-CZ
+      port: 443
+      server: 185.216.35.66
+      sin: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: "\U0001F1F8\U0001F1ECSG_3|6.2MB/s|YT-SG|GPT⁺-JP|GM-SG"
+      port: 443
+      server: 103.107.198.226
+      sin: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: "\U0001F1E8\U0001F1E6CA_2|2.5MB/s|YT-CA|GPT⁺|GM-CA"
+      port: 443
+      server: 206.223.183.13
+      sin: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: ❓Other_111|1.5MB/s|TK-SG|YT-IN|GPT⁺-SG|GM-IN
+      port: 443
+      server: 154.26.138.246
+      sin: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: "\U0001F1EB\U0001F1F7FR_4|2.7MB/s|TK-FR|YT-FR|GPT⁺-FR|GM-FR"
+      port: 443
+      server: 103.82.101.44
+      skip-cert-verify: true
+      sni: f3a61d8406d537345747f99f8a281007-3f754ed5da1bba09.apache-iv.com
+      tls: true
+      type: http
+    - name: ❓Other_112|1.9MB/s|YT-US|GPT⁺-AL|GM-AL
+      port: 443
+      server: 87.120.103.226
+      sin: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: "\U0001F1EC\U0001F1E7GB_2|3.4MB/s|TK-GB|GPT⁺-GB|GM-GB"
+      password: ""
+      port: 443
+      server: 193.36.118.210
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: ""
+    - name: ❓Other_113|2.3MB/s|YT-US|GPT⁺-CA
+      password: ""
+      port: 9443
+      server: 181.215.52.192
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: ""
+    - name: ❓Other_114|2.0MB/s|TK-RO|GPT⁺-RO
+      password: "null"
+      port: 9002
+      server: 193.176.84.40
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: "null"
+    - name: "\U0001F1ED\U0001F1F0HK_2|5.5MB/s|YT-HK"
+      port: 443
+      server: 146.70.9.226
+      sin: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: ❓Other_115|1.0MB/s|YT-VN|GPT⁺-VN|GM-VN
+      password: ""
+      port: 8443
+      server: 157.66.81.25
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: ""
+    - name: ❓Other_116|2.4MB/s|TK-PT|GPT⁺-PT|GM-PT
+      port: 443
+      server: 149.22.86.1
+      sin: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: ❓Other_117|1.2MB/s|TK-RO|GPT⁺-RO
+      password: '"None"'
+      port: 9002
+      server: 193.176.84.30
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: "\U0001F1F3\U0001F1F1NL_3|2.5MB/s|TK-NL|GPT⁺-NL|GM-NL"
+      password: ""
+      port: 14287
+      server: 51.158.194.107
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: ""
+    - name: "\U0001F1E8\U0001F1FFCZ_2|3.3MB/s|TK-CZ|GPT⁺-CZ|GM-CZ"
+      port: 443
+      server: 185.216.35.130
+      sin: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: "\U0001F1F8\U0001F1ECSG_4|5.4MB/s|YT-SG|GPT⁺-JP|GM-SG"
+      password: ""
+      port: 9443
+      server: 103.107.198.242
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: ""
+    - name: "\U0001F1FA\U0001F1F8US_20|3.1MB/s|YT-US|GPT⁺-US|GM-US"
+      password: "null"
+      port: 9002
+      server: 138.199.35.215
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: "null"
+    - name: ❓Other_118|2.3MB/s|TK-GB|GPT⁺-GB|GM-GB
       port: 443
       server: 185.235.0.98
       sin: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
       skip-cert-verify: true
       tls: true
       type: http
-    - name: "\U0001F1E9\U0001F1EADE_4|2.5MB/s|TK-DE|GPT⁺-DE|GM-DE"
+    - name: "\U0001F1F3\U0001F1F1NL_4|1.3MB/s|TK-NL|GPT⁺-NL|GM-NL"
+      password: ""
+      port: 21384
+      server: 51.158.204.46
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: ""
+    - name: ❓Other_119|2.3MB/s|YT-US|GPT⁺-AL
       password: ""
       port: 443
-      server: 194.67.110.12
+      server: 31.171.154.66
       skip-cert-verify: true
       tls: true
       type: http
       username: ""
-    - name: "\U0001F1FA\U0001F1F8US_21|3.1MB/s|TK-US|YT-US|GPT⁺-US|GM-US"
+    - name: "\U0001F1EB\U0001F1F7FR_5|2.9MB/s|TK-FR|GPT⁺-FR|GM-FR"
       password: ""
-      port: 9002
-      server: 138.199.35.202
+      port: 443
+      server: 84.235.228.156
       skip-cert-verify: true
       tls: true
       type: http
       username: ""
-    - name: ❓Other_101|3.1MB/s|TK-NL|GPT⁺-NL|GM-NL
+    - name: ❓Other_120|2.1MB/s|TK-US|YT-US|GPT⁺-US|GM-US
       password: ""
-      port: 14287
-      server: 51.158.194.16
+      port: 443
+      server: 23.82.138.29
       skip-cert-verify: true
       tls: true
       type: http
       username: ""
-    - name: ❓Other_102|3.0MB/s|TK-US|YT-US|GPT⁺-US|GM-US
-      password: '"null"'
-      port: 9002
-      server: 138.199.35.206
+    - name: "\U0001F1F7\U0001F1F8RS_1|3.5MB/s|YT-RS|GPT⁺-RS|GM-RS"
+      port: 443
+      server: 146.70.221.34
+      sin: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
       skip-cert-verify: true
       tls: true
       type: http
-      uuid: '"null"'
-    - name: "\U0001F1F8\U0001F1ECSG_2|2.1MB/s"
+    - name: "\U0001F1E7\U0001F1ECBG_1|3.4MB/s|TK-BG|YT-US|GPT⁺-BG"
+      port: 443
+      server: 185.94.192.210
+      sin: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: ❓Other_121|2.2MB/s|YT-PE|GPT⁺-PE|GM-PE
+      port: 443
+      server: 95.173.223.78
+      sin: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: ❓Other_122|3.2MB/s|YT-US|GPT⁺-US|GM-US
+      password: "null"
+      port: 9002
+      server: 138.199.35.217
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: "null"
+    - name: ❓Other_123|3.3MB/s|TK-RO|GPT⁺-RO|GM-RO
+      password: None
+      port: 9002
+      server: 193.176.84.37
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: ❓Other_124|2.9MB/s
       password: ""
       port: 8888
       server: 152.42.177.32
       skip-cert-verify: true
       type: http
       username: ""
+    - name: "\U0001F1F8\U0001F1ECSG_5|3.6MB/s|YT-SG|GPT⁺-SG|GM-SG"
+      password: e4b72b531a2d10900519
+      port: 443
+      server: 146.70.29.45
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: testuser1
+    - name: ❓Other_125|4.0MB/s|TK-US|YT-US|GPT⁺-US|GM-US
+      port: 443
+      server: 167.88.60.226
+      sin: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+      skip-cert-verify: true
+      tls: true
+      type: http

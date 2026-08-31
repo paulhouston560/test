@@ -1,58 +1,79 @@
 proxies:
     - cipher: aes-256-cfb
-      country: "\U0001F1E8\U0001F1F3 CN"
-      delay: 1102
-      name: "\U0001F1F0\U0001F1F7KR_1|2.8MB/s"
+      name: "\U0001F1FA\U0001F1F8US_1|1.5MB/s"
       password: 7eadc6dbe2ae
-      port: 65443
-      server: 121.46.230.138
+      port: "65443"
+      server: 121.46.230.233
       type: ss
-    - delay: 1016
-      name: "\U0001F1F3\U0001F1F1NL_1|793KB/s"
-      port: 9002
-      server: 84.17.47.149
-      skip-cert-verify: true
-      tls: true
-      type: http
       udp: true
-    - delay: 1549
-      name: "\U0001F1FA\U0001F1F8US_1|831KB/s"
-      port: 9002
-      server: 138.199.35.198
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8US_2|808KB/s"
+      network: http
+      port: 52080
+      server: 38.246.226.240
       skip-cert-verify: true
-      tls: true
-      type: http
+      tls: false
+      type: vmess
+      udp: true
+      uuid: 7d4bd961-230c-4b34-ab5d-05cf0dfb4ea5
+    - cipher: aes-256-cfb
+      name: "\U0001F1EC\U0001F1E7GB_1|1.1MB/s"
+      password: amazonskr05
+      port: 443
+      server: 18.133.240.229
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1FA\U0001F1F8US_3|808KB/s"
+      password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+      plugin: obfs
+      plugin-opts:
+        host: (TG @WangCai2)c47ab06:133288
+        mode: tls
+      port: 2377
+      server: 3ce8ee8.hb.gladns.com
+      type: ss
       udp: true
     - client-fingerprint: chrome
       encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1EF\U0001F1F5JP_1|1.3MB/s"
+      name: "\U0001F1F0\U0001F1F7KR_1|865KB/s"
       network: tcp
-      port: "15007"
+      port: "8686"
       reality-opts:
-        public-key: qVNutDFjEp3v2wjeUl_Yy6l9TXawXfSjAsFj3iktmRA
-        short-id: 2c4d005b
-      server: nian.001.url111.kcloud02.top
-      servername: www.bing.com
+        public-key: A3NXnUIT-W0m1Y_leRnv5so2IeCvk9FCFgL31PulfTw
+        short-id: 628b3c90c98ead4f
+      server: 54.180.144.198
+      servername: www.apple.com
       tls: true
       type: vless
       udp: true
-      uuid: 399c4c9b-27e1-37f1-9dce-22ccc2727a86
+      uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228
       xudp: true
-    - encryption: none
-      name: "\U0001F1EB\U0001F1EEFI_1|812KB/s"
-      network: ws
-      port: "80"
-      server: 146.75.119.82
-      type: vless
-      udp: true
-      uuid: 4a49c0ba-3d57-48df-bfa4-99fcb9edac56
-      ws-opts:
-        headers:
-            Host: rb24.ir
-            User-Agent: Mozilla/5.0 (X11; Datanyze; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-        path: ws/?ed=2048/@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1/?2048
-      xudp: true
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1E6\U0001F1EAAE_1|885KB/s"
+      obfs: ""
+      obfs-password: ""
+      password: BPvdjudCGodsF67hRP3xgBYvcKp48coTsh6ANydLhQs=
+      port: "443"
+      server: fin14qr.wwwinternetvideo.click
+      skip-cert-verify: true
+      sni: fin14qr.wwwinternetvideo.click
+      type: hysteria2
+      up: ""
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1E6\U0001F1EAAE_2|951KB/s"
+      obfs: ""
+      obfs-password: ""
+      password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
+      port: "8080"
+      server: 85.204.107.178
+      skip-cert-verify: true
+      sni: hopp-romania-new.roxa.org
+      type: hysteria2
+      up: ""
     - encryption: none
       http-opts:
         headers:
@@ -60,11 +81,11 @@ proxies:
                 - amp-api-edge.apps.apple.com
         path:
             - /
-      name: "\U0001F1F1\U0001F1FBLV_1|762KB/s"
+      name: "\U0001F1F3\U0001F1F1NL_1|778KB/s"
       network: http
-      port: "61169"
-      server: myleto.orangesms.ir
+      port: "38479"
+      server: neth1.mechanicir.ir
       type: vless
       udp: true
-      uuid: c4ee7a89-eb01-462c-84d2-67e3fcdd5812
+      uuid: 3c8e52ef-30f6-4a51-9fe9-5afeeb0a7fa2
       xudp: true

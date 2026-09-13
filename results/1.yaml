@@ -1,0 +1,166 @@
+proxies:
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1ED\U0001F1F0HK_1|5.1MB/s|YT-CN"
+      network: ws
+      port: "443"
+      server: 104.18.42.163
+      servername: fx3h2kf8xn.fx6hsv0.ccwu.cc
+      tls: true
+      type: vless
+      udp: true
+      uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+      ws-opts:
+        headers:
+            Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
+            User-Agent: Mozilla/5.0 (Linux; Android 7.0; Moto C Build/NRD90M.059) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+        path: /
+      xudp: true
+    - name: "\U0001F1FA\U0001F1F8US_1|4.1MB/s|TK-ZA|YT-US|GPT⁺-US|GM-US"
+      password: ""
+      port: 8443
+      server: 154.81.36.92
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: ""
+    - name: "\U0001F1E8\U0001F1E6CA_1|1.5MB/s|YT-CA|GPT⁺-CA|GM-CA"
+      password: ""
+      port: 443
+      server: 15.223.66.131
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: ""
+    - name: ❓Other_1|1.2MB/s|TK-RU|YT-RU
+      password: ""
+      port: 1446
+      server: 46.29.166.134
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: ""
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1FA\U0001F1F8US_2|2.1MB/s|TK-US|YT-US|GPT⁺-US|GM-US"
+      obfs: ""
+      obfs-password: ""
+      password: c2356e22-b026-4f12-8508-cf61f0b0c867
+      port: "4356"
+      server: 107.174.255.14
+      skip-cert-verify: true
+      sni: ""
+      type: hysteria2
+      up: ""
+    - client-fingerprint: firefox
+      flow: xtls-rprx-vision
+      name: "\U0001F1ED\U0001F1F0HK_2|7.6MB/s|YT-CN"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: coAFlCEKJKpNWWSMAbgwnXtWa703hZZkjoQznSF_Pz0
+      server: hkt.ddnnss.me
+      servername: www.xdstudio.hk
+      tls: true
+      type: vless
+      udp: true
+      uuid: 363d3f39-bed2-3b6a-b692-c7c3236c2b1c
+    - disable-sni: true
+      down: ""
+      fingerprint: ""
+      name: "\U0001F1FA\U0001F1F8US_3|2.1MB/s|TK-US|YT-CN|GPT⁺-US|GM-US"
+      obfs: ""
+      obfs-password: ""
+      password: Q3mAdf68GvbGEGqTAXkWjg
+      port: 8443
+      server: 173.249.210.76
+      skip-cert-verify: true
+      sni: 173.249.210.76
+      type: hysteria2
+      udp: true
+      up: ""
+    - client-fingerprint: random
+      encryption: none
+      name: "\U0001F1EE\U0001F1F9IT_1|2.8MB/s|TK-IT|GPT⁺-IT"
+      network: ws
+      port: "443"
+      server: www.visa.com.hk
+      servername: it-mil.xhs152.shop
+      tls: true
+      type: vless
+      udp: true
+      uuid: 7bbf1712-7504-4bb7-aa8d-df5760066240
+      ws-opts:
+        headers:
+            Host: it-mil.xhs152.shop
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36
+        path: /announcement?ed=2048
+      xudp: true
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1FA\U0001F1F8US_4|1.6MB/s|TK-US|YT-US|GPT⁺-US|GM-US"
+      obfs: ""
+      obfs-password: ""
+      password: user1:ShVN9wnGVNptyPsNNpdBhlTUBG7vKZqh
+      port: "443"
+      server: 144.202.99.96
+      skip-cert-verify: true
+      sni: ""
+      type: hysteria2
+      up: ""
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1FA\U0001F1F8US_5|2.4MB/s|TK-US|YT-CN|GPT⁺-US"
+      obfs: ""
+      obfs-password: ""
+      password: Q3mAdf68GvbGEGqTAXkWjg
+      port: "8443"
+      server: 173.249.210.76
+      skip-cert-verify: true
+      sni: ""
+      type: hysteria2
+      up: ""
+    - name: "\U0001F1ED\U0001F1F0HK_3|3.1MB/s|YT-HK"
+      port: 443
+      server: 146.70.9.242
+      sin: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: ❓Other_2|1.2MB/s|TK-GB|GPT⁺-GB|GM-GB
+      password: 0fcf5a7a-e1b7-11ec-a352-f23c91cfbbc9
+      port: 443
+      server: 1e32fec0-t9zts0-tq9o8d-1d3bw.uk.oshuawei.com
+      sni: 1e32fec0-t9zts0-tq9o8d-1d3bw.uk.oshuawei.com
+      tls: true
+      type: http
+      username: 0fcf5a7a-e1b7-11ec-a352-f23c91cfbbc9
+    - name: ❓Other_3|1.2MB/s|YT-AU|GPT⁺-AU
+      port: 443
+      server: 116.90.72.242
+      sin: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: "\U0001F1F1\U0001F1FBLV_1|1.5MB/s|TK-LV"
+      port: 443
+      server: 109.248.149.34
+      sin: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: "\U0001F1ED\U0001F1F0HK_4|3.6MB/s|YT-HK"
+      port: 443
+      server: 146.70.9.226
+      sin: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: ❓Other_4|1.7MB/s|TK-LV|YT-US|GPT⁺-LV
+      password: ""
+      port: 9443
+      server: 85.203.39.130
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: ""

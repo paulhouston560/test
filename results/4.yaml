@@ -1,0 +1,53 @@
+proxies:
+    - client-fingerprint: firefox
+      flow: xtls-rprx-vision
+      name: "\U0001F1ED\U0001F1F0HK_1|2.0MB/s"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: coAFlCEKJKpNWWSMAbgwnXtWa703hZZkjoQznSF_Pz0
+      server: hkt.ddnnss.me
+      servername: www.xdstudio.hk
+      tls: true
+      type: vless
+      udp: true
+      uuid: 363d3f39-bed2-3b6a-b692-c7c3236c2b1c
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1FA\U0001F1F8US_1|1.4MB/s"
+      obfs: ""
+      obfs-password: ""
+      password: Q3mAdf68GvbGEGqTAXkWjg
+      port: "8443"
+      server: 173.249.210.76
+      skip-cert-verify: true
+      sni: ""
+      type: hysteria2
+      up: ""
+    - name: "\U0001F1F8\U0001F1ECSG_1|1.0MB/s"
+      password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
+      port: 20562
+      server: mszz.mangshe.xyz
+      skip-cert-verify: true
+      sni: www.microsoft.com
+      type: hysteria2
+    - alpn:
+        - h3
+      auth-str: dongtaiwang.com
+      auth_str: dongtaiwang.com
+      down: 50
+      name: "\U0001F1E9\U0001F1EADE_1|1.7MB/s"
+      port: 20088
+      server: 5.83.129.153
+      skip-cert-verify: true
+      sni: apple.com
+      type: hysteria
+      up: 10
+    - name: "\U0001F1E6\U0001F1EAAE_1|1.7MB/s"
+      password: sOiWCQ2AdIV0OWNuqQVyWp4JZnRxdyLROSjX
+      port: 443
+      server: news.gazette.help
+      skip-cert-verify: true
+      sni: news.gazette.help
+      type: hysteria2
+      udp: true

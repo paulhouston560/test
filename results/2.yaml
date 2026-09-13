@@ -1,0 +1,122 @@
+proxies:
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1FA\U0001F1F8US_1|3.2MB/s|GPT⁺|YT-US|NF|GM|48%"
+      obfs: ""
+      obfs-password: ""
+      password: c2356e22-b026-4f12-8508-cf61f0b0c867
+      port: "4356"
+      server: 107.174.255.14
+      skip-cert-verify: true
+      sni: ""
+      type: hysteria2
+      up: ""
+    - name: "\U0001F1FA\U0001F1F8US_2|2.5MB/s|GPT⁺|YT-US|NF|GM|48%"
+      password: EkkoHY2_2024!
+      port: 8443
+      server: 198.46.159.171
+      skip-cert-verify: true
+      tls: false
+      type: hysteria2
+    - name: "\U0001F1EF\U0001F1F5JP_1|1.1MB/s|GPT⁺|YT-JP|NF|D+|GM|24%"
+      password: ""
+      port: 8094
+      server: 110.80.25.76
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: ""
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1FA\U0001F1F8US_3|1.7MB/s|GPT⁺|YT-CN|NF|50%"
+      obfs: ""
+      obfs-password: ""
+      password: Q3mAdf68GvbGEGqTAXkWjg
+      port: "8443"
+      server: 173.249.210.76
+      skip-cert-verify: true
+      sni: ""
+      type: hysteria2
+      up: ""
+    - auth: maintell
+      name: "\U0001F1FA\U0001F1F8US_4|1.3MB/s|GPT⁺|NF|D+|GM|24%"
+      obfs: salamander
+      obfs-password: maintell
+      password: maintell
+      port: 2053
+      server: 107.172.67.52
+      skip-cert-verify: true
+      sni: bing.com
+      type: hysteria2
+      udp: true
+    - name: "\U0001F1FA\U0001F1F8US_5|2.1MB/s|GPT⁺|NF|70%"
+      password: None
+      port: 9002
+      server: 138.199.35.201
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - client-fingerprint: chrome
+      encryption: none
+      grpc-opts:
+        grpc-service-name: TunService
+      name: "\U0001F1FA\U0001F1F8US_6|1.9MB/s|GPT⁺|8%"
+      network: grpc
+      port: "8443"
+      reality-opts:
+        public-key: fCVnWVMTCS5fzMMTwk7EaBLlg4a2kAVDt2CG2jwobQ0
+        short-id: ""
+      server: 140.235.168.2
+      servername: download.nvidia.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: dca76b88-b038-e82b-45e1-1d76b476d7ca
+      xudp: true
+    - name: "\U0001F1FA\U0001F1F8US_7|1.6MB/s|GPT⁺|YT-US|NF|GM|75%"
+      password: ""
+      port: 9002
+      server: 138.199.35.214
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: ""
+    - name: "\U0001F1FA\U0001F1F8US_8|2.1MB/s|GPT⁺|YT-US|NF|GM|58%"
+      password: None
+      port: 9002
+      server: 138.199.35.202
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: null
+    - name: "\U0001F1EF\U0001F1F5JP_2|4.9MB/s|GPT|NF|GM|24%"
+      network: ws
+      packet-encoding: xudp
+      port: 2095
+      server: 108.162.198.178
+      type: vless
+      udp: true
+      uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+      ws-opts:
+        headers:
+            Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36
+        path: /?ed=2560security=tls
+      xudp: true
+    - alterId: "0"
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8US_9|1.8MB/s|GPT⁺|YT-CA|GM|52%"
+      network: ws
+      port: "16626"
+      server: planb.mojcn.com.linuxlh.xin
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: 302cf141-f8e2-448d-aca5-3ad9e9f1b4c1
+      ws-opts:
+        headers:
+            Host: d2c315853d201942b93c6d6de56fec5d.mobgslb.tbcache.com
+        path: /
+      xudp: true

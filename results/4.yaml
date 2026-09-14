@@ -1,53 +1,86 @@
 proxies:
-    - client-fingerprint: firefox
-      flow: xtls-rprx-vision
-      name: "\U0001F1ED\U0001F1F0HK_1|2.0MB/s"
-      network: tcp
-      port: 443
+    - auth: 9b5ebb1c-5221-4381-850e-0b5eaac603e2
+      name: "\U0001F1EF\U0001F1F5JP_1|4.0MB/s"
+      password: 9b5ebb1c-5221-4381-850e-0b5eaac603e2
+      port: 8443
+      server: jp03.459292.xyz
+      skip-cert-verify: true
+      sni: localhost
+      type: hysteria2
+    - auth: 9b5ebb1c-5221-4381-850e-0b5eaac603e2
+      name: "\U0001F1EF\U0001F1F5JP_2|3.3MB/s"
+      password: 9b5ebb1c-5221-4381-850e-0b5eaac603e2
+      port: 8443
+      server: 898ca7c3.459292.xyz
+      skip-cert-verify: true
+      sni: localhost
+      type: hysteria2
+    - auth: 9b5ebb1c-5221-4381-850e-0b5eaac603e2
+      name: "\U0001F1EF\U0001F1F5JP_3|3.3MB/s"
+      password: 9b5ebb1c-5221-4381-850e-0b5eaac603e2
+      port: 8443
+      server: hyfnjp01.459292.xyz
+      skip-cert-verify: true
+      sni: localhost
+      type: hysteria2
+    - client-fingerprint: chrome
+      grpc-opts:
+        grpc-mode: gun
+        grpc-service-name: update
+      name: "\U0001F1F0\U0001F1F7KR_1|2.7MB/s"
+      network: grpc
+      port: 10048
       reality-opts:
-        public-key: coAFlCEKJKpNWWSMAbgwnXtWa703hZZkjoQznSF_Pz0
-      server: hkt.ddnnss.me
-      servername: www.xdstudio.hk
+        public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+        short-id: 686c0ef0
+      server: kr3-r.link-t7.com
+      servername: s0.awsstatic.com
       tls: true
       type: vless
       udp: true
-      uuid: 363d3f39-bed2-3b6a-b692-c7c3236c2b1c
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1FA\U0001F1F8US_1|1.4MB/s"
-      obfs: ""
-      obfs-password: ""
-      password: Q3mAdf68GvbGEGqTAXkWjg
-      port: "8443"
-      server: 173.249.210.76
+      uuid: 7134DB35-F254-4468-BA00-D9C099CF5AF7
+    - auth: 9b5ebb1c-5221-4381-850e-0b5eaac603e2
+      name: "\U0001F1EF\U0001F1F5JP_4|2.5MB/s"
+      password: 9b5ebb1c-5221-4381-850e-0b5eaac603e2
+      port: 8443
+      server: 27add0b5.459921.xyz
       skip-cert-verify: true
-      sni: ""
+      sni: localhost
       type: hysteria2
-      up: ""
-    - name: "\U0001F1F8\U0001F1ECSG_1|1.0MB/s"
-      password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
-      port: 20562
-      server: mszz.mangshe.xyz
+    - auth: 9b5ebb1c-5221-4381-850e-0b5eaac603e2
+      name: "\U0001F1EF\U0001F1F5JP_5|2.5MB/s"
+      password: 9b5ebb1c-5221-4381-850e-0b5eaac603e2
+      port: 8443
+      server: 5791271f.459921.xyz
       skip-cert-verify: true
-      sni: www.microsoft.com
+      sni: localhost
       type: hysteria2
-    - alpn:
-        - h3
-      auth-str: dongtaiwang.com
-      auth_str: dongtaiwang.com
-      down: 50
-      name: "\U0001F1E9\U0001F1EADE_1|1.7MB/s"
-      port: 20088
-      server: 5.83.129.153
+    - auth: 9b5ebb1c-5221-4381-850e-0b5eaac603e2
+      name: "\U0001F1F8\U0001F1ECSG_1|2.5MB/s"
+      password: 9b5ebb1c-5221-4381-850e-0b5eaac603e2
+      port: 8443
+      server: sg10.459292.xyz
       skip-cert-verify: true
-      sni: apple.com
-      type: hysteria
-      up: 10
-    - name: "\U0001F1E6\U0001F1EAAE_1|1.7MB/s"
-      password: sOiWCQ2AdIV0OWNuqQVyWp4JZnRxdyLROSjX
-      port: 443
-      server: news.gazette.help
-      skip-cert-verify: true
-      sni: news.gazette.help
+      sni: localhost
       type: hysteria2
+    - name: "\U0001F1F3\U0001F1F1NL_1|2.0MB/s"
+      port: 9002
+      server: 84.17.47.125
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F7\U0001F1F4RO_1|1.8MB/s"
+      port: 9002
+      server: 193.176.84.27
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1FA\U0001F1F8US_1|2.4MB/s"
+      port: 9002
+      server: 138.199.35.198
+      skip-cert-verify: true
+      tls: true
+      type: http
       udp: true

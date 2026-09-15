@@ -1,33 +1,8 @@
 proxies:
-    - auth: 9b5ebb1c-5221-4381-850e-0b5eaac603e2
-      name: "\U0001F1EF\U0001F1F5JP_1|4.0MB/s"
-      password: 9b5ebb1c-5221-4381-850e-0b5eaac603e2
-      port: 8443
-      server: jp03.459292.xyz
-      skip-cert-verify: true
-      sni: localhost
-      type: hysteria2
-    - auth: 9b5ebb1c-5221-4381-850e-0b5eaac603e2
-      name: "\U0001F1EF\U0001F1F5JP_2|3.3MB/s"
-      password: 9b5ebb1c-5221-4381-850e-0b5eaac603e2
-      port: 8443
-      server: 898ca7c3.459292.xyz
-      skip-cert-verify: true
-      sni: localhost
-      type: hysteria2
-    - auth: 9b5ebb1c-5221-4381-850e-0b5eaac603e2
-      name: "\U0001F1EF\U0001F1F5JP_3|3.3MB/s"
-      password: 9b5ebb1c-5221-4381-850e-0b5eaac603e2
-      port: 8443
-      server: hyfnjp01.459292.xyz
-      skip-cert-verify: true
-      sni: localhost
-      type: hysteria2
     - client-fingerprint: chrome
       grpc-opts:
-        grpc-mode: gun
         grpc-service-name: update
-      name: "\U0001F1F0\U0001F1F7KR_1|2.7MB/s"
+      name: "\U0001F1F0\U0001F1F7KR_1|6.0MB/s"
       network: grpc
       port: 10048
       reality-opts:
@@ -35,52 +10,115 @@ proxies:
         short-id: 686c0ef0
       server: kr3-r.link-t7.com
       servername: s0.awsstatic.com
+      skip-cert-verify: true
       tls: true
       type: vless
       udp: true
       uuid: 7134DB35-F254-4468-BA00-D9C099CF5AF7
-    - auth: 9b5ebb1c-5221-4381-850e-0b5eaac603e2
-      name: "\U0001F1EF\U0001F1F5JP_4|2.5MB/s"
-      password: 9b5ebb1c-5221-4381-850e-0b5eaac603e2
-      port: 8443
-      server: 27add0b5.459921.xyz
+    - alpn:
+        - h3
+      auth_str: dongtaiwang.com
+      down: "50"
+      name: "\U0001F1E9\U0001F1EADE_1|2.2MB/s"
+      port: 20088
+      server: 5.83.129.153
       skip-cert-verify: true
-      sni: localhost
-      type: hysteria2
-    - auth: 9b5ebb1c-5221-4381-850e-0b5eaac603e2
-      name: "\U0001F1EF\U0001F1F5JP_5|2.5MB/s"
-      password: 9b5ebb1c-5221-4381-850e-0b5eaac603e2
-      port: 8443
-      server: 5791271f.459921.xyz
+      sni: apple.com
+      type: hysteria
+      udp: true
+      up: "10"
+    - name: "\U0001F1FA\U0001F1F8US_1|1.1MB/s"
+      password: null
+      port: 9002
+      server: 138.199.35.204
       skip-cert-verify: true
-      sni: localhost
-      type: hysteria2
-    - auth: 9b5ebb1c-5221-4381-850e-0b5eaac603e2
-      name: "\U0001F1F8\U0001F1ECSG_1|2.5MB/s"
-      password: 9b5ebb1c-5221-4381-850e-0b5eaac603e2
-      port: 8443
-      server: sg10.459292.xyz
+      tls: true
+      type: http
+      username: null
+    - name: "\U0001F1FA\U0001F1F8US_2|1.6MB/s"
+      port: 9002
+      server: 138.199.35.207
       skip-cert-verify: true
-      sni: localhost
-      type: hysteria2
-    - name: "\U0001F1F3\U0001F1F1NL_1|2.0MB/s"
+      tls: true
+      type: http
+      udp: true
+    - client-fingerprint: chrome
+      grpc-opts:
+        grpc-service-name: movie
+      name: "\U0001F1FA\U0001F1F8US_3|2.0MB/s"
+      network: grpc
+      port: 10238
+      reality-opts:
+        public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+        short-id: 686c0ef0
+      server: us1-r.link-t7.com
+      servername: s0.awsstatic.com
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: 7134DB35-F254-4468-BA00-D9C099CF5AF7
+    - delay: 2123
+      name: "\U0001F1F3\U0001F1F1NL_1|1.5MB/s"
       port: 9002
       server: 84.17.47.125
       skip-cert-verify: true
       tls: true
       type: http
       udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_1|1.8MB/s"
+    - delay: 1105
+      name: "\U0001F1F7\U0001F1F4RO_1|1.2MB/s"
+      password: None
       port: 9002
-      server: 193.176.84.27
+      server: 193.176.84.31
       skip-cert-verify: true
       tls: true
       type: http
       udp: true
-    - name: "\U0001F1FA\U0001F1F8US_1|2.4MB/s"
-      port: 9002
-      server: 138.199.35.198
+    - name: "\U0001F1EC\U0001F1E7GB_1|2.1MB/s"
+      network: ws
+      port: 8880
+      server: 63.141.128.30
       skip-cert-verify: true
-      tls: true
-      type: http
+      tls: false
+      type: vless
+      udp: true
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      ws-opts:
+        headers:
+            Host: vms.lifetime42.workers.dev
+        path: /
+    - name: "\U0001F1EC\U0001F1E7GB_2|1.7MB/s"
+      network: ws
+      port: 8880
+      server: 45.40.149.50
+      skip-cert-verify: true
+      tls: false
+      type: vless
+      udp: true
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      ws-opts:
+        headers:
+            Host: vms.lifetime39.workers.dev
+        path: /
+    - name: "\U0001F1EC\U0001F1E7GB_3|1.8MB/s"
+      network: ws
+      port: 80
+      server: 208.103.161.249
+      skip-cert-verify: true
+      tls: false
+      type: vless
+      udp: true
+      uuid: a3c51f71-ffb5-4c80-a136-cee4b36d6e85
+      ws-opts:
+        headers:
+            Host: kAmRaN01-aFgmDQ-1.KaMRan-01.wOrkeRs.DEv
+        path: /
+    - name: "\U0001F1FA\U0001F1F8US_4|2.7MB/s"
+      password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
+      port: 443
+      server: gta.internet-card.sbs
+      skip-cert-verify: true
+      sni: gta.internet-card.sbs
+      type: hysteria2
       udp: true

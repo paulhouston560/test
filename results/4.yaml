@@ -1,124 +1,129 @@
 proxies:
-    - client-fingerprint: chrome
-      grpc-opts:
-        grpc-service-name: update
-      name: "\U0001F1F0\U0001F1F7KR_1|6.0MB/s"
-      network: grpc
-      port: 10048
-      reality-opts:
-        public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-        short-id: 686c0ef0
-      server: kr3-r.link-t7.com
-      servername: s0.awsstatic.com
+    - name: "\U0001F1FA\U0001F1F8US_1|2.3MB/s"
+      password: "null"
+      port: 9002
+      server: 138.199.35.220
       skip-cert-verify: true
       tls: true
-      type: vless
-      udp: true
-      uuid: 7134DB35-F254-4468-BA00-D9C099CF5AF7
-    - alpn:
-        - h3
-      auth_str: dongtaiwang.com
-      down: "50"
-      name: "\U0001F1E9\U0001F1EADE_1|2.2MB/s"
-      port: 20088
-      server: 5.83.129.153
+      type: http
+      username: "null"
+    - name: "\U0001F1FA\U0001F1F8US_2|1.1MB/s"
+      port: 2224
+      server: 89.116.173.233
+      type: http
+    - name: "\U0001F1EB\U0001F1F7FR_1|2.0MB/s"
+      port: 443
+      server: 103.82.101.43
       skip-cert-verify: true
-      sni: apple.com
-      type: hysteria
+      sni: 76d1d3ecadca44efa2339867d7dfc9a1-8e928736d0f8dbdc.apache-iv.com
+      tls: true
+      type: http
+    - cipher: aes-256-cfb
+      name: "\U0001F1EB\U0001F1F7FR_2|2.1MB/s"
+      password: amazonskr05
+      port: 443
+      server: 15.237.137.134
+      type: ss
       udp: true
-      up: "10"
-    - name: "\U0001F1FA\U0001F1F8US_1|1.1MB/s"
+    - cipher: aes-256-cfb
+      name: "\U0001F1E9\U0001F1EADE_1|1.2MB/s"
+      password: amazonskr05
+      port: 443
+      server: 18.194.210.177
+      type: ss
+      udp: true
+    - name: "\U0001F1FA\U0001F1F8US_3|2.0MB/s"
+      port: 1092
+      server: 104.225.239.193
+      type: http
+    - name: "\U0001F1F3\U0001F1F1NL_1|1.8MB/s"
+      port: 443
+      server: 185.246.153.42
+      skip-cert-verify: true
+      sni: 482c8436a1f7c908b48a1757abb5dd79-3791fb4df2db250b.apache-iv.com
+      tls: true
+      type: http
+    - name: "\U0001F1FA\U0001F1F8US_4|2.1MB/s"
+      port: 443
+      server: berniesbodybla.fun
+      sni: berniesbodybla.fun
+      tls: true
+      type: http
+    - name: "\U0001F1FA\U0001F1F8US_6|2.0MB/s"
       password: null
       port: 9002
-      server: 138.199.35.204
+      server: 138.199.35.195
       skip-cert-verify: true
       tls: true
       type: http
       username: null
-    - name: "\U0001F1FA\U0001F1F8US_2|1.6MB/s"
+    - name: "\U0001F1FA\U0001F1F8US_5|1.7MB/s"
+      password: None
+      port: 9002
+      server: 138.199.35.218
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: null
+    - name: "\U0001F1FA\U0001F1F8US_7|1.0MB/s"
+      password: ""
       port: 9002
       server: 138.199.35.207
       skip-cert-verify: true
       tls: true
       type: http
       udp: true
-    - client-fingerprint: chrome
-      grpc-opts:
-        grpc-service-name: movie
-      name: "\U0001F1FA\U0001F1F8US_3|2.0MB/s"
-      network: grpc
-      port: 10238
-      reality-opts:
-        public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-        short-id: 686c0ef0
-      server: us1-r.link-t7.com
-      servername: s0.awsstatic.com
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      udp: true
-      uuid: 7134DB35-F254-4468-BA00-D9C099CF5AF7
-    - delay: 2123
-      name: "\U0001F1F3\U0001F1F1NL_1|1.5MB/s"
+      username: ""
+    - name: "\U0001F1FA\U0001F1F8US_8|2.3MB/s"
+      password: ""
       port: 9002
-      server: 84.17.47.125
+      server: 138.199.35.200
       skip-cert-verify: true
       tls: true
       type: http
       udp: true
-    - delay: 1105
-      name: "\U0001F1F7\U0001F1F4RO_1|1.2MB/s"
-      password: None
+      username: ""
+    - name: "\U0001F1FA\U0001F1F8US_9|1.9MB/s"
+      password: null
       port: 9002
-      server: 193.176.84.31
+      server: 138.199.35.196
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: null
+    - name: "\U0001F1FA\U0001F1F8US_10|1.3MB/s"
+      password: ""
+      port: 9002
+      server: 138.199.35.201
       skip-cert-verify: true
       tls: true
       type: http
       udp: true
-    - name: "\U0001F1EC\U0001F1E7GB_1|2.1MB/s"
-      network: ws
-      port: 8880
-      server: 63.141.128.30
-      skip-cert-verify: true
-      tls: false
-      type: vless
-      udp: true
-      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-      ws-opts:
-        headers:
-            Host: vms.lifetime42.workers.dev
-        path: /
-    - name: "\U0001F1EC\U0001F1E7GB_2|1.7MB/s"
-      network: ws
-      port: 8880
-      server: 45.40.149.50
-      skip-cert-verify: true
-      tls: false
-      type: vless
-      udp: true
-      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-      ws-opts:
-        headers:
-            Host: vms.lifetime39.workers.dev
-        path: /
-    - name: "\U0001F1EC\U0001F1E7GB_3|1.8MB/s"
-      network: ws
-      port: 80
-      server: 208.103.161.249
-      skip-cert-verify: true
-      tls: false
-      type: vless
-      udp: true
-      uuid: a3c51f71-ffb5-4c80-a136-cee4b36d6e85
-      ws-opts:
-        headers:
-            Host: kAmRaN01-aFgmDQ-1.KaMRan-01.wOrkeRs.DEv
-        path: /
-    - name: "\U0001F1FA\U0001F1F8US_4|2.7MB/s"
-      password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
+      username: ""
+    - name: "\U0001F1FA\U0001F1F8US_11|1.2MB/s"
+      password: "null"
       port: 443
-      server: gta.internet-card.sbs
+      server: kimberlymilano.icu
+      tls: true
+      type: http
+      username: "null"
+    - name: "\U0001F1FA\U0001F1F8US_12|2.0MB/s"
+      password: "null"
+      port: 9002
+      server: 138.199.35.209
       skip-cert-verify: true
-      sni: gta.internet-card.sbs
-      type: hysteria2
-      udp: true
+      tls: true
+      type: http
+      username: "null"
+    - name: "\U0001F1FA\U0001F1F8US_13|1.1MB/s"
+      port: 443
+      server: jgwynphotoarts.pro
+      sni: jgwynphotoarts.pro
+      tls: true
+      type: http
+    - name: "\U0001F1FA\U0001F1F8US_14|1.7MB/s"
+      port: 443
+      server: purposebydesig.club
+      sni: purposebydesig.club
+      tls: true
+      type: http

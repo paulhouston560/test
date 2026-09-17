@@ -1,128 +1,126 @@
 proxies:
-    - name: "\U0001F1FA\U0001F1F8US_1|1.1MB/s"
-      password: null
-      port: 9002
-      server: 138.199.35.202
+    - name: "\U0001F1EF\U0001F1F5JP_1|2.2MB/s"
+      password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
+      port: 20061
+      server: mszz.mangshe.xyz
       skip-cert-verify: true
-      tls: true
-      type: http
-      username: null
-    - name: "\U0001F1FA\U0001F1F8US_2|1.1MB/s"
+      sni: www.microsoft.com
+      type: hysteria2
+    - name: "\U0001F1FA\U0001F1F8US_1|1.7MB/s"
       password: ""
       port: 9002
-      server: 138.199.35.200
+      server: 138.199.35.201
       skip-cert-verify: true
       tls: true
       type: http
       udp: true
       username: ""
-    - name: "\U0001F1FA\U0001F1F8US_3|2.0MB/s"
-      password: null
+    - name: "\U0001F1FA\U0001F1F8US_2|1.1MB/s|R002-260618"
       port: 9002
-      server: 138.199.35.196
+      server: 138.199.35.215
       skip-cert-verify: true
+      sub_tag: R002-260618
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1EF\U0001F1F5JP_2|1.7MB/s"
+      password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
+      port: 20561
+      server: mszz.mangshe.xyz
+      skip-cert-verify: true
+      sni: www.microsoft.com
+      type: hysteria2
+    - name: "\U0001F1FA\U0001F1F8US_3|2.3MB/s"
+      password: "null"
+      port: 9002
+      server: 138.199.35.216
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+      username: "null"
+    - name: "\U0001F1FA\U0001F1F8US_4|1.6MB/s"
+      port: 9002
+      server: 138.199.35.198
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1EF\U0001F1F5JP_3|2.5MB/s"
+      network: tcp
+      port: 13779
+      reality-opts:
+        public-key: llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg
+        short-id: af1bdd293097b664
+      server: 202.144.192.76
+      servername: tesla.com
+      tls: true
+      type: vless
+      uuid: 928e6cce-8ced-4243-9a48-a6642edd09b0
+    - name: "\U0001F1FA\U0001F1F8US_5|1.6MB/s"
+      port: 1092
+      server: 104.225.239.193
+      type: http
+    - name: "\U0001F1F3\U0001F1F1NL_1|2.3MB/s"
+      port: 443
+      server: 185.246.153.42
+      skip-cert-verify: true
+      sni: 482c8436a1f7c908b48a1757abb5dd79-3791fb4df2db250b.apache-iv.com
+      tls: true
+      type: http
+    - name: "\U0001F1FA\U0001F1F8US_6|1.8MB/s"
+      port: 443
+      server: zebpay.site
+      sni: zebpay.site
+      tls: true
+      type: http
+    - name: "\U0001F1FA\U0001F1F8US_7|1.9MB/s"
+      password: ""
+      port: 9002
+      server: 138.199.35.207
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+      username: ""
+    - name: "\U0001F1FA\U0001F1F8US_8|1.7MB/s"
+      password: null
+      port: 443
+      server: zebpay.site
+      skip-cert-verify: false
       tls: true
       type: http
       username: null
-    - delay: 1098
-      name: "\U0001F1F7\U0001F1F4RO_1|1.0MB/s"
-      port: 9002
-      server: 193.176.84.30
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - delay: 1820
-      name: "\U0001F1F7\U0001F1F4RO_2|1.3MB/s"
-      port: 9002
-      server: 193.176.84.24
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - client-fingerprint: firefox
-      flow: xtls-rprx-vision
-      name: "\U0001F1E9\U0001F1EADE_1|1.5MB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-      server: 212.16.92.112
-      servername: jobinvest.ru
-      tls: true
-      type: vless
-      udp: true
-      uuid: 32721515-985b-4773-9e70-5d2e1b88a060
-    - client-fingerprint: firefox
-      grpc-opts:
-        grpc-mode: gun
-        grpc-service-name: grpc
-      name: "\U0001F1F0\U0001F1FFKZ_1|2.5MB/s"
-      network: grpc
-      port: 8443
-      reality-opts:
-        public-key: -AdhgMZeNHR2zAmGWa5peg7Ni0-e4IVMoSzydC9n7C4
-        short-id: "08"
-      server: kz.cdn-update.rutube.info
-      servername: dest1.cdn-update.rutube.info
-      tls: true
-      type: vless
-      udp: true
-      uuid: ad297a2b-ae17-4d2d-8fce-e2eafb89b145
-    - client-fingerprint: firefox
-      grpc-opts:
-        grpc-mode: gun
-        grpc-service-name: grpc
-      name: "\U0001F1F0\U0001F1FFKZ_2|2.1MB/s"
-      network: grpc
-      port: 8443
-      reality-opts:
-        public-key: -AdhgMZeNHR2zAmGWa5peg7Ni0-e4IVMoSzydC9n7C4
-        short-id: "08"
-      server: 89.106.88.6
-      servername: dest1.cdn-update.rutube.info
-      tls: true
-      type: vless
-      udp: true
-      uuid: ad297a2b-ae17-4d2d-8fce-e2eafb89b145
-    - name: "\U0001F1FA\U0001F1F8US_4|1.1MB/s"
-      password: github.com/Alvin9999-newpac/fanqiang
-      port: 19000
-      server: anytls2.864106.xyz
-      skip-cert-verify: true
-      sni: anytls2.864106.xyz
-      type: anytls
-      udp: true
-    - name: "\U0001F1FA\U0001F1F8US_5|1.7MB/s"
-      password: "null"
-      port: 9002
-      server: 138.199.35.209
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: "null"
-    - name: "\U0001F1F7\U0001F1F4RO_3|1.1MB/s"
-      password: "null"
-      port: 9002
-      server: 193.176.84.35
-      skip-cert-verify: true
-      sni: 193.176.84.35
-      tls: true
-      type: http
-      username: "null"
-    - name: "\U0001F1FA\U0001F1F8US_6|1.2MB/s"
+    - name: "\U0001F1FA\U0001F1F8US_9|1.3MB/s"
       password: None
       port: 9002
-      server: 138.199.35.211
+      server: 138.199.35.219
       skip-cert-verify: true
       tls: true
       type: http
       username: null
-    - name: "\U0001F1F7\U0001F1F4RO_4|1.3MB/s"
+    - name: "\U0001F1FA\U0001F1F8US_10|2.2MB/s"
+      password: ""
       port: 9002
-      server: 193.176.84.24
+      server: 138.199.35.203
       skip-cert-verify: true
-      sni: www.bing.com
       tls: true
       type: http
-      udp: true
+      username: ""
+    - name: "\U0001F1E9\U0001F1F0DK_1|1.9MB/s"
+      password: null
+      port: 443
+      server: 185.245.84.50
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: null
+    - name: "\U0001F1FA\U0001F1F8US_11|1.3MB/s"
+      password: None
+      port: 443
+      server: fullmanfirm.icu
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: null

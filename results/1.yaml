@@ -1,18 +1,81 @@
 proxies:
-    - auth: github.com/Alvin9999-newpac/fanqiang
-      name: "\U0001F1F3\U0001F1F1NL_1|748KB/s|YT-NL|GPT⁺|NF|0%"
-      password: github.com/Alvin9999-newpac/fanqiang
-      port: 29900
-      server: 178.18.147.66
+    - name: "\U0001F1EF\U0001F1F5JP_1|725KB/s|YT-CN|GPT⁺|NF|40%"
+      password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
+      port: 20561
+      server: msjp1.mangshe.xyz
       skip-cert-verify: true
       sni: www.microsoft.com
       type: hysteria2
-      udp: true
+    - name: "\U0001F1E8\U0001F1EDCH_1|740KB/s|YT-HR|GPT⁺|NF|0%"
+      password: we9_I1893UFj3149xbr1_k8qvJ8734ic_Mx82gH
+      port: 8443
+      server: 82.38.64.229
+      skip-cert-verify: false
+      sni: hopp-swizland-new.mysynology.net
+      type: hysteria2
     - client-fingerprint: chrome
       ech-opts:
         enable: true
         query-server-name: cloudflare-ech.com
-      name: "\U0001F1FA\U0001F1F8US_1|426KB/s|YT-US|GPT|NF"
+      name: "\U0001F1FA\U0001F1F8US_1|627KB/s|YT-CN|GPT⁺|NF"
+      network: ws
+      port: 2053
+      server: 172.64.79.241
+      servername: cdn8848.776676.xyz
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+      ws-opts:
+        headers:
+            Host: cdn8848.776676.xyz
+        path: /game/about/test?ed=2560
+    - client-fingerprint: chrome
+      ech-opts:
+        enable: true
+        query-server-name: cloudflare-ech.com
+      name: "\U0001F1ED\U0001F1F0HK_1|335KB/s|GPT⁺|NF|27%"
+      network: ws
+      port: 8581
+      server: 23.249.18.144
+      servername: cdn8848.776676.xyz
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+      ws-opts:
+        headers:
+            Host: cdn8848.776676.xyz
+        path: /channels/act?ed=2560
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1F1\U0001F1F9LT_1|601KB/s|YT-RU|GPT⁺|NF|3%"
+      obfs: ""
+      obfs-password: ""
+      password: 7c5566a7-4b55-4659-975f-06507d32fd3f
+      port: "443"
+      server: ltu-01.node.lumixnet.com
+      skip-cert-verify: false
+      sni: ltu-01.node.lumixnet.com
+      type: hysteria2
+      up: ""
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1F7\U0001F1F4RO_1|363KB/s|YT-RU|GPT⁺|NF|4%"
+      obfs: ""
+      obfs-password: ""
+      password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
+      port: "8443"
+      server: 85.204.107.187
+      skip-cert-verify: false
+      sni: hopp-romania-new.roxa.org
+      type: hysteria2
+      up: ""
+    - client-fingerprint: chrome
+      ech-opts:
+        enable: true
+        query-server-name: cloudflare-ech.com
+      name: "\U0001F1FA\U0001F1F8US_2|316KB/s|YT-CN|GPT⁺|NF"
       network: ws
       port: 443
       server: 172.64.79.241
@@ -29,10 +92,10 @@ proxies:
       ech-opts:
         enable: true
         query-server-name: cloudflare-ech.com
-      name: "\U0001F1EF\U0001F1F5JP_1|796KB/s|YT-CN|GPT⁺|NF|27%"
+      name: "\U0001F1FA\U0001F1F8US_3|300KB/s|YT-CN|GPT|NF|27%"
       network: ws
-      port: 443
-      server: 64.83.39.176
+      port: 2096
+      server: 172.64.79.241
       servername: cdn8848.776676.xyz
       skip-cert-verify: true
       tls: true
@@ -41,24 +104,72 @@ proxies:
       ws-opts:
         headers:
             Host: cdn8848.776676.xyz
-        path: /seller?ed=2560
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1FA\U0001F1F8US_2|732KB/s|YT-US|GPT⁺|NF|6%"
-      obfs: ""
-      obfs-password: ""
-      password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+        path: /group/htm?ed=2560
+    - name: "\U0001F1F8\U0001F1ECSG_1|1.2MB/s|YT-SG|NF"
+      network: ws
+      port: "8080"
+      server: www.glassdoor.com
+      type: vless
+      udp: true
+      uuid: 4538816c-d08c-4fef-92cc-f7de9231c724
+      ws-opts:
+        early-data-header-name: Sec-WebSocket-Protocol
+        headers:
+            Host: worker-small-star-5886.s32r5x96.workers.dev
+            User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX3 Build/HUAWEIANE-LX3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+        max-early-data: 2048
+        path: ""
+      xudp: true
+    - name: "\U0001F1F8\U0001F1ECSG_2|1.3MB/s|YT-SG|NF"
+      network: ws
+      port: "8080"
+      server: www.glassdoor.com
+      type: vless
+      udp: true
+      uuid: d4249be6-845c-4a28-a6db-46cb3704d344
+      ws-opts:
+        early-data-header-name: Sec-WebSocket-Protocol
+        headers:
+            Host: kj2idog-yellow-bird-7347.162t4zhv.workers.dev
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36
+        max-early-data: 2048
+        path: ""
+      xudp: true
+    - name: "\U0001F1F8\U0001F1ECSG_3|1.3MB/s|YT-SG|NF"
+      network: ws
+      port: "8080"
+      server: www.glassdoor.com
+      type: vless
+      udp: true
+      uuid: 014829b8-ca93-4969-ba9e-56c07d490312
+      ws-opts:
+        early-data-header-name: Sec-WebSocket-Protocol
+        headers:
+            Host: worker-twilight-mud-9d1c.8h4rixz9.workers.dev
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.162 Safari/537.36
+        max-early-data: 2048
+        path: ""
+      xudp: true
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1F9\U0001F1FCTW_1|305KB/s|YT-TW|GPT⁺|NF|0%"
+      network: ws
       port: 443
-      server: vpn-us-004.fastervpn.world
-      skip-cert-verify: true
-      sni: vpn-us-004.fastervpn.world
-      type: hysteria2
-      up: ""
+      server: dee2309db4944c248b6d4672c6641e25.oylfmxz.cn
+      servername: dee2309db4944c248b6d4672c6641e25.oylfmxz.cn
+      tls: true
+      type: vmess
+      udp: true
+      uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6
+      ws-opts:
+        headers:
+            Host: dee2309db4944c248b6d4672c6641e25.oylfmxz.cn
+        path: /
     - client-fingerprint: chrome
       ech-opts:
         enable: true
         query-server-name: cloudflare-ech.com
-      name: "\U0001F1EA\U0001F1EAEE_1|377KB/s|GPT⁺|NF"
+      name: "\U0001F1EB\U0001F1EEFI_1|297KB/s|GPT⁺|NF"
       network: ws
       port: 2053
       server: 5.101.114.44
@@ -71,11 +182,118 @@ proxies:
         headers:
             Host: cdn8848.776676.xyz
         path: /collection/directory?ed=2560
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1F9\U0001F1FCTW_2|276KB/s|GPT⁺|0%"
+      network: ws
+      port: 443
+      server: dee2309db4se3g5s1d65g672c6641e25.oylfmxz.cn
+      servername: dee2309db4se3g5s1d65g672c6641e25.oylfmxz.cn
+      tls: true
+      type: vmess
+      udp: true
+      uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6
+      ws-opts:
+        headers:
+            Host: dee2309db4se3g5s1d65g672c6641e25.oylfmxz.cn
+        path: /
+    - name: "\U0001F1FA\U0001F1F8US_4|345KB/s|YT-CN|NF"
+      network: ws
+      port: "8080"
+      server: www.gov.se
+      type: vless
+      udp: true
+      uuid: 5182fa51-eae5-4d67-9891-d217de200d77
+      ws-opts:
+        early-data-header-name: Sec-WebSocket-Protocol
+        headers:
+            Host: worker-steep-bush-8b10.d12zuqkl.workers.dev
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36
+        max-early-data: 2048
+        path: ""
+      xudp: true
+    - name: "\U0001F1FA\U0001F1F8US_5|372KB/s|YT-CN|NF"
+      network: ws
+      port: 8080
+      server: www.visa.com.tw
+      servername: www.visa.com.tw
+      tls: false
+      type: vless
+      udp: true
+      uuid: 78d1125f-642c-493a-a3d3-00cda2f568b5
+      ws-opts:
+        headers:
+            Host: mewi-young-frog-2130.wood132.workers.dev
+        path: /
+    - name: "\U0001F1FA\U0001F1F8US_6|257KB/s|YT-CN|NF"
+      network: ws
+      port: "8080"
+      server: www.visa.com.hk
+      servername: www.visa.com.hk
+      type: vless
+      udp: true
+      uuid: b2304602-f642-46c9-bdb3-a0e7b9ecbbf9
+      ws-opts:
+        early-data-header-name: Sec-WebSocket-Protocol
+        headers:
+            Host: worker-fancy-sunset-9b78.k56bjd90.workers.dev
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
+        max-early-data: 2048
+        path: ""
+      xudp: true
+    - name: "\U0001F1F3\U0001F1F1NL_1|257KB/s|YT-NL|NF"
+      network: ws
+      port: 8080
+      server: ip.sb
+      servername: ip.sb
+      tls: false
+      type: vless
+      udp: true
+      uuid: 3e06b1db-2efb-446e-ba2d-68850dfd2f9d
+      ws-opts:
+        headers:
+            Host: bdfba-cool-tree-b580.v8fz4kbv.workers.dev
+        path: /
+    - name: "\U0001F1F3\U0001F1F1NL_2|575KB/s|YT-NL|GPT⁺|NF|0%"
+      password: fa1b99c89b5479752ae95af92a79e833
+      port: 1443
+      server: 89.124.86.136
+      skip-cert-verify: false
+      sni: fast.patrik-service.com
+      tls: false
+      type: hysteria2
+    - name: "\U0001F1F0\U0001F1F7KR_1|392KB/s|YT-KR|GPT⁺|NF|2%"
+      obfs: salamander
+      obfs-password: C0DD7bgChaltqnh/T2az6ijM
+      password: C0DD7bgChaltqnh/T2az6ijM
+      port: 20000
+      server: 140.238.31.111
+      skip-cert-verify: false
+      sni: rmgyvpn.rest
+      tfo: false
+      type: hysteria2
     - client-fingerprint: chrome
       ech-opts:
         enable: true
         query-server-name: cloudflare-ech.com
-      name: "\U0001F1E9\U0001F1EADE_1|263KB/s|GPT⁺|NF|27%"
+      name: "\U0001F1FA\U0001F1F8US_7|285KB/s|YT-CN|GPT⁺|NF|27%"
+      network: ws
+      port: 8443
+      server: 104.17.148.167
+      servername: cdn8848.776676.xyz
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+      ws-opts:
+        headers:
+            Host: cdn8848.776676.xyz
+        path: /acg/programs?ed=2560
+    - client-fingerprint: chrome
+      ech-opts:
+        enable: true
+        query-server-name: cloudflare-ech.com
+      name: "\U0001F1E9\U0001F1EADE_1|316KB/s|GPT⁺|NF"
       network: ws
       port: 443
       server: 162.159.153.216
@@ -89,78 +307,53 @@ proxies:
             Host: cdn8848.776676.xyz
         path: /play?ed=2560
     - client-fingerprint: chrome
-      ech-opts:
-        enable: true
-        query-server-name: cloudflare-ech.com
-      name: "\U0001F1EF\U0001F1F5JP_2|417KB/s|GPT⁺"
-      network: ws
-      port: 443
-      server: 207.148.94.254
-      servername: cdn8848.776676.xyz
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-      ws-opts:
-        headers:
-            Host: cdn8848.776676.xyz
-        path: /library?ed=2560
-    - client-fingerprint: chrome
-      ech-opts:
-        enable: true
-        query-server-name: cloudflare-ech.com
-      name: "\U0001F1F8\U0001F1ECSG_1|309KB/s|GPT⁺|NF|0%"
-      network: ws
-      port: 443
-      server: 151.242.189.162
-      servername: cdn8848.776676.xyz
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-      ws-opts:
-        headers:
-            Host: cdn8848.776676.xyz
-        path: /chat?ed=2560
-    - client-fingerprint: chrome
-      name: "\U0001F1EB\U0001F1F7FR_1|267KB/s|GPT|34%"
+      name: "\U0001F1EB\U0001F1F7FR_1|353KB/s|GPT⁺|NF|34%"
       network: ws
       password: humanity
-      port: "443"
-      server: 104.17.111.1
+      port: 443
+      server: 104.17.111.9
       skip-cert-verify: false
       sni: www.ignitelimit.com
       type: trojan
       udp: true
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.75 Safari/537.36
         path: /assignment
-    - client-fingerprint: edge
-      flow: xtls-rprx-vision
-      name: "\U0001F1EF\U0001F1F5JP_3|908KB/s|YT-JP|GPT⁺|NF|0%"
-      network: tcp
-      port: 12887
-      reality-opts:
-        public-key: a3H5ffQkcW4xELeJEGQ8FsaXLG4sGomkB7_ms0d5xzc
-        short-id: b48d22a492
-      server: 36.151.187.225
-      servername: www.spotify.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 16b3793b-3335-4832-b1fd-877b2c5e15d6
     - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1EF\U0001F1F5JP_4|741KB/s|YT-JP|GPT⁺|NF|0%"
-      network: tcp
+      name: "\U0001F1EB\U0001F1F7FR_2|265KB/s|GPT⁺|NF|34%"
+      network: ws
+      password: humanity
       port: 443
-      reality-opts:
-        public-key: V94ws5oTIja_a6Hui3rSjomr7hZ-QCtYlsT7BWmxTzk
-        short-id: 973bd4f3d8d217fd
-      server: 8.209.248.218
-      servername: www.amazon.com
+      server: 104.16.174.46
+      skip-cert-verify: false
+      sni: www.ignitelimit.com
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (X11; U; Linux i586; en-US) AppleWebKit/533.2 (KHTML, like Gecko) Chrome/5.0.342.1 Safari/533.2
+        path: /assignment
+    - name: "\U0001F1FA\U0001F1F8US_8|781KB/s|YT-CN|GPT⁺|NF|7%"
+      password: 8fa4bea0-8703-11ef-83cc-f23c913c8d2b
+      port: 443
+      server: 402cf505-tly2o0-tn3jhp-1qthu.los.hyhuawei.com
+      skip-cert-verify: true
+      sni: 402cf505-tly2o0-tn3jhp-1qthu.los.hyhuawei.com
+      type: hysteria2
+    - client-fingerprint: chrome
+      name: "\U0001F1F8\U0001F1ECSG_4|1.2MB/s|YT-SG|GPT⁺|NF|27%"
+      network: ws
+      port: "443"
+      server: 47.131.189.221
+      servername: mia7.pages.dev
       tls: true
       type: vless
       udp: true
-      uuid: caab26f1-c2e0-438d-8342-5d2125fb45df
+      uuid: 3db635e4-f9ec-42d6-8aba-e23df8b0e6da
+      ws-opts:
+        headers:
+            Host: mia7.pages.dev
+            User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+        path: /TG:@MiaChatChannel
+      xudp: true

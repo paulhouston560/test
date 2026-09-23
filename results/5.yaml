@@ -1,6 +1,76 @@
 proxies:
-    - fingerprint: ""
-      name: "\U0001F1ED\U0001F1F0HK_1|4.6MB/s"
+    - client-fingerprint: chrome
+      name: "\U0001F1EB\U0001F1F7FR_1|1.3MB/s"
+      network: ws
+      password: humanity
+      port: "443"
+      server: 104.18.152.149
+      skip-cert-verify: false
+      sni: www.ignitelimit.com
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.3 (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
+        path: /assignment
+    - client-fingerprint: chrome
+      name: "\U0001F1EB\U0001F1F7FR_2|1.1MB/s"
+      network: ws
+      password: humanity
+      port: "443"
+      server: 104.18.152.233
+      skip-cert-verify: false
+      sni: www.ignitelimit.com
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+        path: /assignment
+    - name: "\U0001F1F3\U0001F1F1NL_1|1.2MB/s"
+      port: 9002
+      server: 84.17.47.148
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F3\U0001F1F1NL_2|1.3MB/s"
+      port: 9002
+      server: 84.17.47.125
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F7\U0001F1F4RO_1|2.2MB/s"
+      port: 9002
+      server: 193.176.84.25
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F7\U0001F1F4RO_2|1.6MB/s"
+      port: 9002
+      server: 193.176.84.24
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F7\U0001F1F4RO_3|1.2MB/s"
+      port: 9002
+      server: 193.176.84.17
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F7\U0001F1F4RO_4|1.4MB/s"
+      password: None
+      port: 9002
+      server: 193.176.84.31
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1ED\U0001F1F0HK_1|3.1MB/s"
       password: 9sK2mP8xQ7vL3nZ6
       port: 443
       server: ac7548f3ebe045b39a90288ff1e97528.pnuqcnp.cn
@@ -8,171 +78,24 @@ proxies:
       sni: ac7548f3ebe045b39a90288ff1e97528.lwdnxf.cn
       type: anytls
       udp: true
-      username: 9sK2mP8xQ7vL3nZ6
-    - name: "\U0001F1FA\U0001F1F8US_1|1.3MB/s"
-      password: "null"
-      port: 9002
-      server: 138.199.35.213
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: "null"
-    - client-fingerprint: chrome
-      name: "\U0001F1EF\U0001F1F5JP_1|1.3MB/s"
-      network: ws
-      port: 443
-      server: 161.33.29.51
-      servername: shuma.ccwu.cc
-      tls: true
-      type: vless
-      udp: true
-      uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-      ws-opts:
-        headers:
-            Host: shuma.ccwu.cc
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
-        path: /
-      xudp: true
-    - name: "\U0001F1F8\U0001F1ECSG_1|2.5MB/s"
-      network: ws
-      port: 8880
-      server: 45.40.149.50
-      skip-cert-verify: true
-      tls: false
-      type: vless
-      udp: true
-      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-      ws-opts:
-        headers:
-            Host: vms.lifetime39.workers.dev
-        path: /
-    - name: "\U0001F1FA\U0001F1F8US_2|1.3MB/s"
-      network: ws
-      port: 8880
-      server: 63.141.128.30
-      skip-cert-verify: true
-      tls: false
-      type: vless
-      udp: true
-      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-      ws-opts:
-        headers:
-            Host: vms.lifetime42.workers.dev
-        path: /
-    - client-fingerprint: chrome
-      name: "\U0001F1EA\U0001F1F8ES_1|1.7MB/s"
-      network: ws
-      port: 8443
-      server: 152.114.195.163
-      servername: shuma.ccwu.cc
-      tls: true
-      type: vless
-      udp: true
-      uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-      ws-opts:
-        headers:
-            Host: shuma.ccwu.cc
-        path: /
-    - client-fingerprint: chrome
-      name: "\U0001F1EE\U0001F1F3IN_1|2.1MB/s"
-      network: ws
-      port: 443
-      server: 13.200.106.232
-      servername: shuma.ccwu.cc
-      tls: true
-      type: vless
-      udp: true
-      uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-      ws-opts:
-        headers:
-            Host: shuma.ccwu.cc
-        path: /
-    - client-fingerprint: chrome
-      name: "\U0001F1E9\U0001F1F0DK_1|1.1MB/s"
-      network: ws
-      port: 8443
-      server: 193.180.208.169
-      servername: shuma.ccwu.cc
-      tls: true
-      type: vless
-      udp: true
-      uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-      ws-opts:
-        headers:
-            Host: shuma.ccwu.cc
-        path: /
-    - client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1ECSG_2|1.9MB/s"
-      network: ws
-      port: 443
-      server: 213.111.148.137
-      servername: shuma.ccwu.cc
-      tls: true
-      type: vless
-      udp: true
-      uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-      ws-opts:
-        headers:
-            Host: shuma.ccwu.cc
-        path: /
-    - name: "\U0001F1E9\U0001F1EADE_1|1.5MB/s"
-      password: null
-      port: 9443
-      server: 87.249.132.97
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: null
-    - name: "\U0001F1F3\U0001F1F1NL_1|2.3MB/s"
-      port: 443
-      server: 185.246.153.42
-      skip-cert-verify: true
-      sni: 482c8436a1f7c908b48a1757abb5dd79-3791fb4df2db250b.apache-iv.com
-      tls: true
-      type: http
-    - client-fingerprint: firefox
+    - alpn:
+        - h2
+        - http/1.1
+      client-fingerprint: firefox
       flow: xtls-rprx-vision
-      name: "\U0001F1E9\U0001F1EADE_2|2.1MB/s"
+      name: "\U0001F1F3\U0001F1F1NL_3|2.0MB/s"
       network: tcp
-      port: 443
-      reality-opts:
-        public-key: rCkSHJ7goy7ZvSlau4LfXF-QLloOJMNeMxpeeQtwtVs
-        short-id: 4fa44664f6a566d3
-      server: 45.95.96.236
-      servername: gesmankos.sadiepinki.com
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      uuid: c5694dc5-39fd-4a92-8430-3837baa522a3
-    - name: "\U0001F1EE\U0001F1F9IT_1|2.1MB/s"
-      password: None
-      port: 443
-      server: 185.183.105.146
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: null
-    - client-fingerprint: chrome
-      name: "\U0001F1F3\U0001F1F1NL_2|1.9MB/s"
-      network: ws
-      port: 443
-      server: 194.71.227.213
-      servername: shuma.ccwu.cc
+      port: 2096
+      server: ndi.lavivas.org
+      servername: ndi.lavivas.org
       tls: true
       type: vless
       udp: true
-      uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-      ws-opts:
-        headers:
-            Host: shuma.ccwu.cc
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36
-        path: /
-      xudp: true
+      uuid: 44e1105d-b46e-402f-933b-eaa136fcbb24
     - cipher: aes-256-cfb
-      name: ❓Other_1|2.7MB/s
+      name: "\U0001F1FA\U0001F1F8US_1|2.3MB/s"
       password: amazonskr05
       port: 443
-      server: 16.170.214.108
+      server: 18.213.0.46
       type: ss
       udp: true

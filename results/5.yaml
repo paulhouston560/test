@@ -1,75 +1,48 @@
 proxies:
-    - auth: my_super_password_123
-      name: "\U0001F1EF\U0001F1F5JP_1|6.9MB/s"
-      password: my_super_password_123
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1FA\U0001F1F8US_1|4.4MB/s"
+      obfs: salamander
+      obfs-password: a39ca173b57ac7021b08bf3e3de9f1f6
+      password: 5fa748137b6d822308eea4611f474ad5
+      port: "443"
+      server: 155.117.19.17
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
+      up: ""
+    - fingerprint: ""
+      name: "\U0001F1ED\U0001F1F0HK_1|2.5MB/s"
+      password: 9sK2mP8xQ7vL3nZ6
       port: 443
-      server: open.w2m.ink
+      server: ac7548f3ebe045b39a90288ff1e97528.pnuqcnp.cn
       skip-cert-verify: true
-      sni: open.w2m.ink
-      type: hysteria2
+      sni: ac7548f3ebe045b39a90288ff1e97528.lwdnxf.cn
+      type: anytls
       udp: true
-    - auth: my_super_password_123
-      name: "\U0001F1EF\U0001F1F5JP_2|3.3MB/s"
-      password: my_super_password_123
-      port: 5443
-      server: open.w2m.ink
-      skip-cert-verify: true
-      sni: open.w2m.ink
-      type: hysteria2
-      udp: true
-    - down: null
-      name: "\U0001F1EB\U0001F1F7FR_1|2.9MB/s"
-      password: github.com/Alvin9999-newpac/fanqiang
-      port: 60111
-      server: 62.210.7.139
-      skip-cert-verify: true
-      sni: bing.com
-      type: hysteria2
-      up: null
-    - auth: github.com/Alvin9999-newpac/fanqiang
-      name: "\U0001F1EB\U0001F1F7FR_2|2.9MB/s"
-      password: github.com/Alvin9999-newpac/fanqiang
-      port: 60111
-      server: 62.210.7.139
-      skip-cert-verify: true
-      sni: google.com
-      type: hysteria2
-    - name: "\U0001F1FA\U0001F1F8US_1|2.6MB/s"
-      network: ws
-      port: 8880
-      server: 45.40.149.50
-      skip-cert-verify: true
-      tls: false
-      type: vless
-      udp: true
-      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-      ws-opts:
-        headers:
-            Host: vms.lifetime39.workers.dev
-        path: /
-    - client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1ECSG_1|3.3MB/s"
-      network: ws
+      username: 9sK2mP8xQ7vL3nZ6
+    - cipher: aes-256-cfb
+      name: "\U0001F1EF\U0001F1F5JP_1|1.6MB/s"
+      password: amazonskr05
       port: 443
-      server: 47.131.189.221
-      servername: mia7.pages.dev
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      udp: true
-      uuid: 3db635e4-f9ec-42d6-8aba-e23df8b0e6da
-      ws-opts:
-        headers:
-            Host: mia7.pages.dev
-        path: /TG:@MiaChatChannel
-    - name: "\U0001F1F3\U0001F1F1NL_1|1.7MB/s"
+      server: 3.112.209.209
+      type: ss
+    - name: "\U0001F1F3\U0001F1F1NL_1|1.5MB/s"
+      password: None
       port: 9002
       server: 84.17.47.148
       skip-cert-verify: true
       tls: true
       type: http
       udp: true
-    - name: "\U0001F1FA\U0001F1F8US_2|1.5MB/s"
+    - name: "\U0001F1F7\U0001F1F4RO_1|2.0MB/s"
+      port: 9002
+      server: 193.176.84.24
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1FA\U0001F1F8US_2|2.1MB/s"
       password: "null"
       port: 9002
       server: 138.199.35.216
@@ -78,45 +51,56 @@ proxies:
       type: http
       udp: true
       username: "null"
-    - name: "\U0001F1FA\U0001F1F8US_3|2.2MB/s"
+    - name: "\U0001F1FA\U0001F1F8US_3|1.2MB/s"
+      password: None
       port: 9002
-      server: 138.199.35.198
+      server: 138.199.35.220
       skip-cert-verify: true
       tls: true
       type: http
-      udp: true
-    - name: "\U0001F1F1\U0001F1F0LK_1|2.2MB/s"
-      network: ws
-      port: 80
-      server: free.sahanwickramasinghe.me
+      username: null
+    - name: "\U0001F1FA\U0001F1F8US_4|1.3MB/s"
+      password: ""
+      port: "9002"
+      server: 138.199.35.209
       skip-cert-verify: true
-      tls: false
-      type: vless
-      udp: true
-      uuid: 684f9a2e-4f96-497f-bfd9-ff1e34637952
-    - alpn:
-        - h3
-      auth_str: dongtaiwang.com
-      down: "1000"
-      name: "\U0001F1E9\U0001F1EADE_1|1.8MB/s"
-      port: 54177
-      server: 5.83.129.90
-      skip-cert-verify: true
-      sni: apple.com
-      type: hysteria
-      udp: true
-      up: "500"
-    - name: "\U0001F1E8\U0001F1F3CN_1|1.9MB/s"
-      password: T2c9PTpPZz09
-      port: "1080"
-      server: 103.210.161.8
-      skip-cert-verify: true
-      type: socks5
-      username: T2c9PTpPZz09
-    - cipher: aes-256-cfb
-      name: "\U0001F1F8\U0001F1EASE_1|1.0MB/s"
-      password: amazonskr05
+      tls: true
+      type: http
+      username: ""
+    - name: "\U0001F1F9\U0001F1FCTW_1|2.1MB/s"
+      password: 9sK2mP8xQ7vL3nZ6
       port: 443
-      server: 51.20.72.15
-      type: ss
+      server: ac7548f3ebe045b39a90288ff1e97526.pnuqcnp.cn
+      skip-cert-verify: true
+      sni: ac7548f3ebe045b39a90288ff1e97526.lwdnxf.cn
+      type: anytls
+      udp: true
+    - name: "\U0001F1EB\U0001F1F7FR_1|1.4MB/s"
+      port: 443
+      server: 103.82.101.44
+      skip-cert-verify: true
+      sni: f3a61d8406d537345747f99f8a281007-3f754ed5da1bba09.apache-iv.com
+      tls: true
+      type: http
+    - name: "\U0001F1FA\U0001F1F8US_5|1.4MB/s"
+      password: null
+      port: 9002
+      server: 138.199.35.195
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: null
+    - name: "\U0001F1FA\U0001F1F8US_6|1.5MB/s"
+      password: "null"
+      port: 443
+      server: carolinafreigh.fun
+      tls: true
+      type: http
+      username: "null"
+    - name: "\U0001F1FA\U0001F1F8US_7|2.1MB/s"
+      port: 9002
+      server: 138.199.35.215
+      skip-cert-verify: true
+      tls: true
+      type: http
       udp: true

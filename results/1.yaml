@@ -1,43 +1,71 @@
 proxies:
+    - auth: 96ab5cd282733fd4c312a61f972f330a
+      name: "\U0001F1EF\U0001F1F5JP_1|400KB/s|YT-JP|GPT⁺|NF|38%"
+      password: 96ab5cd282733fd4c312a61f972f330a
+      port: 443
+      server: vp3.yysyy.online
+      type: hysteria2
+      udp: true
+    - client-fingerprint: random
+      flow: xtls-rprx-vision
+      name: "\U0001F1E9\U0001F1EADE_1|1.3MB/s|GPT⁺|NF|1%"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: mdNDY7PwSvwt56fQsDQvP15p7XU73PvFoWA6uKgNaX0
+        short-id: 13a744172777d168
+      server: 189.24.106.64
+      servername: gateway.icloud.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 82C94E17-B27E-4356-82C1-2F9C79B0CF6D
     - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_1|1.2MB/s|YT-CN|GPT⁺|NF|27%"
-      network: ws
-      port: 443
-      server: 208.68.180.204
-      servername: edgetunnel-4uw.pages.dev
+      flow: xtls-rprx-vision
+      name: "\U0001F1ED\U0001F1F0HK_1|777KB/s|YT-HK|NF|14%"
+      network: tcp
+      port: 32134
+      reality-opts:
+        public-key: OdTELUjAUKO_qr-O-uihaAZJAhA8GyIWVI6CpozVCU4
+        short-id: 6c6c7c97
+      server: 3696b38bsg.murphyweb.sbs
+      servername: buylite.music.apple.com
       tls: true
       type: vless
       udp: true
-      uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
-      ws-opts:
-        headers:
-            Host: edgetunnel-4uw.pages.dev
-        path: /
-    - client-fingerprint: random
-      name: "\U0001F1FA\U0001F1F8US_2|1.1MB/s|YT-CN|GPT|NF"
-      network: ws
+      uuid: 5b01dc2d-6892-49b8-8289-3f73a32e00e4
+    - name: "\U0001F1ED\U0001F1F0HK_2|610KB/s|YT-US|NF|0%"
+      password: H7mP2xY9kJ4nQ8wR5tF6vB3z
       port: 443
-      server: 208.68.180.204
-      servername: yf.962456.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: 97532b08-357e-4140-a6f0-8e07f2ed3327
-      ws-opts:
-        headers:
-            Host: yf.962456.xyz
-        path: /proxyip=kr.william.us.ci
-    - client-fingerprint: random
-      name: "\U0001F1EF\U0001F1F5JP_1|278KB/s"
-      network: ws
+      server: 202.146.222.29
+      skip-cert-verify: true
+      sni: https://t.me/wangcai2
+      type: hysteria2
+    - name: ❓Other_1|633KB/s|YT-JP|GPT⁺
+      password: 96ab5cd282733fd4c312a61f972f330a
       port: 443
-      server: 160.16.209.61
-      servername: yf.962456.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: 97532b08-357e-4140-a6f0-8e07f2ed3327
-      ws-opts:
-        headers:
-            Host: yf.962456.xyz
-        path: /proxyip=kr.william.us.ci
+      server: vp3.yysyy.online
+      skip-cert-verify: true
+      sni: vp3.yysyy.online
+      type: hysteria2
+    - name: ❓Other_2|589KB/s
+      password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+      port: 443
+      server: vpn-us-003.fastervpn.world
+      skip-cert-verify: true
+      sni: 127.0.0.1
+      type: hysteria2
+    - name: ❓Other_3|592KB/s
+      password: 45bc25b2-1a10-11ed-91c0-f23c91cfbbc9
+      port: 443
+      server: f902df58-tmeqo0-u4zl7f-1jk6u.hk3.hyhuawei.com
+      skip-cert-verify: true
+      sni: f902df58-tmeqo0-u4zl7f-1jk6u.hk3.hyhuawei.com
+      type: hysteria2
+    - name: ❓Other_4|786KB/s
+      password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
+      port: 8443
+      server: 162.249.127.135
+      skip-cert-verify: false
+      sni: hop-germany-september.dynuddns.com
+      type: hysteria2

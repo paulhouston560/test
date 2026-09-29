@@ -1,106 +1,145 @@
 proxies:
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1FA\U0001F1F8US_1|4.4MB/s"
-      obfs: salamander
-      obfs-password: a39ca173b57ac7021b08bf3e3de9f1f6
-      password: 5fa748137b6d822308eea4611f474ad5
-      port: "443"
-      server: 155.117.19.17
+    - down: null
+      name: "\U0001F1EB\U0001F1F7FR_1|3.3MB/s"
+      password: github.com/Alvin9999-newpac/fanqiang
+      port: 60111
+      server: 62.210.7.139
       skip-cert-verify: true
-      sni: www.bing.com
+      sni: bing.com
       type: hysteria2
-      up: ""
-    - fingerprint: ""
-      name: "\U0001F1ED\U0001F1F0HK_1|2.5MB/s"
-      password: 9sK2mP8xQ7vL3nZ6
+      up: null
+    - name: "\U0001F1EF\U0001F1F5JP_1|3.1MB/s"
+      network: ws
       port: 443
-      server: ac7548f3ebe045b39a90288ff1e97528.pnuqcnp.cn
+      server: 43.174.195.1
+      servername: kv.074167.xyz
       skip-cert-verify: true
-      sni: ac7548f3ebe045b39a90288ff1e97528.lwdnxf.cn
+      tls: true
+      type: vless
+      udp: true
+      uuid: 24916ad0-847d-4522-9e17-f4347dee57fd
+      ws-opts:
+        headers:
+            Host: kv.074167.xyz
+        path: /
+    - client-fingerprint: firefox
+      name: "\U0001F1F8\U0001F1ECSG_1|3.2MB/s"
+      network: ws
+      port: 2096
+      server: free-server.techsonic.dev
+      servername: free-server.techsonic.dev
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
+      ws-opts:
+        headers:
+            Host: free-server.techsonic.dev
+        path: /free-server.techsonic.dev
+    - name: "\U0001F1EA\U0001F1F8ES_1|1.4MB/s"
+      password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
+      port: 2060
+      server: xby.mangshe.xyz
+      skip-cert-verify: true
+      sni: xby.mangshe.xyz
+      type: hysteria2
+    - name: "\U0001F1EB\U0001F1F7FR_2|1.1MB/s"
+      password: github.com/Alvin9999-newpac/fanqiang
+      port: 30099
+      server: ip5.934618.xyz
+      sni: ip5.934618.xyz
       type: anytls
       udp: true
-      username: 9sK2mP8xQ7vL3nZ6
+    - name: "\U0001F1F7\U0001F1F4RO_1|1.7MB/s"
+      port: 9002
+      server: 193.176.84.33
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F7\U0001F1F4RO_2|2.1MB/s"
+      port: 9002
+      server: 193.176.84.20
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1FA\U0001F1F8US_1|3.0MB/s"
+      port: 9002
+      server: 138.199.35.198
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
     - cipher: aes-256-cfb
-      name: "\U0001F1EF\U0001F1F5JP_1|1.6MB/s"
+      name: "\U0001F1FA\U0001F1F8US_2|2.0MB/s"
       password: amazonskr05
       port: 443
-      server: 3.112.209.209
+      server: 54.90.169.61
+      skip-cert-verify: true
       type: ss
-    - name: "\U0001F1F3\U0001F1F1NL_1|1.5MB/s"
+      udp: true
+    - name: "\U0001F1E8\U0001F1FFCZ_1|2.1MB/s"
       password: None
-      port: 9002
-      server: 84.17.47.148
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_1|2.0MB/s"
-      port: 9002
-      server: 193.176.84.24
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1FA\U0001F1F8US_2|2.1MB/s"
-      password: "null"
-      port: 9002
-      server: 138.199.35.216
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-      username: "null"
-    - name: "\U0001F1FA\U0001F1F8US_3|1.2MB/s"
-      password: None
-      port: 9002
-      server: 138.199.35.220
+      port: 443
+      server: 185.216.35.66
       skip-cert-verify: true
       tls: true
       type: http
       username: null
-    - name: "\U0001F1FA\U0001F1F8US_4|1.3MB/s"
-      password: ""
-      port: "9002"
-      server: 138.199.35.209
+    - name: "\U0001F1EE\U0001F1F3IN_1|2.0MB/s"
+      port: 443
+      server: 165.231.253.66
       skip-cert-verify: true
       tls: true
       type: http
-      username: ""
-    - name: "\U0001F1F9\U0001F1FCTW_1|2.1MB/s"
-      password: 9sK2mP8xQ7vL3nZ6
-      port: 443
-      server: ac7548f3ebe045b39a90288ff1e97526.pnuqcnp.cn
+    - name: "\U0001F1F7\U0001F1FARU_1|1.3MB/s"
+      port: 1446
+      server: 46.29.166.134
       skip-cert-verify: true
-      sni: ac7548f3ebe045b39a90288ff1e97526.lwdnxf.cn
-      type: anytls
+      tls: true
+      type: http
+    - client-fingerprint: qq
+      grpc-opts:
+        grpc-mode: gun
+        grpc-service-name: vless-grpc
+      name: "\U0001F1EB\U0001F1EEFI_1|2.4MB/s"
+      network: grpc
+      port: 443
+      server: fi.astrafic.ru
+      servername: fi.astrafic.ru
+      tls: true
+      type: vless
       udp: true
-    - name: "\U0001F1EB\U0001F1F7FR_1|1.4MB/s"
+      uuid: 3d9daa27-6283-406d-a2d4-c6f22c635a14
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1F1\U0001F1F9LT_1|1.5MB/s"
+      network: tcp
       port: 443
-      server: 103.82.101.44
-      skip-cert-verify: true
-      sni: f3a61d8406d537345747f99f8a281007-3f754ed5da1bba09.apache-iv.com
+      reality-opts:
+        public-key: UpI0XKNUsMJ24XawPQ8g7br1faEsO7BOvmIIGg9Wrm8
+        short-id: dbb2ef1c7c
+      server: 94.176.234.161
+      servername: www.intel.com
       tls: true
-      type: http
-    - name: "\U0001F1FA\U0001F1F8US_5|1.4MB/s"
-      password: null
-      port: 9002
-      server: 138.199.35.195
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: null
-    - name: "\U0001F1FA\U0001F1F8US_6|1.5MB/s"
-      password: "null"
-      port: 443
-      server: carolinafreigh.fun
-      tls: true
-      type: http
-      username: "null"
-    - name: "\U0001F1FA\U0001F1F8US_7|2.1MB/s"
-      port: 9002
-      server: 138.199.35.215
-      skip-cert-verify: true
-      tls: true
-      type: http
+      type: vless
       udp: true
+      uuid: d448490d-4ee6-442f-80e1-5e1c186c4ce1
+    - client-fingerprint: firefox
+      grpc-opts:
+        grpc-mode: gun
+        grpc-service-name: grpc-tunnel
+      name: "\U0001F1F1\U0001F1FBLV_1|2.0MB/s"
+      network: grpc
+      port: 9881
+      reality-opts:
+        public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
+        short-id: aabb
+      server: 176.108.247.67
+      servername: dl.google.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef

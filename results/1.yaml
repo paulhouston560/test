@@ -1,71 +1,61 @@
 proxies:
-    - auth: 96ab5cd282733fd4c312a61f972f330a
-      name: "\U0001F1EF\U0001F1F5JP_1|400KB/s|YT-JP|GPT⁺|NF|38%"
-      password: 96ab5cd282733fd4c312a61f972f330a
-      port: 443
-      server: vp3.yysyy.online
-      type: hysteria2
-      udp: true
-    - client-fingerprint: random
-      flow: xtls-rprx-vision
-      name: "\U0001F1E9\U0001F1EADE_1|1.3MB/s|GPT⁺|NF|1%"
+    - flow: xtls-rprx-vision
+      name: "\U0001F1E6\U0001F1F9AT_1|368KB/s|YT-FR|GPT⁺|NF|0%"
       network: tcp
-      port: 443
-      reality-opts:
-        public-key: mdNDY7PwSvwt56fQsDQvP15p7XU73PvFoWA6uKgNaX0
-        short-id: 13a744172777d168
-      server: 189.24.106.64
-      servername: gateway.icloud.com
+      port: 52006
+      server: 31.77.227.6
+      servername: bigdick.gamegrow.ru
+      skip-cert-verify: false
       tls: true
       type: vless
       udp: true
-      uuid: 82C94E17-B27E-4356-82C1-2F9C79B0CF6D
+      uuid: bc659d88-a1e0-076c-a49a-7b51b26a7a7f
+    - client-fingerprint: firefox
+      flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8US_1|297KB/s|YT-CN|GPT⁺|NF|1%"
+      network: tcp
+      port: 10002
+      reality-opts:
+        public-key: 3CzFme1556AXsnF-1bVjlvxYtU_rG2i50piDBR_NBjw
+        short-id: f61f173b
+      server: 1.ppap.a1.zjs.ppt.998.kfc-520.com
+      servername: www.nvidia.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 8cb0c4fb-03ee-35b8-a47b-cd1d7e76dfd3
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1ED\U0001F1F0HK_1|777KB/s|YT-HK|NF|14%"
+      name: "\U0001F1EF\U0001F1F5JP_1|1008KB/s|YT-JP|GPT⁺|NF|1%"
       network: tcp
-      port: 32134
+      port: 20270
       reality-opts:
-        public-key: OdTELUjAUKO_qr-O-uihaAZJAhA8GyIWVI6CpozVCU4
-        short-id: 6c6c7c97
-      server: 3696b38bsg.murphyweb.sbs
-      servername: buylite.music.apple.com
+        public-key: gaFVpIOW9RJGuFFisfXVvITfYY5ikKn-4gB89ZQCFHI
+        short-id: 89fecfdaf45cd76d
+      server: jp-1.gsafevpnapi.com
+      servername: www.yahoo.com
       tls: true
       type: vless
       udp: true
-      uuid: 5b01dc2d-6892-49b8-8289-3f73a32e00e4
-    - name: "\U0001F1ED\U0001F1F0HK_2|610KB/s|YT-US|NF|0%"
+      uuid: 976bf067-9865-4184-938a-204463938c09
+    - name: "\U0001F1ED\U0001F1F0HK_1|455KB/s|YT-US|NF|0%"
       password: H7mP2xY9kJ4nQ8wR5tF6vB3z
       port: 443
       server: 202.146.222.29
       skip-cert-verify: true
-      sni: https://t.me/wangcai2
+      sni: "https://t.me/wangcai2ð\x9F\x87ð\x9F\x87"
       type: hysteria2
-    - name: ❓Other_1|633KB/s|YT-JP|GPT⁺
-      password: 96ab5cd282733fd4c312a61f972f330a
-      port: 443
-      server: vp3.yysyy.online
-      skip-cert-verify: true
-      sni: vp3.yysyy.online
-      type: hysteria2
-    - name: ❓Other_2|589KB/s
-      password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-      port: 443
-      server: vpn-us-003.fastervpn.world
-      skip-cert-verify: true
-      sni: 127.0.0.1
-      type: hysteria2
-    - name: ❓Other_3|592KB/s
-      password: 45bc25b2-1a10-11ed-91c0-f23c91cfbbc9
-      port: 443
-      server: f902df58-tmeqo0-u4zl7f-1jk6u.hk3.hyhuawei.com
-      skip-cert-verify: true
-      sni: f902df58-tmeqo0-u4zl7f-1jk6u.hk3.hyhuawei.com
-      type: hysteria2
-    - name: ❓Other_4|786KB/s
-      password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
+    - name: "\U0001F1ED\U0001F1F0HK_2|393KB/s|YT-HK|NF|0%"
+      password: HysTeria2026!Proxy
       port: 8443
-      server: 162.249.127.135
+      server: mz.hkychina.com
       skip-cert-verify: false
-      sni: hop-germany-september.dynuddns.com
+      sni: ""
+      type: hysteria2
+    - name: "\U0001F1EB\U0001F1F7FR_1|983KB/s|0%"
+      password: github.com/Alvin9999-newpac/fanqiang
+      port: 60111
+      server: 62.210.7.139
+      skip-cert-verify: true
+      sni: speedtest.tinkoff.ru
       type: hysteria2

@@ -1,96 +1,102 @@
 proxies:
-    - name: "\U0001F1FA\U0001F1F8US_1|1.2MB/s|YT-CN|GPT⁺|NF|9%"
-      password: 367e233c-2f54-11ee-9ae1-f23c9164ca5d
-      port: 443
-      server: 7498a61c-tmm5c0-u093mf-1mina.los.hyhuawei.com
-      skip-cert-verify: true
-      sni: 7498a61c-tmm5c0-u093mf-1mina.los.hyhuawei.com
-      type: hysteria2
-    - name: "\U0001F1FA\U0001F1F8US_2|1.1MB/s|YT-CN|GPT⁺|NF|9%"
-      password: af7ddbb2-3567-11ec-bd7c-f23c913c8d2b
-      port: 443
-      server: be688289-tmm5c0-u1q5od-t6fv.los.hyhuawei.com
-      skip-cert-verify: true
-      sni: be688289-tmm5c0-u1q5od-t6fv.los.hyhuawei.com
-      type: hysteria2
-    - name: "\U0001F1ED\U0001F1F0HK_1|786KB/s|YT-HK|NF|0%"
-      password: 5acc7a7c-d7ea-11eb-8673-f23c9164ca5d
-      port: 443
-      server: 7017cade-tmm5c0-u1dz9j-12hj8.nw4.hyhuawei.com
-      skip-cert-verify: true
-      sni: 7017cade-tmm5c0-u1dz9j-12hj8.nw4.hyhuawei.com
-      type: hysteria2
-    - name: "\U0001F1ED\U0001F1F0HK_2|477KB/s|YT-CN|25%"
-      password: 19f72087-4591-4d72-930b-2697078ec2be
-      port: 4433
-      server: hk2.xiaoliyu.cyou
-      skip-cert-verify: true
-      sni: ""
-      type: hysteria2
-    - name: "\U0001F1ED\U0001F1F0HK_3|618KB/s|YT-HK|NF|0%"
-      password: a2313fba-74a6-11ed-a8bf-f23c91cfbbc9
-      port: 443
-      server: b3dfb3ed-tmm5c0-trg4wh-z65w.nw4.hyhuawei.com
-      skip-cert-verify: true
-      sni: b3dfb3ed-tmm5c0-trg4wh-z65w.nw4.hyhuawei.com
-      type: hysteria2
-    - client-fingerprint: firefox
-      name: "\U0001F1FA\U0001F1F8US_3|598KB/s|YT-US|NF"
-      network: ws
-      packet-encoding: xudp
-      port: 18376
-      server: 154.9.30.191
-      servername: 123.714541.xyz
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 88ee0e1e-a2a2-477e-88ce-4875c058aeba
-      ws-opts:
-        headers:
-            Host: 123.714541.xyz
-        path: /Ra-vl
-    - name: "\U0001F1ED\U0001F1F0HK_4|1012KB/s|YT-HK|NF|0%"
-      password: 61c4be90-6235-11ec-a8bf-f23c91cfbbc9
-      port: 443
-      server: 4e3ff39f-tmm5c0-tr9h64-1f1f1.nw4.hyhuawei.com
-      skip-cert-verify: true
-      sni: 4e3ff39f-tmm5c0-tr9h64-1f1f1.nw4.hyhuawei.com
-      type: hysteria2
-    - name: "\U0001F1EB\U0001F1F7FR_1|1007KB/s|YT-FR|GPT⁺|NF|36%"
+    - name: "\U0001F1EB\U0001F1F7FR_1|1011KB/s|YT-FR|GPT⁺|NF|36%"
       password: github.com/Alvin9999-newpac/fanqiang
       port: 43115
       server: 62.210.147.2
       skip-cert-verify: true
       sni: www.microsoft.com
       type: hysteria2
-    - name: "\U0001F1EB\U0001F1F7FR_2|566KB/s|YT-US|GPT⁺|NF|0%"
-      password: github.com/Alvin9999-newpac/fanqiang
-      port: 60111
-      server: 62.210.7.139
-      skip-cert-verify: true
-      sni: css.rbxcdn.com
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1F7\U0001F1F4RO_1|785KB/s|YT-US|GPT⁺|NF|0%"
+      obfs: ""
+      obfs-password: ""
+      password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
+      port: "8443"
+      server: 103.126.51.46
+      skip-cert-verify: false
+      sni: ocober-romania-new.yyuyy.com
       type: hysteria2
-    - name: "\U0001F1F3\U0001F1F1NL_1|273KB/s|YT-RU|GPT⁺|NF|22%"
-      password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
+      up: ""
+    - name: "\U0001F1F7\U0001F1F4RO_2|676KB/s|YT-US|GPT⁺|NF|0%"
+      password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
       port: 8443
-      server: 77.74.123.104
+      server: 103.126.51.49
       skip-cert-verify: true
+      sni: ocober-romania-new.yyuyy.com
+      type: hysteria2
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1F3\U0001F1F1NL_1|884KB/s|YT-RU|GPT⁺|NF|22%"
+      obfs: ""
+      obfs-password: ""
+      password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
+      port: "8443"
+      server: 77.74.123.105
+      skip-cert-verify: false
       sni: grape-test-italy.dynuddns.net
       type: hysteria2
-    - auth: 633bc3be486b646190661ac2387c150a
-      name: "\U0001F1E6\U0001F1FAAU_1|279KB/s|YT-US|GPT⁺|NF|4%"
-      obfs: salamander
-      obfs-password: 850a3fb1cd33a28f12d837578ae1a2e7
-      password: 633bc3be486b646190661ac2387c150a
-      port: 443
-      server: 152.67.115.203
+      up: ""
+    - name: "\U0001F1F8\U0001F1ECSG_1|477KB/s|YT-SG|GPT⁺|NF|0%"
+      password: fe552e75-4ffd-4e1a-984c-44e71c746c15
+      port: 55000
+      server: 104.234.233.70
       skip-cert-verify: true
       sni: www.bing.com
       type: hysteria2
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1ED\U0001F1F0HK_1|393KB/s|YT-CN|NF|0%"
+      obfs: ""
+      obfs-password: ""
+      password: 19f72087-4591-4d72-930b-2697078ec2be
+      port: "4433"
+      server: hk2.xiaoliyu.cyou
+      skip-cert-verify: true
+      sni: hk2.xiaoliyu.cyou
+      type: hysteria2
+      up: ""
+    - name: "\U0001F1EC\U0001F1E7GB_1|569KB/s|YT-GB|GPT⁺|NF|25%"
+      password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
+      port: 2060
+      server: yg.mangshe.xyz
+      skip-cert-verify: true
+      sni: yg.mangshe.xyz
+      type: hysteria2
+    - auth: H7mP2xY9kJ4nQ8wR5tF6vB3z
+      name: "\U0001F1E6\U0001F1FAAU_1|435KB/s|YT-AU|GPT⁺|NF|3%"
+      password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+      port: 443
+      server: vpn-au-001.fastervpn.world
+      skip-cert-verify: true
+      sni: vpn-au-001.fastervpn.world
+      tls: false
+      type: hysteria2
+    - alpn:
+        - h3
+        - h2
+      client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1EF\U0001F1F5JP_1|983KB/s|YT-JP|GPT⁺|NF"
+      network: ws
+      port: 443
+      server: saas.sin.fan
+      servername: snip.edgeoneai.cc.cd
+      tls: true
+      type: vless
+      udp: true
+      uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+      ws-opts:
+        headers:
+            Host: snip.edgeoneai.cc.cd
+            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36
+        path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443?ed=2560
+      xudp: true
     - client-fingerprint: chrome
+      encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1F8\U0001F1ECSG_1|559KB/s|YT-SG|GPT|NF|0%"
+      name: "\U0001F1F8\U0001F1ECSG_2|679KB/s|YT-SG|GPT"
+      network: tcp
       port: 33102
       server: 112.49.63.11
       servername: sgg.knhqf.com
@@ -99,193 +105,42 @@ proxies:
       type: vless
       udp: true
       uuid: 0f47a872-b140-46f5-aef8-f46993f5fc01
-    - client-fingerprint: chrome
-      name: "\U0001F1ED\U0001F1F0HK_5|620KB/s|YT-HK|NF|2%"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: tSBJnEt6E1dy6UgX9gX5wUfvZ2KAXjGWVKsEq886OWM
-        short-id: 56d4e7ae4f86fa39
-      server: 35.220.207.209
-      servername: www.cloudflare.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 90153538-ef08-4942-b8e1-41e7c523e659
-    - auth: 2e42c1ee-aaaa-11ec-bb74-f23c9164ca5d
-      name: "\U0001F1ED\U0001F1F0HK_6|344KB/s|YT-HK|NF|1%"
-      password: 2e42c1ee-aaaa-11ec-bb74-f23c9164ca5d
-      port: 443
-      server: a91af2af-tmm5c0-twnp5a-ahsb.hk3.hyhuawei.com
-      skip-cert-verify: true
-      sni: a91af2af-tmm5c0-twnp5a-ahsb.hk3.hyhuawei.com
-      tls: false
-      type: hysteria2
-    - auth: ae5338ae-9a70-58c9-3d47-7d54a5675715
-      name: "\U0001F1ED\U0001F1F0HK_7|291KB/s|YT-HK|NF|1%"
-      password: ae5338ae-9a70-58c9-3d47-7d54a5675715
-      port: 443
-      server: bd452e87-tmm5c0-tv7dx2-py5w.hk3.hyhuawei.com
-      skip-cert-verify: true
-      sni: bd452e87-tmm5c0-tv7dx2-py5w.hk3.hyhuawei.com
-      tls: false
-      type: hysteria2
-    - auth: b42d90fa667942aebc734d60
-      name: "\U0001F1E6\U0001F1FAAU_2|276KB/s|YT-AU|GPT⁺|NF|2%"
-      obfs: salamander
-      obfs-password: b42d90fa667942aebc734d60
-      password: b42d90fa667942aebc734d60
-      port: 20000
-      ports: 20000,20000-30000
-      server: 137.23.3.238
-      skip-cert-verify: true
-      sni: rmgyvpn.rest
-      type: hysteria2
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_4|319KB/s|YT-US|NF"
-      network: ws
-      port: 443
-      server: 43.174.193.1
-      servername: ccc.010304.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: d342d11e-d224-4463-b982-532309285094
-      ws-opts:
-        headers:
-            Host: ccc.010304.xyz
-        path: /
-    - client-fingerprint: chrome
-      name: "\U0001F1E9\U0001F1EADE_1|305KB/s|GPT⁺|NF|63%"
-      network: ws
-      port: 8443
-      server: shop.neexbyte.ir
-      tls: true
-      type: vless
-      uuid: 8bb52771-052e-40b5-ab53-c6e151ad2290
-      ws-opts:
-        headers:
-            Host: shop.neexbyte.ir
-        path: /
-    - flow: xtls-rprx-vision
-      name: "\U0001F1F8\U0001F1ECSG_2|482KB/s|YT-SG|GPT⁺|NF|0%"
-      network: tcp
-      port: 33102
-      server: 27.44.143.169
-      servername: sgg.knhqf.com
-      skip-cert-verify: false
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0f47a872-b140-46f5-aef8-f46993f5fc01
-    - alterId: 64
-      cipher: auto
-      name: "\U0001F1E8\U0001F1F3CN_1|421KB/s|0%"
-      port: 50002
-      server: 112.132.215.108
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      udp: true
-      uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    - flow: xtls-rprx-vision
-      name: "\U0001F1F8\U0001F1ECSG_3|390KB/s|YT-SG|GPT⁺|NF|0%"
-      port: 33102
-      server: 27.44.143.169
-      servername: sgg.knhqf.com
-      tls: true
-      type: vless
-      uuid: 0f47a872-b140-46f5-aef8-f46993f5fc01
-    - name: "\U0001F1FA\U0001F1F8US_5|1.3MB/s|YT-CN|GPT⁺|NF|9%"
-      password: 0abd5d38-fdf1-11ed-bade-f23c91369f2d
-      port: 443
-      server: 6f9a8496-tmm5c0-txkkcl-1fli7.los.hyhuawei.com
-      skip-cert-verify: true
-      sni: 6f9a8496-tmm5c0-txkkcl-1fli7.los.hyhuawei.com
-      type: hysteria2
-    - name: "\U0001F1ED\U0001F1F0HK_8|752KB/s|YT-HK|NF|1%"
-      password: fcd39788-ca23-11ed-86e2-f23c913c8d2b
-      port: 443
-      server: eadd8612-tmm5c0-u2e9xs-2b2n.hk3.hyhuawei.com
-      skip-cert-verify: true
-      sni: eadd8612-tmm5c0-u2e9xs-2b2n.hk3.hyhuawei.com
-      type: hysteria2
-    - name: "\U0001F1FA\U0001F1F8US_6|1.1MB/s|YT-CN|GPT⁺|NF|9%"
-      password: 20f87b02-0eaa-11eb-8684-f23c913c8d2b
-      port: 443
-      server: b774a499-tmm5c0-tphvvu-gacy.los.hyhuawei.com
-      skip-cert-verify: true
-      sni: b774a499-tmm5c0-tphvvu-gacy.los.hyhuawei.com
-      type: hysteria2
-    - name: "\U0001F1F3\U0001F1F1NL_2|523KB/s|YT-NL|GPT⁺|NF|0%"
-      password: 529f1911-04d5-4427-94b9-c851fd459a27
-      port: 443
-      server: nl-hy-test.tcp-reset-club.net
-      skip-cert-verify: false
-      sni: tcp-reset-club.net
-      type: hysteria2
-    - name: "\U0001F1ED\U0001F1F0HK_9|351KB/s|YT-HK|NF|1%"
-      password: 3085fcf8-a69c-11ec-bd7c-f23c913c8d2b
-      port: 443
-      server: 324d64f1-tmm5c0-tnsc3a-1f0gu.hk3.hyhuawei.com
-      skip-cert-verify: false
-      sni: ""
-      type: hysteria2
-    - alpn:
-        - h2
-      client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      http-opts:
-        headers: {}
-        path:
-            - /
-      name: "\U0001F1F3\U0001F1F1NL_3|375KB/s|GPT⁺|NF|18%"
-      network: tcp
-      port: "443"
-      server: cool-place.failspace.top
-      servername: cool-place.failspace.top
-      tls: true
-      type: vless
-      udp: true
-      uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
       xudp: true
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1ED\U0001F1F0HK_10|370KB/s|YT-HK|1%"
-      obfs: ""
-      obfs-password: ""
-      password: fbf91120-50ba-11ef-a203-f23c91cfbbc9
-      port: "443"
-      server: 6ab2b012-tmm5c0-tpmc23-1s3lb.hk3.hyhuawei.com
+    - flow: xtls-rprx-vision
+      name: "\U0001F1F8\U0001F1ECSG_3|730KB/s|YT-SG|GPT⁺|0%"
+      port: 33102
+      server: 27.155.117.209
+      servername: sgg.knhqf.com
       skip-cert-verify: true
-      sni: 6ab2b012-tmm5c0-tpmc23-1s3lb.hk3.hyhuawei.com
-      type: hysteria2
-      up: ""
-    - client-fingerprint: chrome
-      name: "\U0001F1F9\U0001F1FCTW_1|439KB/s|YT-TW|GPT⁺|NF|2%"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: qvekI7tKB1NDnZA6JcS_24aV4n8mlCbI3SFvkRr22wg
-        short-id: d74a6321deec9f31
-      server: 130.211.240.128
-      servername: www.cloudflare.com
       tls: true
       type: vless
       udp: true
-      uuid: 31a40f42-4ad6-4a32-a760-71102b459584
-    - name: ❓Other_1|1.3MB/s
+      uuid: 0f47a872-b140-46f5-aef8-f46993f5fc01
+    - name: "\U0001F1E9\U0001F1EADE_1|250KB/s|GPT⁺|5%"
       network: ws
-      port: 2052
-      server: 104.18.46.234
-      servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-      tls: false
+      port: 2087
+      server: 188.114.97.3
+      servername: s4ws.ragingbull.de5.net
+      skip-cert-verify: true
+      tls: true
       type: vless
       udp: true
-      uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+      uuid: f49d04d6-aaa7-4013-b323-bc35b78230db
       ws-opts:
         headers:
-            Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-        path: /?ed=2560security=tls
+            Host: s4ws.ragingbull.de5.net
+        path: /wsrb7k2m
+    - name: "\U0001F1E9\U0001F1EADE_2|252KB/s|GPT⁺|NF|5%"
+      network: ws
+      port: 443
+      server: 188.114.96.3
+      servername: s4ws.ragingbull.de5.net
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: f49d04d6-aaa7-4013-b323-bc35b78230db
+      ws-opts:
+        headers:
+            Host: s4ws.ragingbull.de5.net
+        path: /wsrb7k2m

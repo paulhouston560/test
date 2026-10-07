@@ -1,146 +1,98 @@
 proxies:
-    - name: "\U0001F1EB\U0001F1F7FR_1|1011KB/s|YT-FR|GPT⁺|NF|36%"
-      password: github.com/Alvin9999-newpac/fanqiang
-      port: 43115
-      server: 62.210.147.2
-      skip-cert-verify: true
-      sni: www.microsoft.com
+    - name: "\U0001F1F3\U0001F1F1NL_1|401KB/s|YT-RU|GPT⁺|NF|17%"
+      password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
+      port: 8443
+      server: 77.74.123.107
+      skip-cert-verify: false
+      sni: grape-test-italy.dynuddns.net
       type: hysteria2
     - down: ""
       fingerprint: ""
-      name: "\U0001F1F7\U0001F1F4RO_1|785KB/s|YT-US|GPT⁺|NF|0%"
+      name: "\U0001F1ED\U0001F1F0HK_1|635KB/s|YT-HK|NF|0%"
       obfs: ""
       obfs-password: ""
+      password: bd77bfe8-e0f3-11ec-bd7c-f23c913c8d2b
+      port: "443"
+      server: 66133e3a-tmm5c0-tmg311-141tv.hk3.hyhuawei.com
+      skip-cert-verify: true
+      sni: 66133e3a-tmm5c0-tmg311-141tv.hk3.hyhuawei.com
+      type: hysteria2
+      up: ""
+    - auth: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
+      name: "\U0001F1F7\U0001F1F4RO_1|607KB/s|YT-US|GPT⁺|NF|0%"
       password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
-      port: "8443"
+      port: 8443
+      server: 103.126.51.50
+      skip-cert-verify: true
+      sni: ocober-romania-new.yyuyy.com
+      tls: false
+      type: hysteria2
+    - name: "\U0001F1F7\U0001F1F4RO_2|726KB/s|YT-US|GPT⁺|NF|0%"
+      password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
+      port: 8443
       server: 103.126.51.46
       skip-cert-verify: false
       sni: ocober-romania-new.yyuyy.com
       type: hysteria2
-      up: ""
-    - name: "\U0001F1F7\U0001F1F4RO_2|676KB/s|YT-US|GPT⁺|NF|0%"
-      password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
-      port: 8443
-      server: 103.126.51.49
-      skip-cert-verify: true
-      sni: ocober-romania-new.yyuyy.com
-      type: hysteria2
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1F3\U0001F1F1NL_1|884KB/s|YT-RU|GPT⁺|NF|22%"
-      obfs: ""
-      obfs-password: ""
-      password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
-      port: "8443"
-      server: 77.74.123.105
-      skip-cert-verify: false
-      sni: grape-test-italy.dynuddns.net
-      type: hysteria2
-      up: ""
-    - name: "\U0001F1F8\U0001F1ECSG_1|477KB/s|YT-SG|GPT⁺|NF|0%"
-      password: fe552e75-4ffd-4e1a-984c-44e71c746c15
-      port: 55000
-      server: 104.234.233.70
-      skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria2
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1ED\U0001F1F0HK_1|393KB/s|YT-CN|NF|0%"
-      obfs: ""
-      obfs-password: ""
-      password: 19f72087-4591-4d72-930b-2697078ec2be
-      port: "4433"
-      server: hk2.xiaoliyu.cyou
-      skip-cert-verify: true
-      sni: hk2.xiaoliyu.cyou
-      type: hysteria2
-      up: ""
-    - name: "\U0001F1EC\U0001F1E7GB_1|569KB/s|YT-GB|GPT⁺|NF|25%"
-      password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
-      port: 2060
-      server: yg.mangshe.xyz
-      skip-cert-verify: true
-      sni: yg.mangshe.xyz
-      type: hysteria2
-    - auth: H7mP2xY9kJ4nQ8wR5tF6vB3z
-      name: "\U0001F1E6\U0001F1FAAU_1|435KB/s|YT-AU|GPT⁺|NF|3%"
-      password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1EB\U0001F1F7FR_1|306KB/s|YT-US|GPT⁺|NF|35%"
+      network: tcp
       port: 443
-      server: vpn-au-001.fastervpn.world
-      skip-cert-verify: true
-      sni: vpn-au-001.fastervpn.world
-      tls: false
-      type: hysteria2
-    - alpn:
-        - h3
-        - h2
-      client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1EF\U0001F1F5JP_1|983KB/s|YT-JP|GPT⁺|NF"
-      network: ws
-      port: 443
-      server: saas.sin.fan
-      servername: snip.edgeoneai.cc.cd
+      reality-opts:
+        public-key: PjR-SM4fOm2fY4mTqWoqZDRyxontvpailM0gBqUxlUQ
+        short-id: f88610dd
+      server: frn8.mobileemdad.top
+      servername: delivery.mp.microsoft.com
       tls: true
       type: vless
       udp: true
-      uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+      uuid: 11a1238e-348b-47c7-ac36-47ed50dd911c
+    - client-fingerprint: chrome
+      name: "\U0001F1ED\U0001F1F0HK_2|880KB/s|YT-CN|NF"
+      network: ws
+      port: 8443
+      server: 146.56.221.148
+      servername: ccc.010304.xyz
+      tls: true
+      type: vless
+      udp: true
+      uuid: d342d11e-d224-4463-b982-532309285094
       ws-opts:
         headers:
-            Host: snip.edgeoneai.cc.cd
-            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36
-        path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443?ed=2560
-      xudp: true
+            Host: ccc.010304.xyz
+        path: /
+    - client-fingerprint: randomized
+      flow: xtls-rprx-vision
+      name: "\U0001F1F3\U0001F1F1NL_2|252KB/s|GPT⁺|NF|0%"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: 5tMM2VdgddmxOKhdNa3b7i_aXno1g-_61SzkppS2UXQ
+        short-id: f3c023cc
+      server: 2.27.39.233
+      servername: addons.mozilla.org
+      tls: true
+      type: vless
+      udp: true
+      uuid: e60a2499-c5bf-4ad6-86b0-8af0bd3c0bbf
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1F8\U0001F1ECSG_2|679KB/s|YT-SG|GPT"
+      http-opts:
+        headers: {}
+        path:
+            - /
+      name: "\U0001F1EB\U0001F1EEFI_1|254KB/s|YT-RU|GPT⁺|NF|0%"
       network: tcp
-      port: 33102
-      server: 112.49.63.11
-      servername: sgg.knhqf.com
-      skip-cert-verify: true
+      port: "443"
+      reality-opts:
+        public-key: x9yfMdHRe9ZAJJUF9kZnDnO3Y7otoyFBCS9RoaIG3Es
+        short-id: ""
+      server: 159.194.250.154
+      servername: api-maps.yandex.ru
       tls: true
       type: vless
       udp: true
-      uuid: 0f47a872-b140-46f5-aef8-f46993f5fc01
+      uuid: f0482c9d-ff67-4a43-af8e-76fc5d55c250
       xudp: true
-    - flow: xtls-rprx-vision
-      name: "\U0001F1F8\U0001F1ECSG_3|730KB/s|YT-SG|GPT⁺|0%"
-      port: 33102
-      server: 27.155.117.209
-      servername: sgg.knhqf.com
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0f47a872-b140-46f5-aef8-f46993f5fc01
-    - name: "\U0001F1E9\U0001F1EADE_1|250KB/s|GPT⁺|5%"
-      network: ws
-      port: 2087
-      server: 188.114.97.3
-      servername: s4ws.ragingbull.de5.net
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      udp: true
-      uuid: f49d04d6-aaa7-4013-b323-bc35b78230db
-      ws-opts:
-        headers:
-            Host: s4ws.ragingbull.de5.net
-        path: /wsrb7k2m
-    - name: "\U0001F1E9\U0001F1EADE_2|252KB/s|GPT⁺|NF|5%"
-      network: ws
-      port: 443
-      server: 188.114.96.3
-      servername: s4ws.ragingbull.de5.net
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      udp: true
-      uuid: f49d04d6-aaa7-4013-b323-bc35b78230db
-      ws-opts:
-        headers:
-            Host: s4ws.ragingbull.de5.net
-        path: /wsrb7k2m

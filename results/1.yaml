@@ -1,81 +1,18 @@
 proxies:
-    - name: "\U0001F1F3\U0001F1F1NL_1|401KB/s|YT-RU|GPT⁺|NF|17%"
-      password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
-      port: 8443
-      server: 77.74.123.107
-      skip-cert-verify: false
-      sni: grape-test-italy.dynuddns.net
-      type: hysteria2
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1ED\U0001F1F0HK_1|635KB/s|YT-HK|NF|0%"
-      obfs: ""
-      obfs-password: ""
-      password: bd77bfe8-e0f3-11ec-bd7c-f23c913c8d2b
-      port: "443"
-      server: 66133e3a-tmm5c0-tmg311-141tv.hk3.hyhuawei.com
-      skip-cert-verify: true
-      sni: 66133e3a-tmm5c0-tmg311-141tv.hk3.hyhuawei.com
-      type: hysteria2
-      up: ""
-    - auth: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
-      name: "\U0001F1F7\U0001F1F4RO_1|607KB/s|YT-US|GPT⁺|NF|0%"
-      password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
-      port: 8443
-      server: 103.126.51.50
-      skip-cert-verify: true
-      sni: ocober-romania-new.yyuyy.com
-      tls: false
-      type: hysteria2
-    - name: "\U0001F1F7\U0001F1F4RO_2|726KB/s|YT-US|GPT⁺|NF|0%"
+    - name: "\U0001F1F7\U0001F1F4RO_1|820KB/s|YT-US|GPT⁺|NF|0%"
       password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
       port: 8443
       server: 103.126.51.46
       skip-cert-verify: false
       sni: ocober-romania-new.yyuyy.com
       type: hysteria2
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1EB\U0001F1F7FR_1|306KB/s|YT-US|GPT⁺|NF|35%"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: PjR-SM4fOm2fY4mTqWoqZDRyxontvpailM0gBqUxlUQ
-        short-id: f88610dd
-      server: frn8.mobileemdad.top
-      servername: delivery.mp.microsoft.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 11a1238e-348b-47c7-ac36-47ed50dd911c
-    - client-fingerprint: chrome
-      name: "\U0001F1ED\U0001F1F0HK_2|880KB/s|YT-CN|NF"
-      network: ws
+    - name: "\U0001F1F3\U0001F1F1NL_1|555KB/s|YT-RU|GPT⁺|NF|17%"
+      password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
       port: 8443
-      server: 146.56.221.148
-      servername: ccc.010304.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: d342d11e-d224-4463-b982-532309285094
-      ws-opts:
-        headers:
-            Host: ccc.010304.xyz
-        path: /
-    - client-fingerprint: randomized
-      flow: xtls-rprx-vision
-      name: "\U0001F1F3\U0001F1F1NL_2|252KB/s|GPT⁺|NF|0%"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: 5tMM2VdgddmxOKhdNa3b7i_aXno1g-_61SzkppS2UXQ
-        short-id: f3c023cc
-      server: 2.27.39.233
-      servername: addons.mozilla.org
-      tls: true
-      type: vless
-      udp: true
-      uuid: e60a2499-c5bf-4ad6-86b0-8af0bd3c0bbf
+      server: 77.74.123.107
+      skip-cert-verify: false
+      sni: grape-test-italy.dynuddns.net
+      type: hysteria2
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
@@ -83,7 +20,7 @@ proxies:
         headers: {}
         path:
             - /
-      name: "\U0001F1EB\U0001F1EEFI_1|254KB/s|YT-RU|GPT⁺|NF|0%"
+      name: "\U0001F1EB\U0001F1EEFI_1|306KB/s|YT-RU|GPT⁺|NF|0%"
       network: tcp
       port: "443"
       reality-opts:
@@ -96,3 +33,229 @@ proxies:
       udp: true
       uuid: f0482c9d-ff67-4a43-af8e-76fc5d55c250
       xudp: true
+    - alpn:
+        - ""
+      alterId: "0"
+      cipher: auto
+      name: "\U0001F1E8\U0001F1F3CN_1|498KB/s|0%"
+      network: ws
+      port: "10086"
+      server: 39.108.113.127
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: fde10e39-48bb-4dcf-b3ba-71d711323a54
+      ws-opts:
+        headers: {}
+        path: /
+      xudp: true
+    - name: "\U0001F1ED\U0001F1F0HK_1|571KB/s|YT-US|0%"
+      password: 5d70f580-d41b-4a0a-84f1-29dba443a962
+      port: 443
+      server: node1.luoye.ee
+      skip-cert-verify: false
+      sni: node1.luoye.ee
+      type: trojan
+      udp: true
+    - client-fingerprint: firefox
+      flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8US_1|1.5MB/s|YT-US|GPT⁺|NF|2%"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: PR2mhvCXer5q0MdcFq02GiyGhjSYqfyHVnFjjHhHOgY
+        short-id: 3221cb224d06a873
+      server: 89.208.254.233
+      servername: halo.sigy.me
+      tls: true
+      type: vless
+      udp: true
+      uuid: ab1249da-9ac8-44c7-89a3-2d337ab25cb2
+    - name: "\U0001F1F8\U0001F1ECSG_1|572KB/s|YT-SG|GPT⁺|NF|1%"
+      password: WvH8ooM9hom4KOOJHFJz1x5umE0aV4R0
+      port: 8443
+      server: 43.156.36.253
+      skip-cert-verify: true
+      sni: ""
+      type: hysteria2
+    - name: "\U0001F1E9\U0001F1EADE_1|250KB/s|YT-RU|GPT⁺|NF|0%"
+      password: c-E0lamG8OnEj9M_uh3oJPmIXqYIVGctO-NHELF1TmNYs7Jl
+      port: 443
+      server: cz.h2.cleanersaz.help
+      skip-cert-verify: true
+      sni: cz.h2.cleanersaz.help
+      type: hysteria2
+    - name: "\U0001F1ED\U0001F1F0HK_2|477KB/s|YT-US|0%"
+      password: 5c15bdcb-3919-48cb-aec8-ab37bd660877
+      port: 443
+      server: node1.luoye.ee
+      skip-cert-verify: false
+      sni: node1.luoye.ee
+      type: trojan
+      udp: true
+    - name: "\U0001F1ED\U0001F1F0HK_3|475KB/s|YT-US|0%"
+      password: d5392b25-e073-4ec4-a43a-5bbfbba1c9bc
+      port: 443
+      server: node1.luoye.ee
+      skip-cert-verify: false
+      sni: node1.luoye.ee
+      type: trojan
+      udp: true
+    - name: "\U0001F1ED\U0001F1F0HK_4|431KB/s|YT-US|0%"
+      password: 47760754-0ebc-4f81-959e-c23fdfb3896a
+      port: 443
+      server: node1.luoye.ee
+      skip-cert-verify: false
+      sni: node1.luoye.ee
+      type: trojan
+      udp: true
+    - name: "\U0001F1F0\U0001F1F7KR_1|458KB/s|GPT⁺|28%"
+      password: Trojan@82164024
+      port: 443
+      server: kr.tronsg.com
+      skip-cert-verify: true
+      sni: kr.tronsg.com
+      type: trojan
+      udp: true
+    - name: "\U0001F1FA\U0001F1F8US_2|562KB/s|NF|0%"
+      password: dd65d47d-d31f-4407-9cac-89e20f1b816d
+      port: 10443
+      server: 45.205.27.78
+      skip-cert-verify: true
+      sni: ""
+      type: trojan
+      udp: true
+    - flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8US_3|265KB/s|YT-US|GPT⁺|NF|33%"
+      network: tcp
+      port: 443
+      server: s2318.okgg.top
+      servername: u695098uf24555c7s2316.gogocs.xyz
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
+    - client-fingerprint: firefox
+      flow: xtls-rprx-vision
+      name: "\U0001F1E9\U0001F1EADE_2|326KB/s|YT-RU|GPT⁺|NF|0%"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs
+        short-id: a8
+      server: 189.74.106.86
+      servername: api.setevoyprostor.cc
+      tls: true
+      type: vless
+      udp: true
+      uuid: b0eed7cb-72e2-4bf5-8668-b803deb5dd47
+    - alpn:
+        - h2
+        - http/1.1
+      client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      http-opts:
+        headers: {}
+        path:
+            - /
+      name: "\U0001F1F3\U0001F1F1NL_2|339KB/s|YT-GB|GPT⁺|NF|0%"
+      network: tcp
+      port: "10829"
+      server: s1244.csgfw.top
+      servername: u695098ueb8953b4s861.gogocs.xyz
+      tls: true
+      type: vless
+      udp: true
+      uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
+      xudp: true
+    - encryption: none
+      name: "\U0001F1E9\U0001F1EADE_3|335KB/s|YT-DE|GPT⁺|NF|6%"
+      network: tcp
+      port: "39100"
+      server: 46.225.255.204
+      type: vless
+      udp: true
+      uuid: '@ZhilaVPN'
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1E9\U0001F1EADE_4|335KB/s|YT-RU|GPT⁺|NF"
+      network: tcp
+      port: "443"
+      server: 31.131.251.17
+      servername: quatro.lmstream.org
+      tls: true
+      type: vless
+      udp: true
+      uuid: 9ea8b000-58ce-005a-b108-989dd4f248f1
+      xudp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1EB\U0001F1F7FR_1|1.3MB/s|YT-US|33%"
+      network: ws
+      password: humanity
+      port: "443"
+      server: 172.64.152.23
+      skip-cert-verify: false
+      sni: www.calmlunch.com
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko) Slackware/Chrome/12.0.742.100 Safari/534.30
+        path: /assignment
+    - client-fingerprint: qq
+      grpc-opts:
+        grpc-service-name: astracat
+      name: "\U0001F1F7\U0001F1FARU_1|417KB/s|YT-RU|GPT⁺|NF|0%"
+      network: grpc
+      port: 2088
+      reality-opts:
+        public-key: Eq3c19Y0WGB1APWMADQB-oxCvZFSVFAQxG5L6b8EkUg
+        short-id: b1ad165f903c62fe
+      server: 31.59.210.26
+      servername: www.yandex.ru
+      tls: true
+      type: vless
+      udp: true
+      uuid: 5413edfb-08d6-4fba-b51c-809c04feb127
+      xudp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1EB\U0001F1F7FR_2|292KB/s|GPT⁺|43%"
+      network: ws
+      port: 443
+      server: 217.19.4.61
+      servername: bab-6.site
+      tls: true
+      type: vless
+      udp: true
+      uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+      ws-opts:
+        headers:
+            Host: bab-6.site
+        path: /vws/
+    - name: "\U0001F1E9\U0001F1EADE_5|251KB/s|YT-DE|GPT⁺|NF|6%"
+      network: tcp
+      port: 39100
+      server: 46.225.255.204
+      servername: play.google.com
+      tls: false
+      type: vless
+      udp: true
+      uuid: '@ZhilaVPN'
+    - name: "\U0001F1FA\U0001F1F8US_4|541KB/s|YT-US|NF"
+      network: ws
+      port: 2086
+      server: 104.17.148.22
+      servername: tight-thunder-ce8e.hamid-r-aliakbari1379-0f0.workers.dev
+      tls: false
+      type: vless
+      udp: true
+      uuid: bba14c1d-f08c-4c9a-ac87-cf85d38d8aff
+      ws-opts:
+        headers:
+            Host: tight-thunder-ce8e.hamid-r-aliakbari1379-0f0.workers.dev
+        path: /eyJqdW5rIjoiRGtvTEVIeGU4cXFaTVVZIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMmEwMjo4OTg6MTQ2OjY0OjpdIl19

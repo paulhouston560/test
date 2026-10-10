@@ -1,9 +1,9 @@
 proxies:
-    - client-fingerprint: chrome
+    - client-fingerprint: firefox
       flow: xtls-rprx-vision
-      name: "\U0001F1ED\U0001F1F0HK_1|1001KB/s|YT-RU|NF|14%"
-      network: tcp
-      port: 32134
+      name: "\U0001F1ED\U0001F1F0HK_1|870KB/s|YT-RU|NF|13%"
+      network: raw
+      port: "32134"
       reality-opts:
         public-key: OdTELUjAUKO_qr-O-uihaAZJAhA8GyIWVI6CpozVCU4
         short-id: 6c6c7c97
@@ -13,7 +13,48 @@ proxies:
       type: vless
       udp: true
       uuid: 5b01dc2d-6892-49b8-8289-3f73a32e00e4
-    - name: "\U0001F1EB\U0001F1F7FR_1|572KB/s|YT-US|GPT⁺|NF|35%"
+      xudp: true
+    - name: "\U0001F1F8\U0001F1ECSG_1|1.3MB/s|YT-SG|GPT⁺|3%"
+      password: UX82473651
+      port: 443
+      server: musical-mouse.rooster465.autos
+      skip-cert-verify: true
+      sni: musical-mouse.rooster465.autos
+      type: trojan
+      udp: true
+    - name: "\U0001F1EF\U0001F1F5JP_1|979KB/s|YT-CN|GPT⁺|0%"
+      password: UX82473651
+      port: 443
+      server: stable-python.rooster465.autos
+      skip-cert-verify: true
+      sni: ""
+      type: trojan
+      udp: true
+    - name: "\U0001F1EF\U0001F1F5JP_2|898KB/s|YT-CN|GPT⁺|0%"
+      password: UX82473651
+      port: 443
+      server: live-stallion.rooster465.autos
+      skip-cert-verify: true
+      sni: live-stallion.rooster465.autos
+      type: trojan
+      udp: true
+    - name: "\U0001F1F8\U0001F1ECSG_2|1.5MB/s|YT-SG|GPT⁺|3%"
+      password: UX82473651
+      port: 443
+      server: ace-liger.rooster465.autos
+      skip-cert-verify: true
+      sni: ace-liger.rooster465.autos
+      type: trojan
+      udp: true
+    - name: "\U0001F1EF\U0001F1F5JP_3|730KB/s|YT-CN|GPT⁺|0%"
+      password: UX82473651
+      port: 443
+      server: stable-python.rooster465.autos
+      skip-cert-verify: true
+      sni: stable-python.rooster465.autos
+      type: trojan
+      udp: true
+    - name: "\U0001F1EB\U0001F1F7FR_1|626KB/s|YT-US|GPT⁺|NF|35%"
       password: github.com/Alvin9999-newpac/fanqiang
       port: 43115
       server: 62.210.147.2
@@ -22,141 +63,312 @@ proxies:
       tfo: false
       type: hysteria2
       udp: true
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EE\U0001F1E9ID_1|410KB/s|YT-CN|GPT|NF"
-      obfs: salamander
-      obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-      password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-      port: "2015"
-      server: 50ckdqr9.zf-mix.9999231.xyz
-      skip-cert-verify: false
-      sni: id-house.9999231.xyz
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1E9\U0001F1EADE_1|340KB/s|YT-DE|GPT⁺|NF|100%"
-      obfs: salamander
-      obfs-password: Telegram@vpnjey
-      password: Telegram:vpnjey
-      port: "36264"
-      server: 179.61.138.145
-      skip-cert-verify: false
-      sni: de2.jey.cc.cd
-      type: hysteria2
-      up: ""
-    - name: "\U0001F1E9\U0001F1EADE_2|730KB/s|YT-RU|GPT⁺|NF|0%"
-      password: cc4074d6-f450-4025-833a-a6e0100ceaff
+    - name: "\U0001F1F0\U0001F1F7KR_1|813KB/s|YT-CN|GPT⁺|3%"
+      password: UX82473651
       port: 443
-      server: 45.88.12.155
-      skip-cert-verify: false
-      sni: crt.molniya.sbs
-      tls: false
-      type: hysteria2
-    - name: "\U0001F1F8\U0001F1EASE_1|833KB/s|YT-RU|GPT⁺|NF|13%"
-      password: cc4074d6-f450-4025-833a-a6e0100ceaff
-      port: 443
-      server: 65.108.67.45
-      skip-cert-verify: false
-      sni: crt.molniya.sbs
-      tls: false
-      type: hysteria2
-    - name: "\U0001F1EA\U0001F1EAEE_1|951KB/s|YT-RU|GPT⁺|NF|0%"
-      password: cc4074d6-f450-4025-833a-a6e0100ceaff
-      port: 443
-      server: 31.76.107.12
-      skip-cert-verify: false
-      sni: crt.molniya.sbs
-      tls: false
-      type: hysteria2
-    - client-fingerprint: random
-      flow: xtls-rprx-vision
-      http-opts:
-        headers: {}
-        path:
-            - /
-      name: "\U0001F1ED\U0001F1F0HK_2|290KB/s|YT-HK|NF|0%"
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: 0i_xAxYgSNx5NMpK2lOaWGS-CvAiD_LneYPO0MF0owo
-        short-id: 1a
-      server: t4.qifei.app
-      servername: s3.ap-east-1.amazonaws.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: b98d4c6e-6770-4a31-8256-a4750cdea0e7
-      xudp: true
-    - auth: e3c3b722-1264-4cdc-a97c-b0a1bb73cd67
-      name: "\U0001F1F1\U0001F1FBLV_1|755KB/s|YT-RU|GPT⁺|NF|0%"
-      password: e3c3b722-1264-4cdc-a97c-b0a1bb73cd67
-      port: 9443
-      server: lv02.gotosvo.com
+      server: inviting-rabbit.rooster465.autos
       skip-cert-verify: true
-      sni: onecloudstream.com
-      type: hysteria2
-    - name: "\U0001F1F7\U0001F1FARU_1|359KB/s|YT-RU|0%"
-      password: cc4074d6-f450-4025-833a-a6e0100ceaff
+      sni: inviting-rabbit.rooster465.autos
+      type: trojan
+      udp: true
+    - name: "\U0001F1F0\U0001F1F7KR_2|518KB/s|YT-CN|GPT⁺|3%"
+      password: UX82473651
       port: 443
-      server: 138.124.254.233
-      skip-cert-verify: false
-      sni: crt.molniya.sbs
+      server: pure-kodiak.rooster465.autos
+      skip-cert-verify: true
+      sni: pure-kodiak.rooster465.autos
+      type: trojan
+      udp: true
+    - name: "\U0001F1F8\U0001F1ECSG_3|902KB/s|YT-SG|GPT⁺|3%"
+      password: UX82473651
+      port: 443
+      server: rested-seahorse.rooster465.autos
+      skip-cert-verify: true
+      sni: rested-seahorse.rooster465.autos
+      type: trojan
+      udp: true
+    - client-fingerprint: ios
+      flow: xtls-rprx-vision
+      name: "\U0001F1F8\U0001F1ECSG_4|703KB/s|GPT⁺"
+      network: tcp
+      port: 47592
+      reality-opts:
+        public-key: WIQGJ43m8ym13-VZ57mAtWY5vOwHMHEpnLV8caw2-kA
+        short-id: f38326f99edf
+      server: dghk2610.supertoolify.com
+      servername: www.lamer.com.sg
+      tls: true
+      type: vless
+      udp: true
+      uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+    - client-fingerprint: firefox
+      flow: xtls-rprx-vision
+      name: "\U0001F1EB\U0001F1EEFI_1|288KB/s|GPT⁺|NF|6%"
+      network: tcp
+      port: 13443
+      reality-opts:
+        public-key: 1MLoHw7RVkGefh7XUyuGg4ndxwv4vDU9en-f9JxpXRQ
+        short-id: d2061bb1
+      server: 193.23.195.37
+      servername: ya.ru
+      tls: true
+      type: vless
+      udp: true
+      uuid: 9ebf4fda-7395-4800-b42f-b2dda649880a
+    - name: "\U0001F1EF\U0001F1F5JP_4|1.1MB/s|YT-CN|GPT⁺|NF|0%"
+      password: UX82473651
+      port: 443
+      server: legible-ram.rooster465.autos
+      skip-cert-verify: true
+      sni: legible-ram.rooster465.autos
+      type: trojan
+      udp: true
+    - name: "\U0001F1EF\U0001F1F5JP_5|852KB/s|YT-CN|GPT⁺|0%"
+      password: UX82473651
+      port: 443
+      server: live-stallion.rooster465.autos
+      skip-cert-verify: true
+      sni: ""
+      type: trojan
+      udp: true
+    - name: "\U0001F1F8\U0001F1ECSG_5|1.1MB/s|YT-SG|GPT⁺|3%"
+      password: UX82473651
+      port: 443
+      server: rested-seahorse.rooster465.autos
+      skip-cert-verify: true
+      sni: ""
+      type: trojan
+      udp: true
+    - alterId: 64
+      cipher: auto
+      country: "\U0001F1E8\U0001F1F3CN"
+      delay: 2937
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1E8\U0001F1F3CN_1|338KB/s|0%"
+      network: tcp
+      port: 50002
+      server: 112.132.215.108
+      servername: 112.132.215.108
+      skip-cert-verify: true
+      type: vmess
+      uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    - name: "\U0001F1ED\U0001F1F0HK_2|575KB/s|YT-RU|NF|0%"
+      password: we_9m92rJZ93_m9Cj3KXB_mC9AS7Nx
+      port: 8080
+      server: 139.28.168.126
+      skip-cert-verify: true
+      sni: hopp-honkong-new.roxa.org
+      type: hysteria2
+    - client-fingerprint: firefox
+      flow: xtls-rprx-vision
+      name: "\U0001F1ED\U0001F1F0HK_3|441KB/s|YT-HK|0%"
+      network: tcp
+      port: 26480
+      reality-opts:
+        public-key: thefrz26hPQjCrKszJ6m_41nLmThPGkTEKBjYVDGM0E
+        short-id: ""
+      server: 20.205.14.234
+      servername: addons.mozilla.org
+      tls: true
+      type: vless
+      udp: true
+      uuid: 01de63ee-d2d6-4842-b2f0-d54c7eca267a
+    - name: "\U0001F1E9\U0001F1EADE_1|824KB/s|YT-RU|GPT⁺|NF|0%"
+      password: 8bd04756-3beb-4348-82c9-d35453df50ce
+      port: 20270
+      server: mai.song69.fun
+      sni: mai.song69.fun
       tls: false
       type: hysteria2
-    - client-fingerprint: random
-      name: "\U0001F1F8\U0001F1ECSG_1|616KB/s|YT-SG|GPT⁺|55%"
-      network: ws
+    - name: "\U0001F1F7\U0001F1FARU_1|468KB/s|0%"
+      password: f317b5d6-d399-4d3d-a051-89d674ae953c
       port: 443
-      server: ct.877774.xyz
-      servername: ap-south.862400.xyz
+      server: 94.198.54.132
+      skip-cert-verify: true
+      sni: msk.frkn.org
+      tls: false
+      type: hysteria2
+    - name: "\U0001F1EF\U0001F1F5JP_6|539KB/s|YT-CN|GPT|NF|4%"
+      network: ws
+      password: 5504eaa8-1395-402f-8e0e-75ecd762e627
+      port: 443
+      server: jp3.998998.best
+      skip-cert-verify: true
+      sni: nat11.outsidemyheart.space
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            Host: nat11.outsidemyheart.space
+        path: /w4e5yh0p945y3?ed=2560
+    - name: "\U0001F1F8\U0001F1ECSG_6|1007KB/s|YT-SG|GPT⁺|NF|3%"
+      password: UX82473651
+      port: 443
+      server: glorious-glider.rooster465.autos
+      skip-cert-verify: true
+      sni: glorious-glider.rooster465.autos
+      type: trojan
+      udp: true
+    - name: "\U0001F1F8\U0001F1ECSG_7|931KB/s|YT-SG|GPT⁺|NF|3%"
+      password: UX82473651
+      port: 443
+      server: moral-basilisk.rooster465.autos
+      skip-cert-verify: true
+      sni: moral-basilisk.rooster465.autos
+      type: trojan
+      udp: true
+    - client-fingerprint: ios
+      flow: xtls-rprx-vision
+      name: "\U0001F1EF\U0001F1F5JP_7|274KB/s|YT-JP|GPT⁺|NF|15%"
+      network: tcp
+      port: 41563
+      reality-opts:
+        public-key: HrcXRHtsitc_AVlN-_8fZuRgaP-Mqa_9JJotI9OnkVc
+        short-id: 25c79e5856c7
+      server: apinbxs.mate-fox.com
+      servername: iosapps.itunes.apple.com
+      tls: true
+      type: vless
+      uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1ED\U0001F1F0HK_4|381KB/s|YT-RU|NF|13%"
+      port: 32134
+      reality-opts:
+        public-key: OdTELUjAUKO_qr-O-uihaAZJAhA8GyIWVI6CpozVCU4
+        short-id: 6c6c7c97
+      server: 3696b38bsg.murphyweb.sbs
+      servername: buylite.music.apple.com
+      tls: true
+      type: vless
+      uuid: 5b01dc2d-6892-49b8-8289-3f73a32e00e4
+    - client-fingerprint: chrome
+      grpc-opts:
+        grpc-mode: gun
+        grpc-service-name: update
+      name: "\U0001F1F0\U0001F1F7KR_3|756KB/s|YT-KR|3%"
+      network: grpc
+      port: 10049
+      reality-opts:
+        public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+        short-id: 686c0ef0
+      server: kr4-r.link-t7.com
+      servername: s0.awsstatic.com
       tls: true
       type: vless
       udp: true
-      uuid: f57dfd20-fdf4-4967-9599-aca8433ebd5c
-      ws-opts:
-        headers:
-            Host: ap-south.862400.xyz
-        path: /announcement?ed=2048
+      uuid: 8A9905B7-801B-41AF-BFC9-2034212770F6
     - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_1|327KB/s|YT-US|GPT⁺|NF|0%"
-      network: ws
+      flow: xtls-rprx-vision
+      name: "\U0001F1ED\U0001F1F0HK_5|497KB/s|YT-HK|0%"
+      network: tcp
       port: 443
-      server: 104.17.154.214
-      servername: x.m-90.xyz
+      reality-opts:
+        public-key: sDKrtAJk2VP_w1w7cFi2O86RdlvQ2E2An5xsRdJlgGE
+        short-id: 6d962e8d8a0dce
+      server: japro02.xyy123.bid
+      servername: p-nt-www-amazon-com-kalias.amazon.com
+      tls: true
+      type: vless
+      uuid: 23af32ca-bea1-4a5e-bebb-04d1b1b633bc
+    - alpn:
+        - ""
+      alterId: "0"
+      cipher: auto
+      name: "\U0001F1E8\U0001F1F3CN_2|347KB/s"
+      network: ws
+      port: "10086"
+      server: 120.48.133.162
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: fde10e39-48bb-4dcf-b3ba-71d711323a54
+      ws-opts:
+        headers: {}
+        path: /
+      xudp: true
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1ED\U0001F1F0HK_6|996KB/s|YT-RU|NF|13%"
+      network: tcp
+      port: "32134"
+      reality-opts:
+        public-key: OdTELUjAUKO_qr-O-uihaAZJAhA8GyIWVI6CpozVCU4
+        short-id: 6c6c7c97
+      server: 3696b38bsg.murphyweb.sbs
+      servername: buylite.music.apple.com
       tls: true
       type: vless
       udp: true
-      uuid: 489f1717-d3c7-4940-ad68-bdbdbab857f4
-      ws-opts:
-        headers:
-            Host: x.m-90.xyz
-        path: t.me/TEAMNETGRATISCOL
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_2|422KB/s|YT-US|GPT⁺|NF"
-      network: ws
+      uuid: 5b01dc2d-6892-49b8-8289-3f73a32e00e4
+      xudp: true
+    - name: "\U0001F1F8\U0001F1ECSG_8|843KB/s|YT-SG|GPT⁺|NF|3%"
+      network: tcp
+      password: UX82473651
       port: 443
-      server: 172.64.229.14
-      servername: x.m-90.xyz
-      tls: true
-      type: vless
-      uuid: 489f1717-d3c7-4940-ad68-bdbdbab857f4
-      ws-opts:
-        headers:
-            Host: x.m-90.xyz
-        path: t.me/TEAMNETGRATISCOL
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_3|276KB/s|YT-US|GPT⁺|NF|0%"
-      network: ws
+      server: glorious-glider.rooster465.autos
+      sni: glorious-glider.rooster465.autos
+      type: trojan
+      udp: true
+    - name: "\U0001F1F8\U0001F1ECSG_9|1.3MB/s|YT-SG|GPT⁺|NF|3%"
+      network: tcp
+      password: UX82473651
       port: 443
-      server: 172.66.1.43
-      servername: x.m-90.xyz
-      tls: true
+      server: moral-basilisk.rooster465.autos
+      sni: moral-basilisk.rooster465.autos
+      type: trojan
+      udp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1F8\U0001F1ECSG_10|1.5MB/s|YT-SG|GPT⁺|3%"
+      network: tcp
+      password: UX82473651
+      port: 443
+      server: musical-mouse.rooster465.autos
+      sni: musical-mouse.rooster465.autos
+      type: trojan
+      udp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1F8\U0001F1ECSG_11|547KB/s|YT-SG|GPT⁺|3%"
+      network: tcp
+      password: UX82473651
+      port: 443
+      server: ace-liger.rooster465.autos
+      sni: ace-liger.rooster465.autos
+      type: trojan
+      udp: true
+    - name: "\U0001F1F8\U0001F1ECSG_12|1.0MB/s|YT-SG|GPT⁺|3%"
+      network: tcp
+      password: UX82473651
+      port: 443
+      server: rested-seahorse.rooster465.autos
+      sni: rested-seahorse.rooster465.autos
+      type: trojan
+      udp: true
+    - name: "\U0001F1FA\U0001F1F8US_1|265KB/s|YT-US|GPT⁺|NF"
+      network: ws
+      port: 2095
+      server: www.epicgames.com
+      servername: www.epicgames.com
+      tls: false
       type: vless
       udp: true
-      uuid: 489f1717-d3c7-4940-ad68-bdbdbab857f4
+      uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
       ws-opts:
         headers:
-            Host: x.m-90.xyz
-        path: t.me/TEAMNETGRATISCOL
+            Host: uwu.femboy67.cc.cd
+        path: /
+    - name: "\U0001F1FA\U0001F1F8US_2|294KB/s|YT-US|GPT⁺|NF"
+      network: ws
+      port: 2095
+      server: www.epicgames.com
+      servername: uwu.femboy67.cc.cd
+      tls: false
+      type: vless
+      udp: true
+      uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+      ws-opts:
+        headers:
+            Host: uwu.femboy67.cc.cd
+        path: /

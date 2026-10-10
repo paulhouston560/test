@@ -1,79 +1,9 @@
 proxies:
-    - delay: 2272
-      name: "\U0001F1F7\U0001F1F4RO_1|1.1MB/s"
-      password: None
-      port: 9002
-      server: 193.176.84.31
+    - name: "\U0001F1F7\U0001F1FARU_1|2.1MB/s"
+      password: f317b5d6-d399-4d3d-a051-89d674ae953c
+      port: 443
+      server: 94.198.54.132
       skip-cert-verify: true
-      tls: true
-      type: http
-    - delay: 1202
-      name: "\U0001F1F7\U0001F1F4RO_2|1.1MB/s"
-      port: 9002
-      server: 193.176.84.20
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - cipher: aes-256-cfb
-      name: "\U0001F1FA\U0001F1F8US_1|2.6MB/s"
-      password: amazonskr05
-      port: 443
-      server: 54.221.120.243
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1E9\U0001F1EADE_1|2.0MB/s"
-      password: amazonskr05
-      port: 443
-      server: 3.67.197.81
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1EB\U0001F1F7FR_1|1.8MB/s"
-      password: amazonskr05
-      port: 443
-      server: 15.237.53.180
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1E9\U0001F1EADE_2|2.9MB/s"
-      password: amazonskr05
-      port: 443
-      server: 63.177.230.112
-      type: ss
-    - name: "\U0001F1FA\U0001F1F8US_2|1.2MB/s"
-      port: 443
-      server: 167.88.60.242
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1F8\U0001F1EASE_1|1.0MB/s"
-      password: None
-      port: 443
-      server: 79.142.77.63
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1EB\U0001F1F7FR_2|1.1MB/s"
-      port: 443
-      server: 13.37.226.59
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1EA\U0001F1F8ES_1|1.1MB/s"
-      password: None
-      port: 443
-      server: 82.102.17.178
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - alpn:
-        - h3
-      auth-str: dongtaiwang.com
-      auth_str: dongtaiwang.com
-      down: 1000
-      name: ❓Other_1|2.6MB/s
-      port: 54177
-      protocol: udp
-      server: 5.83.129.90
-      skip-cert-verify: true
-      sni: apple.com
-      type: hysteria
-      up: 500
+      sni: msk.frkn.org
+      tls: false
+      type: hysteria2

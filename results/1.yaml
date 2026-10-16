@@ -1,4 +1,54 @@
 proxies:
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1F2\U0001F1FEMY_1|1.5MB/s|YT-MY|GPT⁺|NF|3%"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: R6q8qhMxgq3ynJPUgudaRkcDXj0qgoc_UU1N0SWGLwM
+        short-id: ed77ac35a310
+      server: my2.oh-node.com
+      servername: www.setel.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 7cfd34ae-edad-4cc5-9d6f-066f7add7829
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1F8\U0001F1ECSG_1|1.2MB/s|YT-SG|GPT⁺|NF|3%"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: I2PQq5bidT2RjVCJt2r-eSVpLNY61quSYgS2dseomF8
+        short-id: 1dd8558159ecd0
+      server: sg4.oh-node.com
+      servername: www.changiairport.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 7cfd34ae-edad-4cc5-9d6f-066f7add7829
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1F8\U0001F1ECSG_2|1.6MB/s|YT-SG|GPT⁺|NF|2%"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: vUhHTgZiXSho6Nv84w_JZW7Mo7XjJr0TsOBf19Dpols
+        short-id: 37c94ae25b69a93a
+      server: sg1.oh-node.com
+      servername: sg-hyp-api.hoyoverse.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 7cfd34ae-edad-4cc5-9d6f-066f7add7829
+    - auth: 64c05afc-ce81-4ba0-b697-afa04da1427e
+      name: "\U0001F1FA\U0001F1F8US_1|625KB/s|YT-US|GPT⁺|NF|36%"
+      password: 64c05afc-ce81-4ba0-b697-afa04da1427e
+      port: 44443
+      server: 104.168.6.236
+      skip-cert-verify: true
+      sni: bing.com
+      type: hysteria2
     - down: ""
       fingerprint: ""
       name: "\U0001F1E9\U0001F1EADE_1|1.1MB/s|YT-DE|GPT⁺|NF|100%"
@@ -11,107 +61,160 @@ proxies:
       sni: de2.jey.cc.cd
       type: hysteria2
       up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1FA\U0001F1F8US_1|1.0MB/s|YT-US|GPT⁺|6%"
-      obfs: ""
-      obfs-password: ""
-      password: c635b5f6-b5ea-4e57-927f-75860b0cb984
-      port: "1443"
-      server: hy11.shamanfun.ru
-      skip-cert-verify: false
-      sni: hy11.shamanfun.ru
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1E6\U0001F1FAAU_1|366KB/s|YT-AU|GPT⁺|NF|3%"
-      obfs: ""
-      obfs-password: ""
-      password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-      port: "443"
-      server: vpn-au-001.fastervpn.world
-      skip-cert-verify: true
-      sni: 127.0.0.1
-      type: hysteria2
-      up: ""
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1F9\U0001F1FCTW_1|506KB/s|YT-TW|GPT⁺|0%"
+    - client-fingerprint: random
+      name: "\U0001F1FA\U0001F1F8US_2|311KB/s|YT-US|GPT⁺|NF|2%"
       network: ws
       port: 443
-      server: fujrdt.d6f54hd1j.cc
-      servername: fujrdt.d6f54hd1j.cc
-      skip-cert-verify: false
+      server: 144.34.171.49
+      servername: vpn.pokertool.site
       tls: true
-      type: vmess
+      type: vless
       udp: true
-      uuid: d877dc6f-7323-4b47-a7dd-14228cbae854
+      uuid: 9e8ad642-c786-489a-b9b1-22379821fce8
+      ws-opts:
+        headers:
+            Host: vpn.pokertool.site
+        path: /ws-70a22f9c78d4cfa9
+    - auth: a34f3990b69f44bfa0d32385
+      name: "\U0001F1E6\U0001F1FAAU_1|299KB/s|YT-AU|GPT⁺|NF|2%"
+      obfs: salamander
+      obfs-password: a34f3990b69f44bfa0d32385
+      password: a34f3990b69f44bfa0d32385
+      port: 20000
+      ports: 20000-30000
+      server: 192.9.175.191
+      skip-cert-verify: true
+      sni: rmgyvpn.rest
+      type: hysteria2
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1ED\U0001F1F0HK_1|667KB/s"
-      port: 32134
+      name: "\U0001F1EF\U0001F1F5JP_1|386KB/s|YT-JP|GPT⁺|0%"
+      network: tcp
+      port: 443
       reality-opts:
-        public-key: OdTELUjAUKO_qr-O-uihaAZJAhA8GyIWVI6CpozVCU4
-        short-id: 6c6c7c97
-      server: 3696b38bsg.murphyweb.sbs
-      servername: buylite.music.apple.com
+        public-key: qkSw1mYeebLzLGFAxnSu0CuNaSQXdhR-doksZoqEniA
+        short-id: f75fbd5b
+      server: jp4.oh-node.com
+      servername: www.bandainamcoent.co.jp
       tls: true
       type: vless
       udp: true
-      uuid: 5b01dc2d-6892-49b8-8289-3f73a32e00e4
-    - alpn:
-        - ""
-      alterId: "0"
-      cipher: auto
-      name: "\U0001F1E8\U0001F1F3CN_1|712KB/s|0%"
-      network: ws
-      port: "10086"
-      server: 39.108.113.127
-      skip-cert-verify: false
-      tls: false
-      type: vmess
-      udp: true
-      uuid: 2b910c43-51e3-4b15-9be8-b658106ba35e
-      ws-opts:
-        headers: {}
-        path: /
-      xudp: true
-    - alterId: "0"
-      cipher: auto
-      name: "\U0001F1F9\U0001F1FCTW_2|425KB/s|YT-TW|GPT⁺|0%"
-      network: ws
-      port: "443"
-      server: fujrdt.d6f54hd1j.cc
-      skip-cert-verify: false
+      uuid: 7cfd34ae-edad-4cc5-9d6f-066f7add7829
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1EF\U0001F1F5JP_2|267KB/s|YT-JP|GPT⁺|0%"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: 3yorIs_psiYbIeESwMdne5mPe2JVzeNOpDa2IJxQ-Es
+        short-id: 21fa8a1ebf
+      server: jp2.oh-node.com
+      servername: www.capcom.co.jp
       tls: true
-      type: vmess
+      type: vless
       udp: true
-      uuid: d877dc6f-7323-4b47-a7dd-14228cbae854
+      uuid: 7cfd34ae-edad-4cc5-9d6f-066f7add7829
+    - client-fingerprint: chrome
+      name: "\U0001F1ED\U0001F1F0HK_1|569KB/s"
+      port: 21003
+      reality-opts:
+        public-key: nkRktc_FQ7HQr2bqJ5HQMulYLjhuTJ_nEdypT2mevQY
+        short-id: b09b7b71438f2c55
+      server: 516.150333.xyz
+      servername: www.cloudflare.com
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: a3bc04d0-59c9-4881-b9bf-203bef11f680
+    - client-fingerprint: chrome
+      name: "\U0001F1ED\U0001F1F0HK_2|628KB/s"
+      network: tcp
+      port: 21004
+      reality-opts:
+        public-key: nkRktc_FQ7HQr2bqJ5HQMulYLjhuTJ_nEdypT2mevQY
+        short-id: 2f013e71a1a52879
+      server: 516.150333.xyz
+      servername: www.cloudflare.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: a3bc04d0-59c9-4881-b9bf-203bef11f680
+    - client-fingerprint: unsafe
+      name: "\U0001F1F8\U0001F1ECSG_3|1.2MB/s|YT-SG|GPT⁺|NF|25%"
+      network: ws
+      port: 443
+      server: 172.64.150.43
+      servername: snip.edgeoneai.cc.cd
+      tls: true
+      type: vless
+      udp: true
+      uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
       ws-opts:
         headers:
-            Host: fujrdt.d6f54hd1j.cc
-        path: /
+            Host: snip.edgeoneai.cc.cd
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.1805 Safari/537.36 MVisionPlayer/1.0.0.0
+        path: ""
       xudp: true
     - client-fingerprint: chrome
-      encryption: none
-      name: ❓Other_1|297KB/s|YT-US|GPT⁺|NF
-      network: ws
-      port: "443"
-      server: 104.21.80.203
+      name: "\U0001F1ED\U0001F1F0HK_3|673KB/s"
+      port: 21004
+      reality-opts:
+        public-key: nkRktc_FQ7HQr2bqJ5HQMulYLjhuTJ_nEdypT2mevQY
+        short-id: 2f013e71a1a52879
+      server: 516.150333.xyz
+      servername: www.cloudflare.com
+      skip-cert-verify: true
       tls: true
       type: vless
       udp: true
-      uuid: f5f0babe-aea2-4f07-a1fc-3c9820253f49
+      uuid: a3bc04d0-59c9-4881-b9bf-203bef11f680
+    - name: "\U0001F1F9\U0001F1F7TR_1|266KB/s|YT-US"
+      network: ws
+      password: e309e031-991e-4656-9934-44d10deb8fd8
+      port: 2053
+      server: nimm.mpd.cc.cd
+      sni: nimm.mpd.cc.cd
+      type: trojan
+      ws-opts:
+        path: /0962
+    - name: "\U0001F1E9\U0001F1EADE_2|668KB/s|YT-US|GPT⁺|NF|0%"
+      password: 8bd04756-3beb-4348-82c9-d35453df50ce
+      port: 20270
+      server: qcloudge1.exitvpn.shop
+      skip-cert-verify: false
+      sni: ""
+      type: hysteria2
+    - name: "\U0001F1E9\U0001F1EADE_3|666KB/s|YT-US|GPT⁺|NF|0%"
+      password: 6656cc0a-5908-4d04-a436-64f5843c0c7a
+      port: 20270
+      server: qcloudge1.exitvpn.shop
+      skip-cert-verify: false
+      sni: ""
+      type: hysteria2
+    - name: "\U0001F1EB\U0001F1F7FR_1|937KB/s|GPT"
+      network: ws
+      password: humanity
+      port: 443
+      server: 172.64.152.23
+      sni: www.calmlunch.com
+      type: trojan
+      udp: true
       ws-opts:
         headers:
-            Host: usa.lovehk.xyz
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36
-        path: /Dallas1
-      xudp: true
-    - name: "\U0001F1EB\U0001F1EEFI_1|255KB/s|YT-US|GPT⁺|NF|0%"
-      password: 8bd04756-3beb-4348-82c9-d35453df50ce
-      port: 20326
-      server: finkawwwbroy5.qcloud.surf
-      sni: finkawwwbroy5.qcloud.surf
-      type: hysteria2
+            Host: www.calmlunch.com
+        path: /assignment
+    - client-fingerprint: random
+      flow: xtls-rprx-vision
+      name: "\U0001F1EF\U0001F1F5JP_3|283KB/s|YT-CN|GPT⁺|NF|0%"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: 0i_xAxYgSNx5NMpK2lOaWGS-CvAiD_LneYPO0MF0owo
+        short-id: 1a
+      server: t5.qifei.app
+      servername: s3.ap-east-1.amazonaws.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: b98d4c6e-6770-4a31-8256-a4750cdea0e7

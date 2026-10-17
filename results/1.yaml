@@ -1,7 +1,7 @@
 proxies:
     - down: ""
       fingerprint: ""
-      name: "\U0001F1E9\U0001F1EADE_1|1.3MB/s|YT-DE|GPT⁺|NF|100%"
+      name: "\U0001F1E9\U0001F1EADE_1|1.1MB/s|YT-DE|GPT⁺|NF|100%"
       obfs: salamander
       obfs-password: Telegram@vpnjey
       password: Telegram:vpnjey
@@ -11,96 +11,56 @@ proxies:
       sni: de2.jey.cc.cd
       type: hysteria2
       up: ""
-    - client-fingerprint: random
-      name: "\U0001F1FA\U0001F1F8US_1|317KB/s|YT-CN"
+    - alpn:
+        - ""
+      alterId: "0"
+      cipher: auto
+      name: "\U0001F1E8\U0001F1F3CN_1|262KB/s|0%"
       network: ws
-      port: 443
-      server: ct.877774.xyz
-      servername: us-lax.862400.xyz
+      port: "10086"
+      server: 120.48.133.162
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: 4fc543d5-23ce-4556-ae2b-01685edd4397
+      ws-opts:
+        headers: {}
+        path: /
+      xudp: true
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      http-opts:
+        headers: {}
+        path:
+            - /
+      name: "\U0001F1F9\U0001F1F7TR_1|268KB/s|YT-TR|GPT⁺|NF"
+      network: tcp
+      port: "17684"
+      reality-opts:
+        public-key: AavBPGGJUpyGWiriV_Fbx-SrAvR5t-9mHeQY8uIltyo
+        short-id: 41b9cb10b696
+      server: 8dwou5alze.chhbuv.cn
+      servername: www.tue.nl
       tls: true
       type: vless
       udp: true
-      uuid: efb58f99-af9e-48da-ac0d-cbac9c1f9200
-      ws-opts:
-        headers:
-            Host: us-lax.862400.xyz
-        path: /announcement?ed=2048
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_2|748KB/s|YT-RU|GPT⁺|NF|25%"
-      network: ws
-      password: c1841cf2-ff6e-4018-9a82-3e6365838590
-      port: "2083"
-      server: bestcdn2.868863.xyz
-      skip-cert-verify: false
-      sni: 17920660875782.206352.xyz
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
-        path: /agraeabtegrrh
-    - alpn:
-        - h3
-      down: ""
-      fingerprint: ""
-      name: "\U0001F1F3\U0001F1F1NL_1|506KB/s|GPT|NF|0%"
-      obfs: ""
-      obfs-password: ""
+      uuid: d9109567-3fc3-4e08-9cac-4d9162ef5a9f
+      xudp: true
+    - alterId: 0
+      cipher: auto
+      delay: 157
+      name: "\U0001F1E8\U0001F1F3CN_2|250KB/s"
+      port: 50002
+      server: 112.132.215.108
+      tls: false
+      type: vmess
+      uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    - auth: 082f5694-9019-4110-b67b-8125dbb9bab8
+      name: "\U0001F1E9\U0001F1EADE_2|293KB/s|YT-RU|19%"
       password: 082f5694-9019-4110-b67b-8125dbb9bab8
-      port: "54183"
-      server: outh.yandex-cloud.org
-      skip-cert-verify: false
+      port: 54183
+      server: 189.74.106.162
+      skip-cert-verify: true
       sni: outh.yandex-cloud.org
       type: hysteria2
-      up: ""
-    - alpn:
-        - h3
-        - h2
-      client-fingerprint: chrome
-      name: "\U0001F1EF\U0001F1F5JP_1|1020KB/s|YT-CN|NF|25%"
-      network: ws
-      port: 443
-      server: saas.sin.fan
-      servername: snip.edgeoneai.cc.cd
-      tls: true
-      type: vless
-      udp: true
-      uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-      ws-opts:
-        headers:
-            Host: snip.edgeoneai.cc.cd
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
-        path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443?ed=2560fp=chrome
-      xudp: true
-    - client-fingerprint: firefox
-      name: "\U0001F1F3\U0001F1F1NL_2|319KB/s|GPT⁺|NF|0%"
-      network: tcp
-      port: 25452
-      reality-opts:
-        public-key: zJI16_ywLd4clshY0IQQPxQ_YBbIq2b0XTO_dnTJOy4
-        short-id: fe51f413b9646e97
-      server: 164.37.224.232
-      servername: www.ns.nl
-      tls: true
-      type: vless
-      udp: true
-      uuid: 68c3d665-b2b5-4ffb-9f37-9f3d8c47324d
-    - name: "\U0001F1F8\U0001F1ECSG_1|1.4MB/s|YT-SG|GPT⁺|NF|2%"
-      password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-      port: 443
-      server: vpn-sg-001.fastervpn.world
-      skip-cert-verify: true
-      sni: vpn-sg-001.fastervpn.world
-      type: hysteria2
-    - name: "\U0001F1EB\U0001F1F7FR_1|1.1MB/s|GPT"
-      network: ws
-      password: humanity
-      port: 443
-      server: 172.64.152.23
-      sni: www.calmlunch.com
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            Host: www.calmlunch.com
-        path: /assignment

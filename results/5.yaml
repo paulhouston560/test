@@ -1,24 +1,39 @@
 proxies:
-    - name: "\U0001F1F8\U0001F1ECSG_1|2.5MB/s"
+    - name: "\U0001F1F8\U0001F1ECSG_1|2.9MB/s"
       password: "1234"
       port: 2080
-      server: 13.212.55.110
+      server: 13.229.91.101
       skip-cert-verify: true
       type: http
       username: "1234"
-    - name: "\U0001F1F8\U0001F1ECSG_2|2.2MB/s"
+    - name: "\U0001F1F8\U0001F1ECSG_2|2.4MB/s"
       password: "1234"
       port: 2080
-      server: 13.250.6.200
+      server: 13.212.190.30
       skip-cert-verify: true
       type: http
+      username: "1234"
+    - name: "\U0001F1F9\U0001F1FCTW_1|1.3MB/s"
+      password: 0324fbc29561
+      port: 443
+      server: 684616s4.df6h451rh.xin
+      skip-cert-verify: true
+      sni: px.ads.linkedin.com
+      type: anytls
       udp: true
-      username: "1234"
+    - cipher: aes-256-gcm
+      delay: 457
+      name: "\U0001F1FA\U0001F1F8US_1|1.7MB/s"
+      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+      port: 19999
+      server: 95.215.201.18
+      type: ss
+      udp: true
     - alpn:
         - h3
       auth-str: dongtaiwang.com
       down: 55 Mbps
-      name: "\U0001F1EB\U0001F1F7FR_1|2.8MB/s"
+      name: "\U0001F1EB\U0001F1F7FR_1|2.2MB/s"
       port: 24667
       protocol: udp
       server: 62.210.70.191
@@ -26,142 +41,86 @@ proxies:
       sni: bing.com
       type: hysteria
       up: 11 Mbps
-    - name: "\U0001F1FA\U0001F1F8US_1|1.2MB/s"
-      port: 9002
-      server: 138.199.35.214
+    - name: "\U0001F1EF\U0001F1F5JP_1|2.4MB/s"
+      port: 343
+      server: 133.18.200.207
       skip-cert-verify: true
       tls: true
       type: http
       udp: true
-    - client-fingerprint: random
-      name: "\U0001F1FA\U0001F1F8US_2|2.0MB/s"
-      network: ws
+    - name: "\U0001F1E6\U0001F1F9AT_1|1.2MB/s"
       port: 443
-      server: 94.183.188.161
-      servername: 20664.pages.dev
+      server: 146.70.244.2
       skip-cert-verify: true
       tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1FA\U0001F1F8US_2|2.5MB/s"
+      network: ws
+      port: 8880
+      server: 63.141.128.30
+      skip-cert-verify: false
+      tls: false
       type: vless
       udp: true
-      uuid: 9784bb19-3833-43ad-83b0-27ef8fc04ef2
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
       ws-opts:
         headers:
-            Host: 20664.pages.dev
-        path: /?ed=2048
-    - delay: 2164
-      name: "\U0001F1F7\U0001F1F4RO_1|1.1MB/s"
+            Host: vms.lifetime42.workers.dev
+        path: /
+    - name: "\U0001F1FA\U0001F1F8US_3|2.2MB/s"
+      network: ws
+      port: 8880
+      server: 155.46.167.30
+      skip-cert-verify: false
+      tls: false
+      type: vless
+      udp: true
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      ws-opts:
+        headers:
+            Host: vms.lifetime50.workers.dev
+    - name: "\U0001F1FA\U0001F1F8US_4|2.4MB/s"
+      password: None
       port: 9002
-      server: 193.176.84.27
+      server: 138.199.35.209
       skip-cert-verify: true
       tls: true
       type: http
-    - cipher: chacha20-ietf-poly1305
-      country: "\U0001F1F9\U0001F1FCTW"
-      delay: 610
-      name: "\U0001F1F9\U0001F1FCTW_1|1.5MB/s"
-      password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-      plugin: obfs
-      plugin-opts:
-        host: "(Telegram\U0001F1E8\U0001F1F3 @WangCai2)5337fad:11915"
-        mode: tls
-      port: 2377
-      server: 60.249.14.95
-      type: ss
-    - delay: 2991
-      name: "\U0001F1E9\U0001F1EADE_1|1.5MB/s"
-      port: 9002
-      server: 158.173.154.3
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1F8\U0001F1ECSG_3|3.2MB/s"
+      udp: true
+    - name: "\U0001F1F8\U0001F1ECSG_3|2.5MB/s"
       password: "1234"
       port: 2080
       server: 47.129.235.22
       skip-cert-verify: true
       type: http
       username: "1234"
-    - name: "\U0001F1E6\U0001F1F1AL_1|1.6MB/s"
-      port: 9443
-      server: 31.171.155.210
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - client-fingerprint: chrome
-      name: "\U0001F1EF\U0001F1F5JP_1|4.4MB/s"
-      network: tcp
-      password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
-      port: 8886
-      server: 45.32.52.173
-      skip-cert-verify: true
-      sni: 45.32.52.173
-      type: trojan
-      udp: true
-    - name: "\U0001F1ED\U0001F1F0HK_1|3.2MB/s"
-      password: 0324fbc29561
-      port: 443
-      server: 654968169.df6h451rh.xin
-      skip-cert-verify: true
-      sni: images.ctfassets.net
-      type: anytls
-      udp: true
-    - name: "\U0001F1F8\U0001F1ECSG_4|1.1MB/s"
+    - name: "\U0001F1F8\U0001F1ECSG_4|2.7MB/s"
       password: "1234"
       port: 2080
-      server: 13.229.54.109
+      server: 13.250.6.249
       skip-cert-verify: true
       type: http
       username: "1234"
-    - http-opts:
-        headers:
-            Host:
-                - play.googleapis.com
-        method: GET
-        path:
-            - /
-      name: "\U0001F1FA\U0001F1F8US_3|1.2MB/s"
-      network: http
-      port: 443
-      server: 100.54.27.217
-      tls: false
-      type: vless
-      udp: true
-      uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
-    - http-opts:
-        headers:
-            Host:
-                - play.googleapis.com
-        method: GET
-        path:
-            - /
-      name: "\U0001F1FA\U0001F1F8US_4|2.1MB/s"
-      network: http
-      port: 443
-      server: 44.251.76.224
-      tls: false
-      type: vless
-      udp: true
-      uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
-    - http-opts:
-        headers:
-            Host:
-                - play.googleapis.com
-        method: GET
-        path:
-            - /
-      name: "\U0001F1FA\U0001F1F8US_5|2.0MB/s"
-      network: http
-      port: 443
-      server: 98.92.171.189
-      tls: false
-      type: vless
-      udp: true
-      uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
-    - name: "\U0001F1F3\U0001F1F1NL_1|1.0MB/s"
-      password: None
-      port: 9002
-      server: 84.17.47.148
+    - name: "\U0001F1F8\U0001F1ECSG_5|1.2MB/s"
+      password: "1234"
+      port: 2080
+      server: 13.212.90.38
       skip-cert-verify: true
-      tls: true
+      type: http
+      username: "1234"
+    - name: "\U0001F1F8\U0001F1ECSG_6|1.8MB/s"
+      password: "1234"
+      port: 2080
+      server: 13.214.213.66
+      skip-cert-verify: true
+      type: http
+      username: "1234"
+    - name: "\U0001F1F8\U0001F1ECSG_7|2.0MB/s"
+      password: "1234"
+      port: 2080
+      server: 13.250.6.200
+      skip-cert-verify: true
       type: http
       udp: true
+      username: "1234"

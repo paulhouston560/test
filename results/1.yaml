@@ -1,30 +1,49 @@
 proxies:
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1E9\U0001F1EADE_1|430KB/s|YT-US|GPT⁺|NF|100%"
-      obfs: salamander
-      obfs-password: Telegram@vpnjey
-      password: Telegram:vpnjey
-      port: "36264"
-      server: 179.61.138.145
-      skip-cert-verify: false
-      sni: de2.jey.cc.cd
-      type: hysteria2
-      up: ""
-    - client-fingerprint: unsafe
-      name: "\U0001F1F8\U0001F1ECSG_1|255KB/s|YT-SG|GPT⁺|NF|noCache"
+    - client-fingerprint: random
+      name: "\U0001F1FA\U0001F1F8US_1|1.1MB/s|YT-CN|GPT⁺|13%"
       network: ws
       port: 443
-      server: 172.64.150.43
-      servername: snip.edgeoneai.cc.cd
-      sub_tag: noCache
+      server: ct.877774.xyz
+      servername: us-lax.862400.xyz
       tls: true
       type: vless
       udp: true
-      uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+      uuid: 1d4519b2-8d84-4153-8cc5-7f4f884cab1b
       ws-opts:
         headers:
-            Host: snip.edgeoneai.cc.cd
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.1805 Safari/537.36 MVisionPlayer/1.0.0.0
-        path: /
-      xudp: true
+            Host: us-lax.862400.xyz
+        path: /announcement?ed=2048
+    - name: "\U0001F1F3\U0001F1F1NL_1|650KB/s|YT-RU|GPT⁺|NF|18%"
+      password: d5e2093f-7a12-4b93-9ace-bd95dc8de71a
+      port: 3006
+      server: nl4-gkivm5.vpvr4ib84nuv6hdkt.ru
+      skip-cert-verify: false
+      sni: nl4-gkivm5.vpvr4ib84nuv6hdkt.ru
+      type: hysteria2
+    - client-fingerprint: chrome
+      name: "\U0001F1EB\U0001F1F7FR_1|1.2MB/s|YT-US|GPT"
+      network: ws
+      password: humanity
+      port: "443"
+      server: 172.64.152.23
+      skip-cert-verify: false
+      sni: www.calmlunch.com
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+        path: /assignment
+    - name: "\U0001F1E9\U0001F1EADE_1|315KB/s|YT-DE|GPT⁺|NF|0%"
+      network: ws
+      port: 2087
+      server: shortbig.ir
+      servername: wefuhsah.ferto-shoping12.website
+      tls: true
+      type: vless
+      udp: true
+      uuid: 31f185b6-e591-413b-ba72-88083a87feb2
+      ws-opts:
+        headers:
+            Host: wefuhsah.ferto-shoping12.website
+        path: /hokm

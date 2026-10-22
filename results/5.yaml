@@ -1,126 +1,86 @@
 proxies:
-    - name: "\U0001F1F8\U0001F1ECSG_1|2.9MB/s"
-      password: "1234"
-      port: 2080
-      server: 13.229.91.101
+    - name: "\U0001F1F7\U0001F1F8RS_1|1.2MB/s"
+      port: 443
+      server: 146.70.221.34
       skip-cert-verify: true
+      tls: true
       type: http
-      username: "1234"
-    - name: "\U0001F1F8\U0001F1ECSG_2|2.4MB/s"
-      password: "1234"
-      port: 2080
-      server: 13.212.190.30
+    - name: "\U0001F1FA\U0001F1F8US_1|1.5MB/s"
+      port: 9002
+      server: 138.199.35.207
       skip-cert-verify: true
+      tls: true
       type: http
-      username: "1234"
-    - name: "\U0001F1F9\U0001F1FCTW_1|1.3MB/s"
+      udp: true
+    - alpn:
+        - http/1.1
+      client-fingerprint: chrome
+      name: ❓Other_1|1.1MB/s
       password: 0324fbc29561
       port: 443
       server: 684616s4.df6h451rh.xin
       skip-cert-verify: true
       sni: px.ads.linkedin.com
       type: anytls
-      udp: true
-    - cipher: aes-256-gcm
-      delay: 457
-      name: "\U0001F1FA\U0001F1F8US_1|1.7MB/s"
-      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-      port: 19999
-      server: 95.215.201.18
+    - name: "\U0001F1FA\U0001F1F8US_2|1.2MB/s"
+      port: 443
+      server: 149.22.88.65
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: "\U0001F1EE\U0001F1F9IT_1|1.9MB/s"
+      password: None
+      port: 443
+      server: 185.183.105.146
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: null
+    - name: "\U0001F1F8\U0001F1EASE_1|1.0MB/s"
+      password: null
+      port: 443
+      server: 146.70.242.130
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: null
+    - name: "\U0001F1EA\U0001F1F8ES_1|1.3MB/s"
+      password: null
+      port: 443
+      server: 130.195.250.34
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: null
+    - cipher: aes-128-gcm
+      name: "\U0001F1F0\U0001F1F7KR_1|2.0MB/s"
+      password: 585f0e10-7b51-4f2e-a13d-479b045171bd
+      port: 40029
+      server: ruot.ayucloudservices.nl
       type: ss
       udp: true
-    - alpn:
-        - h3
-      auth-str: dongtaiwang.com
-      down: 55 Mbps
-      name: "\U0001F1EB\U0001F1F7FR_1|2.2MB/s"
-      port: 24667
-      protocol: udp
-      server: 62.210.70.191
-      skip-cert-verify: true
-      sni: bing.com
-      type: hysteria
-      up: 11 Mbps
-    - name: "\U0001F1EF\U0001F1F5JP_1|2.4MB/s"
-      port: 343
-      server: 133.18.200.207
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1E6\U0001F1F9AT_1|1.2MB/s"
+    - client-fingerprint: chrome
+      name: "\U0001F1EE\U0001F1F3IN_1|2.3MB/s|A004-260618"
+      network: raw
+      password: M7v%w11Se*
       port: 443
-      server: 146.70.244.2
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1FA\U0001F1F8US_2|2.5MB/s"
-      network: ws
-      port: 8880
-      server: 63.141.128.30
+      server: tttyder.wsone.icu
       skip-cert-verify: false
-      tls: false
+      sni: tttyder.wsone.icu
+      sub_tag: A004-260618
+      type: trojan
+      udp: true
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1ED\U0001F1F0HK_1|3.5MB/s"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: gUu1n11Ef_GEoatNQzJJucvIjGTt4qxOWdxMzjoHwDM
+        short-id: 9b6fa4047c24629f
+      server: 151.242.85.236
+      servername: addons.mozilla.org
+      tls: true
       type: vless
       udp: true
-      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-      ws-opts:
-        headers:
-            Host: vms.lifetime42.workers.dev
-        path: /
-    - name: "\U0001F1FA\U0001F1F8US_3|2.2MB/s"
-      network: ws
-      port: 8880
-      server: 155.46.167.30
-      skip-cert-verify: false
-      tls: false
-      type: vless
-      udp: true
-      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-      ws-opts:
-        headers:
-            Host: vms.lifetime50.workers.dev
-    - name: "\U0001F1FA\U0001F1F8US_4|2.4MB/s"
-      password: None
-      port: 9002
-      server: 138.199.35.209
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F8\U0001F1ECSG_3|2.5MB/s"
-      password: "1234"
-      port: 2080
-      server: 47.129.235.22
-      skip-cert-verify: true
-      type: http
-      username: "1234"
-    - name: "\U0001F1F8\U0001F1ECSG_4|2.7MB/s"
-      password: "1234"
-      port: 2080
-      server: 13.250.6.249
-      skip-cert-verify: true
-      type: http
-      username: "1234"
-    - name: "\U0001F1F8\U0001F1ECSG_5|1.2MB/s"
-      password: "1234"
-      port: 2080
-      server: 13.212.90.38
-      skip-cert-verify: true
-      type: http
-      username: "1234"
-    - name: "\U0001F1F8\U0001F1ECSG_6|1.8MB/s"
-      password: "1234"
-      port: 2080
-      server: 13.214.213.66
-      skip-cert-verify: true
-      type: http
-      username: "1234"
-    - name: "\U0001F1F8\U0001F1ECSG_7|2.0MB/s"
-      password: "1234"
-      port: 2080
-      server: 13.250.6.200
-      skip-cert-verify: true
-      type: http
-      udp: true
-      username: "1234"
+      uuid: 7aec627e-a258-4ded-9fd9-fbd7c024f950

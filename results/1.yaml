@@ -1,157 +1,7 @@
 proxies:
-- name: 🇵🇱PL_1|3.6MB/s|YT-RU|GPT⁺-PL|NF-PL
-  password: 10be1dad-9952-4c5e-aa30-db435f69b727
-  port: 4444
-  server: 13.143.189.71
-  skip-cert-verify: false
-  sni: pl3.nexfile.net
-  type: hysteria2
-- cipher: aes-256-gcm
-  name: 🇮🇹IT_5|1.9MB/s|YT-US|GPT⁺-IT|NF-IT
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.45
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇮🇹IT_6|2.7MB/s|YT-US|GPT⁺-IT|NF-IT
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.36
-  type: ss
-  udp: true
-- name: 🇵🇱PL_2|1.5MB/s|YT-RU|GPT⁺-PL|NF-PL
-  password: 10be1dad-9952-4c5e-aa30-db435f69b727
-  port: 4444
-  server: 13.143.188.153
-  skip-cert-verify: false
-  sni: bl2.nexfile.net
-  type: hysteria2
-- cipher: aes-256-gcm
-  name: 🇮🇹IT_3|3.3MB/s|YT-US|GPT⁺-IT|NF-IT
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.63
-  type: ss
-- name: 🇫🇷FR_1|1.5MB/s|YT-FR|GPT⁺-FR|NF-HU
-  password: 1953e43b-605c-4262-83eb-41a80646b801
-  port: 443
-  server: 31.185.105.12
-  skip-cert-verify: false
-  sni: fr.song69.fun
-  type: hysteria2
-- cipher: aes-256-gcm
-  name: 🇮🇹IT_4|1.4MB/s|YT-US|GPT⁺-IT|NF-IT
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.27
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_1|1002KB/s|GPT⁺-DE|NF
-  network: xhttp
-  port: 443
-  server: 144.31.217.28
-  servername: 9187bd6f.con.fernarchive.online
-  tls: true
-  type: vless
-  udp: true
-  uuid: abca037b-bee5-41cc-a888-0668e4c66176
-  xhttp-opts:
-    path: /conv4/stream/77dd2aeeb94331fbff325bb48850392b
-  xudp: true
-- cipher: aes-256-gcm
-  name: 🇮🇹IT_7|1.8MB/s|YT-US|GPT⁺-IT|NF-IT
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.54
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇮🇹IT_8|2.9MB/s|YT-US|GPT⁺-IT|NF-IT
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.72
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇮🇹IT_9|2.9MB/s|YT-US|GPT⁺-IT|NF-IT
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.81
-  type: ss
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: ❓Other_1|1.3MB/s|YT-US|GPT⁺-LV|NF-LV
-  port: 443
-  reality-opts:
-    public-key: NMgy1XgCSXExOg6Tg8xG9lCWttMF6sjdpB41lZy6FWo
-    short-id: 5c256336e3b673fa
-  server: 195.123.213.28
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  sni: www.cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 02fcc1a4-ee90-4970-8bbb-4ffaa8109d24
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇩🇪DE_2|1.3MB/s|YT-RU|GPT⁺-DE|NF-DE
-  network: ws
-  port: '443'
-  server: lvi.su
-  servername: lvi.su
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7b91b2c3-8af3-449b-a555-00c9460989f4
-  ws-opts:
-    headers:
-      Host: lvi.su
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36
-    path: /vpn-relay?token=27fede42482b3c29d4c1c9640876c250&pool=whitelist2
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇺🇸US_3|1.9MB/s|YT-US|GPT⁺-US|NF-US
-  network: tcp
-  port: 54857
-  server: us001.zestapp778.com
-  servername: us001.zestapp778.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
-  xudp: true
-- cipher: aes-256-gcm
-  name: 🇮🇹IT_1|2.1MB/s|YT-US|GPT⁺-IT|NF-IT
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.18
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇮🇹IT_2|1.9MB/s|YT-RU|GPT⁺-IT|NF-IT
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.90
-  type: ss
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇨🇿CZ_1|1.8MB/s|YT-CZ|GPT⁺-CZ|NF-AT
-  network: tcp
-  port: 2063
-  reality-opts:
-    public-key: MMpt_jWc4J3oySBdf5sPDVRkiWlZmOObth6A1scM9BM
-    short-id: ''
-  server: 31.77.13.22
-  servername: rusbid.de
-  tls: true
-  type: vless
-  udp: true
-  uuid: b18d5990-96eb-4587-a386-7f8ef7591e6a
 - client-fingerprint: chrome
   encryption: mlkem768x25519plus.native.0rtt.HgOBFNZBsI-IbLuV7IeOJbMRNb9CodLXi3YDHVWPWQU
-  name: 🇩🇪DE_3|1012KB/s|YT-US|GPT⁺-DE|NF-DE
+  name: 🇩🇪DE_2|879KB/s|GPT⁺-DE|NF-DE
   network: ws
   port: 443
   server: msydjt.com
@@ -166,219 +16,16 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
     path: /51544/ws
   xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_4|3.1MB/s|YT-RU|GPT⁺-DE|NF-NL
-  network: xhttp
-  port: 443
-  server: 144.31.213.229
-  servername: 6d160a52.con.fernarchive.online
-  tls: true
-  type: vless
-  udp: true
-  uuid: abca037b-bee5-41cc-a888-0668e4c66176
-  xhttp-opts:
-    path: /conv4/stream/77dd2aeeb94331fbff325bb48850392b
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇪🇪EE_1|2.6MB/s|YT-GB|GPT⁺-EE|NF-FI
-  network: xhttp
-  port: 443
-  server: 31.76.70.90
-  servername: 597dad6b.con.fernarchive.online
-  tls: true
-  type: vless
-  udp: true
-  uuid: abca037b-bee5-41cc-a888-0668e4c66176
-  xhttp-opts:
-    path: /conv4/stream/77dd2aeeb94331fbff325bb48850392b
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇨🇿CZ_2|1.8MB/s|YT-CZ|GPT⁺-CZ|NF-AT
-  network: tcp
-  port: 2063
-  reality-opts:
-    public-key: MMpt_jWc4J3oySBdf5sPDVRkiWlZmOObth6A1scM9BM
-  server: cz-prg.dontblockmepls.com
-  servername: rusbid.de
-  tls: true
-  type: vless
-  udp: true
-  uuid: b18d5990-96eb-4587-a386-7f8ef7591e6a
-- client-fingerprint: firefox
-  name: 🇰🇿KZ_1|571KB/s|YT-US|GPT⁺-KZ|NF-SE
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: ER-T5En54-sn6IXy7jU8vQVcBbOiWvznnezf3qZ273w
-  server: 46.8.43.125
-  servername: kz-central.v8x2b.lol
-  tls: true
-  type: vless
-  udp: true
-  uuid: 846cedee-2a52-4a62-a0b9-11850ead6a8b
-- client-fingerprint: firefox
-  name: 🇪🇪EE_2|1.1MB/s|YT-RU|GPT⁺-EE|NF-LV
-  network: tcp
-  port: 25895
-  reality-opts:
-    public-key: jOVKSP-bS9OkILJ8Epz8hadh6qhavCrOiJYeF0NCn0k
-    short-id: a73f0410d728c823
-  server: ee.h1cloud.net
-  servername: www.samsung.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: f90b7d43-69e2-4b46-a672-8029bc6796a2
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇺🇸US_4|2.7MB/s|YT-US|GPT⁺-US|NF-US
-  network: tcp
-  port: 9443
-  reality-opts:
-    public-key: 0hIFPaEn4RdFib8_eP8HYxMywR5izEwM3JA2W1Zo8U4
-    short-id: b390142456517acc
-  server: 156.229.160.98
-  servername: www.amazon.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4a270d3e-27b4-497d-8c8c-28f1f54958d9
 - cipher: aes-256-gcm
-  name: 🇷🇺RU_1|982KB/s|YT-RU
-  password: NTiHBg64fsY8u8DbGrtypD9gPGSL386p
-  port: 18443
-  server: 46.17.41.61
+  name: 🇮🇹IT_2|609KB/s|YT-US|GPT⁺-IT|NF-IT
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.27
   type: ss
   udp: true
-- name: 🇮🇳IN_1|1.1MB/s|YT-IN|GPT⁺-IN|NF-IN
-  network: tcp
-  port: 46362
-  server: in002.zestapp778.com
-  servername: in002.zestapp778.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
-- client-fingerprint: ios
-  name: 🇹🇷TR_1|1006KB/s|YT-RU|GPT⁺-TR|NF
-  network: grpc
-  port: 8444
-  reality-opts:
-    public-key: FWitre1jinQR7qz5HQ0q2Q4Gg9xA9B0SyizCziN7Ch0
-    short-id: 457fab2ac885dbe0
-  server: 62.133.63.45
-  servername: github.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: a346c521-7a7f-452b-9356-a4893feb5982
-- name: 🇬🇧GB_1|1.5MB/s|YT-US|GPT⁺-GB|NF-GB
-  network: raw
-  port: 44559
-  server: en001.zestapp778.com
-  servername: en001.zestapp778.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
-- client-fingerprint: chrome
-  name: 🇺🇸US_6|613KB/s|YT-US|GPT⁺-US|NF-US
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: t_aj99mkcVXDY_7xI9RhWyEY3khupiGiDsGKEJ7EajM
-    short-id: 5590a9bae52e0586
-  server: 66.154.101.36
-  servername: www.tesla.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: c166ca49-4af0-416d-8411-2100f7bde9fe
-- client-fingerprint: chrome
-  name: 🇵🇱PL_3|1.6MB/s|YT-RU|GPT⁺-PL|NF-PL
-  network: raw
-  port: 27591
-  reality-opts:
-    public-key: LY0H47MWx87_L_JBzxFAuTzKZB53U7MrZQK8-dNnMxM
-    short-id: 6c5c7900406a1ae7
-  server: pl1.h1cloud.net
-  servername: www.samsung.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 056405e8-de9f-4d0d-8145-956f13cc34da
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_5|1.5MB/s|YT-DE|GPT⁺-DE|NF-DE
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: q3UXFUE5yYxNE4ugLUnYdpc9WRtR-sjsDTrKsiqzDHE
-    short-id: ''
-  server: nl-central.v8x2b.lol
-  servername: nl-central.v8x2b.lol
-  tls: true
-  type: vless
-  udp: true
-  uuid: 846cedee-2a52-0002-a0b9-11850ead6a8b
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇫🇮FI_1|1.7MB/s|YT-RU|GPT⁺-DE|NF-SE
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: QvT-t_h_AF2EAT4Ggh_a6pcCK3StY8G9WCXn6-dJbxk
-    short-id: 51079f144d661484
-  server: 13.143.180.104
-  servername: s12.bsh-net.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: a0fa7e19-70ec-41e0-b0cc-bcc984d4201a
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇫🇮FI_2|1.7MB/s|YT-RU|GPT⁺-DE|NF-SE
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: QvT-t_h_AF2EAT4Ggh_a6pcCK3StY8G9WCXn6-dJbxk
-    short-id: 51079f144d661484
-  server: s12.bsh-net.ru
-  servername: s12.bsh-net.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: a0fa7e19-70ec-41e0-b0cc-bcc984d4201a
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_6|1.4MB/s|YT-DE|GPT⁺-DE|NF-DE
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: q3UXFUE5yYxNE4ugLUnYdpc9WRtR-sjsDTrKsiqzDHE
-    short-id: ''
-  server: 191.217.217.69
-  servername: nl-central.v8x2b.lol
-  tls: true
-  type: vless
-  udp: true
-  uuid: 846cedee-2a52-0002-a0b9-11850ead6a8b
-- name: 🇫🇮FI_3|2.1MB/s|YT-RU|GPT⁺-FI|NF-FI
-  password: 10be1dad-9952-4c5e-aa30-db435f69b727
-  port: 4444
-  server: 94.156.180.111
-  skip-cert-verify: false
-  sni: fl1.nexfile.net
-  type: hysteria2
 - client-fingerprint: firefox
   encryption: none
-  name: 🇩🇪DE_7|2.2MB/s|YT-RU|GPT⁺-DE|NF-NL
+  name: 🇩🇪DE_3|762KB/s|YT-RU|GPT⁺-DE|NF-NL
   network: xhttp
   port: '443'
   server: 6d160a52.con.fernarchive.online
@@ -391,266 +38,18 @@ proxies:
     mode: auto
     path: /conv4/stream/77dd2aeeb94331fbff325bb48850392b
   xudp: true
+- cipher: aes-256-gcm
+  name: 🇮🇹IT_1|867KB/s|YT-US|GPT⁺-IT|NF-IT
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.18
+  type: ss
 - client-fingerprint: firefox
-  encryption: none
-  name: 🇵🇱PL_5|782KB/s|YT-RU|GPT⁺-PL|NF-PL
-  network: tcp
-  port: '27591'
-  reality-opts:
-    public-key: LY0H47MWx87_L_JBzxFAuTzKZB53U7MrZQK8-dNnMxM
-    short-id: 6c5c7900406a1ae7
-  server: 79.182.39.37
-  servername: www.samsung.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 056405e8-de9f-4d0d-8145-956f13cc34da
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇧🇷BR_1|1.6MB/s|YT-RU|GPT⁺-BR|NF-BR
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: 1TtWNQhTJr_3H7-ypMw4EiLzVxy22AzUtMiE5JmQMl4
-    short-id: 1c5869a95671bcb0
-  server: 109.104.155.121
-  servername: br1.accessboy.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: caf3d607-95c9-4ea0-98b5-864027056ba0
-  xudp: true
-- client-fingerprint: firefox
-  name: 🇫🇮FI_4|2.8MB/s|YT-RU|GPT⁺-FI|NF-FI
-  network: xhttp
-  port: '4443'
-  server: 144.31.109.158
-  servername: fl3.nexfile.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 10be1dad-9952-4c5e-aa30-db435f69b727
-  xhttp-opts:
-    path: /api/v1/sync/
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  name: 🇩🇪DE_8|3.6MB/s|YT-RU|GPT⁺-DE|NF-SE
+  name: 🇩🇪DE_1|781KB/s|GPT⁺-DE|NF-SE
   network: xhttp
   port: '443'
-  server: 144.31.242.142
+  server: 883f1393.con.rasterparcel.tech
   servername: 883f1393.con.rasterparcel.tech
-  tls: true
-  type: vless
-  udp: true
-  uuid: abca037b-bee5-41cc-a888-0668e4c66176
-  xhttp-opts:
-    mode: auto
-    path: /conv4/stream/d34366ecdd31367d0fc76955c6b8d77c
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇲🇽MX_1|1.7MB/s|YT-RU|GPT⁺-MX|NF-MX
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: 1TtWNQhTJr_3H7-ypMw4EiLzVxy22AzUtMiE5JmQMl4
-    short-id: 1c5869a95671bcb0
-  server: 147.78.1.73
-  servername: mx1.accessboy.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: caf3d607-95c9-4ea0-98b5-864027056ba0
-  xudp: true
-- alpn:
-  - h2
-  client-fingerprint: firefox
-  encryption: none
-  name: 🇩🇪DE_10|1.6MB/s|YT-DE|GPT⁺-DE|NF-DE
-  network: xhttp
-  port: '443'
-  server: 188.72.103.4
-  servername: czech.nnight.cfd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9737cc16-7266-45ce-94d9-6e05a45e0b9c
-  xhttp-opts:
-    host: czech.nnight.cfd
-    mode: packet-up
-    path: /api/v4/media/session/poll
-    reuse-settings:
-      c-max-reuse-times: 128-256
-      h-keep-alive-period: 30
-      h-max-request-times: 600-1000
-      h-max-reusable-secs: 1800-3600
-      max-concurrency: 8-16
-      max-connections: '0'
-    seq-key: offset
-    seq-placement: query
-    session-length: '0'
-    uplink-data-key: X-Playback-Token
-    uplink-data-placement: header
-    uplink-http-method: GET
-    x-padding-bytes: 48-320
-    x-padding-key: q
-    x-padding-method: tokenish
-    x-padding-obfs-mode: true
-    x-padding-placement: query
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇷🇺RU_3|1.7MB/s
-  network: xhttp
-  port: '2053'
-  server: 37.18.14.43
-  servername: flatcrest.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2c634977-584e-4e1f-b501-1b70c77a6743
-  xhttp-opts:
-    host: flatcrest.net
-    path: /api/v1/upload
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  name: 🇪🇪EE_3|2.2MB/s|YT-RU|GPT⁺-EE|NF-LV
-  network: raw
-  port: '25895'
-  reality-opts:
-    public-key: jOVKSP-bS9OkILJ8Epz8hadh6qhavCrOiJYeF0NCn0k
-    short-id: a73f0410d728c823
-  server: 79.182.39.232
-  servername: www.samsung.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: f90b7d43-69e2-4b46-a672-8029bc6796a2
-  xudp: true
-- client-fingerprint: firefox
-  name: 🇩🇪DE_11|2.0MB/s|YT-GB|GPT⁺-DE|NF-SE
-  network: xhttp
-  port: '443'
-  server: 9187bd6f.con.fernarchive.online
-  servername: 9187bd6f.con.fernarchive.online
-  tls: true
-  type: vless
-  udp: true
-  uuid: abca037b-bee5-41cc-a888-0668e4c66176
-  xhttp-opts:
-    mode: auto
-    path: /conv4/stream/77dd2aeeb94331fbff325bb48850392b
-  xudp: true
-- down: ''
-  fingerprint: ''
-  name: 🇬🇧GB_2|1.9MB/s|YT-RU|GPT⁺-GB|NF-GB
-  obfs: ''
-  obfs-password: ''
-  password: 10be1dad-9952-4c5e-aa30-db435f69b727
-  port: '4444'
-  server: api5.nexfile.net
-  skip-cert-verify: false
-  sni: api5.nexfile.net
-  type: hysteria2
-  up: ''
-- client-fingerprint: firefox
-  name: 🇵🇱PL_6|1.8MB/s|YT-RU|GPT⁺-PL|NF-PL
-  network: xhttp
-  port: '4443'
-  server: bl1.nexfile.net
-  servername: bl1.nexfile.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 10be1dad-9952-4c5e-aa30-db435f69b727
-  xhttp-opts:
-    mode: auto
-    path: /api/v1/sync/
-  xudp: true
-- alpn:
-  - h2
-  - ' http/1.1'
-  client-fingerprint: firefox
-  encryption: none
-  name: 🇷🇺RU_4|2.0MB/s
-  network: xhttp
-  port: '443'
-  server: cdn.oldertown.ru
-  servername: cdn.oldertown.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 29777784-b5ad-4e2a-be7b-335f033ab97c
-  xhttp-opts:
-    host: cdn.oldertown.ru
-    mode: packet-up
-    path: /api/v4/media/session/poll
-    reuse-settings:
-      c-max-reuse-times: 128-256
-      h-keep-alive-period: 30
-      h-max-request-times: 600-1000
-      h-max-reusable-secs: 1800-3600
-      max-concurrency: 8-16
-    seq-key: offset
-    seq-placement: query
-    session-key: media_sid
-    session-placement: path
-    uplink-data-key: X-Playback-Token
-    uplink-data-placement: header
-    uplink-http-method: GET
-    x-padding-bytes: 48-320
-    x-padding-key: q
-    x-padding-method: tokenish
-    x-padding-obfs-mode: true
-    x-padding-placement: query
-  xudp: true
-- alpn:
-  - h2
-  client-fingerprint: firefox
-  encryption: none
-  name: 🇩🇪DE_12|2.3MB/s|YT-DE|GPT⁺-DE|NF-DE
-  network: xhttp
-  port: '443'
-  server: czech.nnight.cfd
-  servername: czech.nnight.cfd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9737cc16-7266-45ce-94d9-6e05a45e0b9c
-  xhttp-opts:
-    host: czech.nnight.cfd
-    mode: packet-up
-    path: /api/v4/media/session/poll
-    reuse-settings:
-      c-max-reuse-times: 128-256
-      h-keep-alive-period: 30
-      h-max-request-times: 600-1000
-      h-max-reusable-secs: 1800-3600
-      max-concurrency: 8-16
-    seq-key: offset
-    seq-placement: query
-    session-key: media_sid
-    session-placement: path
-    uplink-data-key: X-Playback-Token
-    uplink-data-placement: header
-    uplink-http-method: GET
-    x-padding-bytes: 48-320
-    x-padding-key: q
-    x-padding-method: tokenish
-    x-padding-obfs-mode: true
-    x-padding-placement: query
-  xudp: true
-- client-fingerprint: firefox
-  name: 🇩🇪DE_14|3.7MB/s|YT-RU|GPT⁺-DE|NF-AT
-  network: xhttp
-  port: '443'
-  server: e2865c20.con.rasterparcel.tech
-  servername: e2865c20.con.rasterparcel.tech
   tls: true
   type: vless
   udp: true
@@ -660,70 +59,66 @@ proxies:
     path: /conv4/stream/d34366ecdd31367d0fc76955c6b8d77c
     x-padding-bytes: 100-1000
   xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_15|1.8MB/s|GPT⁺-DE|NF-DE
-  network: raw
-  port: '443'
-  reality-opts:
-    public-key: 5fkwwCKZzMsE6Eb_b3iqluu-1AWIfnYl-p0N3EL9Al8
-    short-id: 2c9a2790ad5900b2
-  server: ge-s-1.pythonmakemigreat.wiki
-  servername: ge-s-1.pythonmakemigreat.wiki
-  tls: true
-  type: vless
-  udp: true
-  uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
-  xudp: true
 - client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇲🇽MX_2|1.4MB/s|GPT⁺-MX|NF-MX
-  network: raw
-  port: '443'
-  reality-opts:
-    public-key: 1TtWNQhTJr_3H7-ypMw4EiLzVxy22AzUtMiE5JmQMl4
-    short-id: 1c5869a95671bcb0
-  server: mx1.accessboy.com
-  servername: mx1.accessboy.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: caf3d607-95c9-4ea0-98b5-864027056ba0
-  xudp: true
-- client-fingerprint: chrome
   encryption: none
-  name: 🇺🇸US_7|2.6MB/s|YT-US|GPT⁺-US|NF-DE
+  name: 🇪🇸ES_1|567KB/s|YT-RU|GPT⁺-ES|NF-US
   network: xhttp
-  port: '61374'
-  reality-opts:
-    public-key: QrNs0ew7snHqLfpVXS9RAhlRzgAzzGZK9fXmDcx9xHI
-    short-id: ''
-  server: nl-s-2.pythonmakemigreat.wiki
-  servername: nl-s-2.pythonmakemigreat.wiki
+  port: '443'
+  server: 50.7.87.93
+  servername: 7d1a74fd.ferrin.uk
   tls: true
   type: vless
   udp: true
-  uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
-  xhttp-opts:
-    host: nl-s-1.pythonmakemigreat.wiki
-    mode: packet-up
-    path: /
-    reuse-settings:
-      max-connections: '3'
-    x-padding-bytes: 100-500
-  xudp: true
-- client-fingerprint: firefox
-  name: 🇩🇪DE_16|2.2MB/s|YT-GB|GPT⁺-DE|NF-SE
-  network: xhttp
-  port: '4443'
-  server: swo3.nexfile.net
-  servername: swo3.nexfile.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 10be1dad-9952-4c5e-aa30-db435f69b727
+  uuid: 7d1a74fd-8a38-4a29-863f-5da53a9e557e
   xhttp-opts:
     mode: auto
-    path: /api/v1/sync/
+    path: /es
+  xudp: true
+- down: ''
+  fingerprint: ''
+  name: 🇩🇪DE_4|2.4MB/s|YT-DE|GPT⁺-DE|NF-HU
+  obfs: ''
+  obfs-password: ''
+  password: myptyun.Hu5bS3VYUd3iqmaU
+  port: '8443'
+  server: 193.26.157.226
+  skip-cert-verify: false
+  sni: 1o2.690423.xyz
+  type: hysteria2
+  up: ''
+- alpn:
+  - h2
+  client-fingerprint: firefox
+  encryption: none
+  name: 🇳🇱NL_1|651KB/s|YT-RU|GPT⁺-NL|NF-DE
+  network: xhttp
+  port: '443'
+  server: yandex.lent.pro
+  servername: yandex.lent.pro
+  tls: true
+  type: vless
+  udp: true
+  uuid: 721e0fec-e964-4b21-a59e-3eb26288e18f
+  xhttp-opts:
+    host: yandex.lent.pro
+    mode: packet-up
+    path: /api/v4/media/session/poll
+    reuse-settings:
+      c-max-reuse-times: 128-256
+      h-keep-alive-period: 30
+      h-max-request-times: 600-1000
+      h-max-reusable-secs: 1800-3600
+      max-concurrency: 8-16
+    seq-key: offset
+    seq-placement: query
+    session-key: media_sid
+    session-placement: path
+    uplink-data-key: X-Data
+    uplink-data-placement: header
+    uplink-http-method: GET
+    x-padding-bytes: 48-320
+    x-padding-key: q
+    x-padding-method: tokenish
+    x-padding-obfs-mode: true
+    x-padding-placement: query
   xudp: true

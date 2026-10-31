@@ -1,82 +1,25 @@
 proxies:
-- client-fingerprint: chrome
-  encryption: mlkem768x25519plus.native.0rtt.HgOBFNZBsI-IbLuV7IeOJbMRNb9CodLXi3YDHVWPWQU
-  name: 🇩🇪DE_2|879KB/s|GPT⁺-DE|NF-DE
-  network: ws
-  port: 443
-  server: msydjt.com
-  servername: msydjt.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 024cf4e8-fa64-44ea-b22f-c28437120563
-  ws-opts:
-    headers:
-      Host: ded1ws.samcdn.shop
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
-    path: /51544/ws
-  xudp: true
 - cipher: aes-256-gcm
-  name: 🇮🇹IT_2|609KB/s|YT-US|GPT⁺-IT|NF-IT
+  name: 🇮🇹IT_1|1.8MB/s|YT-US|GPT⁺-IT|NF-IT
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
-  server: 202.50.253.27
+  server: 202.50.253.63
   type: ss
-  udp: true
-- client-fingerprint: firefox
-  encryption: none
-  name: 🇩🇪DE_3|762KB/s|YT-RU|GPT⁺-DE|NF-NL
-  network: xhttp
-  port: '443'
-  server: 6d160a52.con.fernarchive.online
-  servername: 6d160a52.con.fernarchive.online
-  tls: true
-  type: vless
-  udp: true
-  uuid: abca037b-bee5-41cc-a888-0668e4c66176
-  xhttp-opts:
-    mode: auto
-    path: /conv4/stream/77dd2aeeb94331fbff325bb48850392b
-  xudp: true
 - cipher: aes-256-gcm
-  name: 🇮🇹IT_1|867KB/s|YT-US|GPT⁺-IT|NF-IT
+  name: 🇮🇹IT_3|1.7MB/s|YT-US|GPT⁺-IT|NF-IT
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
-  server: 202.50.253.18
+  server: 202.50.253.54
   type: ss
-- client-fingerprint: firefox
-  name: 🇩🇪DE_1|781KB/s|GPT⁺-DE|NF-SE
-  network: xhttp
-  port: '443'
-  server: 883f1393.con.rasterparcel.tech
-  servername: 883f1393.con.rasterparcel.tech
-  tls: true
-  type: vless
-  udp: true
-  uuid: abca037b-bee5-41cc-a888-0668e4c66176
-  xhttp-opts:
-    mode: auto
-    path: /conv4/stream/d34366ecdd31367d0fc76955c6b8d77c
-    x-padding-bytes: 100-1000
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  name: 🇪🇸ES_1|567KB/s|YT-RU|GPT⁺-ES|NF-US
-  network: xhttp
-  port: '443'
-  server: 50.7.87.93
-  servername: 7d1a74fd.ferrin.uk
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7d1a74fd-8a38-4a29-863f-5da53a9e557e
-  xhttp-opts:
-    mode: auto
-    path: /es
-  xudp: true
+- cipher: aes-256-gcm
+  name: 🇮🇹IT_4|645KB/s|YT-US|GPT⁺-IT|NF-IT
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.72
+  type: ss
 - down: ''
   fingerprint: ''
-  name: 🇩🇪DE_4|2.4MB/s|YT-DE|GPT⁺-DE|NF-HU
+  name: 🇩🇪DE_1|1.4MB/s|GPT⁺-DE|NF-HU
   obfs: ''
   obfs-password: ''
   password: myptyun.Hu5bS3VYUd3iqmaU
@@ -86,39 +29,67 @@ proxies:
   sni: 1o2.690423.xyz
   type: hysteria2
   up: ''
-- alpn:
-  - h2
-  client-fingerprint: firefox
+- cipher: aes-256-gcm
+  name: 🇮🇹IT_2|1.3MB/s|YT-US|GPT⁺-IT|NF-IT
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.99
+  type: ss
+- client-fingerprint: chrome
   encryption: none
-  name: 🇳🇱NL_1|651KB/s|YT-RU|GPT⁺-NL|NF-DE
+  name: 🇫🇮FI_1|534KB/s|YT-SE|GPT⁺-FI|NF-SE
   network: xhttp
-  port: '443'
-  server: yandex.lent.pro
-  servername: yandex.lent.pro
+  packet-encoding: xudp
+  port: 61374
+  reality-opts:
+    public-key: QrNs0ew7snHqLfpVXS9RAhlRzgAzzGZK9fXmDcx9xHI
+  server: se-2.pythonsetupbib.online
+  servername: se-2.pythonsetupbib.online
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 721e0fec-e964-4b21-a59e-3eb26288e18f
+  uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
   xhttp-opts:
-    host: yandex.lent.pro
+    host: se-2.pythonsetupbib.online
     mode: packet-up
-    path: /api/v4/media/session/poll
+    path: /
     reuse-settings:
-      c-max-reuse-times: 128-256
-      h-keep-alive-period: 30
-      h-max-request-times: 600-1000
-      h-max-reusable-secs: 1800-3600
-      max-concurrency: 8-16
-    seq-key: offset
-    seq-placement: query
-    session-key: media_sid
-    session-placement: path
-    uplink-data-key: X-Data
-    uplink-data-placement: header
-    uplink-http-method: GET
-    x-padding-bytes: 48-320
-    x-padding-key: q
-    x-padding-method: tokenish
-    x-padding-obfs-mode: true
-    x-padding-placement: query
+      max-connections: '3'
+    x-padding-bytes: 100-500
+- name: 🇫🇮FI_2|801KB/s|YT-RU|GPT⁺-FI|NF-FI
+  password: 7d43670b-6b08-45b9-8a24-8f3971abc132
+  port: 8443
+  server: 153.76.194.118
+  skip-cert-verify: false
+  sni: finland.biznes.lol
+  type: hysteria2
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_2|1.3MB/s|YT-RU|GPT⁺-DE|NF-DE
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: node0aB_7yyVADkeieiBBpxqIlxNLQcvgotRClh0QXQ
+    short-id: ''
+  server: nl-modx-prime.storagedirectguide.com
+  servername: nl-modx-prime.storagedirectguide.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5254c281-3bc1-40ee-ba89-1aaf8c251402
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_3|604KB/s|YT-US|GPT⁺-DE|NF-US
+  network: raw
+  port: '443'
+  reality-opts:
+    public-key: 6lZ5dkQN2sH9tYca374W4N1n9eCanD_F2FfghcksKSo
+    short-id: ''
+  server: finlandlanzarotte.live
+  servername: finlandlanzarotte.live
+  tls: true
+  type: vless
+  udp: true
+  uuid: 50a87e21-f0e2-4b53-a787-91adfe748f63
   xudp: true

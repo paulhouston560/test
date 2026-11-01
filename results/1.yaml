@@ -1,43 +1,15 @@
+mode: rule
+tcp-concurrent: true
 proxies:
 - cipher: aes-256-gcm
-  name: 🇮🇹IT_1|1.8MB/s|YT-US|GPT⁺-IT|NF-IT
+  name: 🇮🇹IT_1|592KB/s|YT-US|GPT⁺-IT|NF-IT
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.63
   type: ss
-- cipher: aes-256-gcm
-  name: 🇮🇹IT_3|1.7MB/s|YT-US|GPT⁺-IT|NF-IT
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.54
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇮🇹IT_4|645KB/s|YT-US|GPT⁺-IT|NF-IT
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.72
-  type: ss
-- down: ''
-  fingerprint: ''
-  name: 🇩🇪DE_1|1.4MB/s|GPT⁺-DE|NF-HU
-  obfs: ''
-  obfs-password: ''
-  password: myptyun.Hu5bS3VYUd3iqmaU
-  port: '8443'
-  server: 193.26.157.226
-  skip-cert-verify: false
-  sni: 1o2.690423.xyz
-  type: hysteria2
-  up: ''
-- cipher: aes-256-gcm
-  name: 🇮🇹IT_2|1.3MB/s|YT-US|GPT⁺-IT|NF-IT
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.99
-  type: ss
 - client-fingerprint: chrome
   encryption: none
-  name: 🇫🇮FI_1|534KB/s|YT-SE|GPT⁺-FI|NF-SE
+  name: 🇫🇮FI_1|657KB/s|YT-SE|GPT⁺-FI|NF-SE
   network: xhttp
   packet-encoding: xudp
   port: 61374
@@ -57,39 +29,161 @@ proxies:
     reuse-settings:
       max-connections: '3'
     x-padding-bytes: 100-500
-- name: 🇫🇮FI_2|801KB/s|YT-RU|GPT⁺-FI|NF-FI
-  password: 7d43670b-6b08-45b9-8a24-8f3971abc132
-  port: 8443
-  server: 153.76.194.118
+- cipher: aes-256-gcm
+  name: 🇮🇹IT_2|896KB/s|YT-US|GPT⁺-IT|NF-IT
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.45
+  type: ss
+  udp: true
+- down: ''
+  fingerprint: ''
+  name: 🇩🇪DE_1|2.6MB/s|YT-DE|GPT⁺-DE|NF-PL
+  obfs: ''
+  obfs-password: ''
+  password: myptyun.Hu5bS3VYUd3iqmaU
+  port: '8443'
+  server: 193.26.157.226
   skip-cert-verify: false
-  sni: finland.biznes.lol
+  sni: 1o2.690423.xyz
   type: hysteria2
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_2|1.3MB/s|YT-RU|GPT⁺-DE|NF-DE
-  network: tcp
+  up: ''
+- grpc-opts:
+    grpc-service-name: 3e99d50d5740985d
+  name: 🇳🇱NL_1|737KB/s|YT-RU|GPT⁺-NL|NF-FR
+  network: grpc
   port: 443
-  reality-opts:
-    public-key: node0aB_7yyVADkeieiBBpxqIlxNLQcvgotRClh0QXQ
-    short-id: ''
-  server: nl-modx-prime.storagedirectguide.com
-  servername: nl-modx-prime.storagedirectguide.com
+  server: 189.74.114.119
+  servername: api.mediaklenov.cc
   tls: true
   type: vless
   udp: true
-  uuid: 5254c281-3bc1-40ee-ba89-1aaf8c251402
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_3|604KB/s|YT-US|GPT⁺-DE|NF-US
-  network: raw
-  port: '443'
-  reality-opts:
-    public-key: 6lZ5dkQN2sH9tYca374W4N1n9eCanD_F2FfghcksKSo
-    short-id: ''
-  server: finlandlanzarotte.live
-  servername: finlandlanzarotte.live
-  tls: true
-  type: vless
-  udp: true
-  uuid: 50a87e21-f0e2-4b53-a787-91adfe748f63
-  xudp: true
+  uuid: abd5755a-8b77-4ed4-afbd-f2ccbc08e6f5
+proxy-groups:
+- name: PROXY
+  type: select
+  proxies:
+  - STABLE
+  - AUTO
+  - DIRECT
+- name: STABLE
+  type: fallback
+  include-all: true
+  url: https://www.gstatic.com/generate_204
+  interval: 180
+  lazy: false
+  timeout: 5000
+  max-failed-times: 2
+  expected-status: 204
+- name: AUTO
+  type: url-test
+  include-all: true
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 150
+  lazy: false
+  timeout: 5000
+  max-failed-times: 2
+  expected-status: 204
+- name: AI
+  type: select
+  proxies:
+  - STABLE
+  - AUTO
+  - PROXY
+  - DIRECT
+- name: NETFLIX
+  type: select
+  proxies:
+  - STABLE
+  - AUTO
+  - PROXY
+  - DIRECT
+- name: YOUTUBE
+  type: select
+  proxies:
+  - STABLE
+  - AUTO
+  - PROXY
+  - DIRECT
+- name: TELEGRAM
+  type: select
+  proxies:
+  - STABLE
+  - AUTO
+  - PROXY
+  - DIRECT
+- name: TWITTER
+  type: select
+  proxies:
+  - PROXY
+  - STABLE
+  - AUTO
+  - AI
+  - NETFLIX
+  - YOUTUBE
+  - TELEGRAM
+  - DIRECT
+rule-providers:
+  LocalAreaNetwork:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    url: https://cdn.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/LocalAreaNetwork.list
+    path: ./ruleset/LocalAreaNetwork.list
+  AI:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/AI.list
+    path: ./ruleset/AI.list
+  OpenAi:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    url: https://cdn.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/OpenAi.list
+    path: ./ruleset/OpenAi.list
+  Netflix:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    url: https://cdn.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/Netflix.list
+    path: ./ruleset/Netflix.list
+  YouTube:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/YouTube.list
+    path: ./ruleset/YouTube.list
+  Telegram:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Telegram.list
+    path: ./ruleset/Telegram.list
+rules:
+- DOMAIN-SUFFIX,gist.githubusercontent.com,DIRECT
+- DOMAIN-SUFFIX,raw.githubusercontent.com,DIRECT
+- DOMAIN-SUFFIX,api.github.com,DIRECT
+- DOMAIN-SUFFIX,ghfast.top,DIRECT
+- PROCESS-NAME,subs-check.exe,DIRECT
+- PROCESS-NAME,subs-check,DIRECT
+- RULE-SET,LocalAreaNetwork,DIRECT
+- RULE-SET,AI,AI
+- RULE-SET,OpenAi,AI
+- RULE-SET,Netflix,NETFLIX
+- RULE-SET,YouTube,YOUTUBE
+- RULE-SET,Telegram,TELEGRAM
+- DOMAIN-SUFFIX,twitter.com,TWITTER
+- DOMAIN-SUFFIX,x.com,TWITTER
+- DOMAIN-SUFFIX,twimg.com,TWITTER
+- DOMAIN-SUFFIX,abs.twimg.com,TWITTER
+- DOMAIN-SUFFIX,video.twimg.com,TWITTER
+- GEOIP,CN,DIRECT
+- MATCH,PROXY

@@ -137,6 +137,7 @@ rule-providers:
     behavior: classical
     format: text
     interval: 86400
+    proxy: PROXY
     url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/AI.list
     path: ./ruleset/AI.list
   OpenAi:
@@ -144,6 +145,7 @@ rule-providers:
     behavior: classical
     format: text
     interval: 86400
+    proxy: PROXY
     url: https://cdn.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/OpenAi.list
     path: ./ruleset/OpenAi.list
   Netflix:
@@ -151,6 +153,7 @@ rule-providers:
     behavior: classical
     format: text
     interval: 86400
+    proxy: PROXY
     url: https://cdn.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/Netflix.list
     path: ./ruleset/Netflix.list
   YouTube:
@@ -158,6 +161,7 @@ rule-providers:
     behavior: classical
     format: text
     interval: 86400
+    proxy: PROXY
     url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/YouTube.list
     path: ./ruleset/YouTube.list
   Telegram:
@@ -165,13 +169,10 @@ rule-providers:
     behavior: classical
     format: text
     interval: 86400
+    proxy: PROXY
     url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Telegram.list
     path: ./ruleset/Telegram.list
 rules:
-- DOMAIN-SUFFIX,gist.githubusercontent.com,DIRECT
-- DOMAIN-SUFFIX,raw.githubusercontent.com,DIRECT
-- DOMAIN-SUFFIX,api.github.com,DIRECT
-- DOMAIN-SUFFIX,ghfast.top,DIRECT
 - PROCESS-NAME,subs-check.exe,DIRECT
 - PROCESS-NAME,subs-check,DIRECT
 - RULE-SET,LocalAreaNetwork,DIRECT

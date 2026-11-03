@@ -1,41 +1,64 @@
 mode: rule
 tcp-concurrent: true
 proxies:
+- name: 🇫🇮FI_2|821KB/s|YT-RU|GPT⁺-FI|NF-FI
+  password: 69e41e64-a832-471a-b740-94577ca85520
+  port: 443
+  server: forshynewh.duckdns.org
+  servername: forshynewh.duckdns.org
+  skip-cert-verify: false
+  sni: forshynewh.duckdns.org
+  tls: true
+  type: hysteria2
+  udp: true
+- name: 🇳🇱NL_1|2.0MB/s|YT-RU|GPT⁺-NL|NF-NL
+  password: 2f0fccb6-4a86-4d9f-9e03-a2dfee6ed7f5
+  port: 8443
+  server: 89.105.219.106
+  sni: speedtestmark.com
+  type: hysteria2
+- name: 🇫🇮FI_1|1.8MB/s|YT-GB|GPT⁺-FI|NF-LV
+  password: 2f0fccb6-4a86-4d9f-9e03-a2dfee6ed7f5
+  port: 8443
+  server: 92.242.165.40
+  sni: speedtestmark.com
+  type: hysteria2
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸US_1|1.9MB/s|GPT⁺
+  network: ws
+  port: '443'
+  server: 172.64.229.145
+  servername: cfdd-9qe.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: b0842662-f357-441b-8e85-718a83603534
+  ws-opts:
+    headers:
+      Host: cfdd-9qe.pages.dev
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1606 Build/MMB29M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
+    path: /
+  xudp: true
 - cipher: aes-256-gcm
-  name: 🇮🇹IT_1|592KB/s|YT-US|GPT⁺-IT|NF-IT
+  name: 🇮🇹IT_1|1.1MB/s|YT-RU|GPT⁺-IT|NF-IT
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.90
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇮🇹IT_2|965KB/s|YT-US|GPT⁺-IT|NF-IT
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.63
   type: ss
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇫🇮FI_1|657KB/s|YT-SE|GPT⁺-FI|NF-SE
-  network: xhttp
-  packet-encoding: xudp
-  port: 61374
-  reality-opts:
-    public-key: QrNs0ew7snHqLfpVXS9RAhlRzgAzzGZK9fXmDcx9xHI
-  server: se-2.pythonsetupbib.online
-  servername: se-2.pythonsetupbib.online
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
-  xhttp-opts:
-    host: se-2.pythonsetupbib.online
-    mode: packet-up
-    path: /
-    reuse-settings:
-      max-connections: '3'
-    x-padding-bytes: 100-500
 - cipher: aes-256-gcm
-  name: 🇮🇹IT_2|896KB/s|YT-US|GPT⁺-IT|NF-IT
+  name: 🇮🇹IT_3|1.3MB/s|YT-US|GPT⁺-IT|NF-IT
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
-  server: 202.50.253.45
+  server: 202.50.253.99
   type: ss
-  udp: true
 - down: ''
   fingerprint: ''
   name: 🇩🇪DE_1|2.6MB/s|YT-DE|GPT⁺-DE|NF-PL
@@ -48,17 +71,98 @@ proxies:
   sni: 1o2.690423.xyz
   type: hysteria2
   up: ''
-- grpc-opts:
-    grpc-service-name: 3e99d50d5740985d
-  name: 🇳🇱NL_1|737KB/s|YT-RU|GPT⁺-NL|NF-FR
-  network: grpc
-  port: 443
-  server: 189.74.114.119
-  servername: api.mediaklenov.cc
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸US_2|1.1MB/s|GPT⁺-US|NF-US
+  network: ws
+  port: '8443'
+  server: 104.17.146.37
+  servername: cfdd-9qe.pages.dev
   tls: true
   type: vless
   udp: true
-  uuid: abd5755a-8b77-4ed4-afbd-f2ccbc08e6f5
+  uuid: b0842662-f357-441b-8e85-718a83603534
+  ws-opts:
+    headers:
+      Host: cfdd-9qe.pages.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/69.0.3497.100 Safari/537.36
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇸🇬SG_1|874KB/s|GPT⁺-SG|NF-SG
+  network: ws
+  port: '2053'
+  server: 172.64.154.81
+  servername: cfdd-9qe.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: b0842662-f357-441b-8e85-718a83603534
+  ws-opts:
+    headers:
+      Host: cfdd-9qe.pages.dev
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.3
+        (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸US_3|1.0MB/s|YT-CN|GPT⁺-US|NF-US
+  network: ws
+  port: '2096'
+  server: 104.16.218.102
+  servername: cfdd-9qe.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: b0842662-f357-441b-8e85-718a83603534
+  ws-opts:
+    headers:
+      Host: cfdd-9qe.pages.dev
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/46.0.2490.86 Safari/537.36
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸US_4|815KB/s|GPT⁺-US|NF-US
+  network: ws
+  port: '2053'
+  server: 104.16.249.120
+  servername: cfdd-9qe.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: b0842662-f357-441b-8e85-718a83603534
+  ws-opts:
+    headers:
+      Host: cfdd-9qe.pages.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/47.0.2526.106 Safari/537.36
+    path: /
+  xudp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇳🇱NL_2|1.3MB/s|YT-US|GPT⁺-NL|NF-DE
+  network: ws
+  port: '2083'
+  server: 195.137.226.133
+  servername: nexostore.xnetaro.ir
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7f733b1a-6c00-48ac-ae3b-cbc178a9146e
+  ws-opts:
+    headers:
+      Host: nexostore.xnetaro.ir
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/69.0.3497.100 Safari/537.36
+    path: /wss?TELEGRAM----@VPNine1----@VPNine1----@VPNine1----@VPNine1----@VPNine1----@VPNine1----@VPNine1----@VPNine1----@VPNine1----@VPNine1----@VPNine1----@VPNine1----@VPNine1----@VPNine1----@VPNine1----@VPNine1----@VPNine1----@VPNine1----@VPNine1----@VPNine1
+  xudp: true
 proxy-groups:
 - name: PROXY
   type: select

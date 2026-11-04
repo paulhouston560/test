@@ -1,23 +1,7 @@
 mode: rule
 tcp-concurrent: true
 proxies:
-- name: 🇫🇮FI_2|821KB/s|YT-RU|GPT⁺-FI|NF-FI
-  password: 69e41e64-a832-471a-b740-94577ca85520
-  port: 443
-  server: forshynewh.duckdns.org
-  servername: forshynewh.duckdns.org
-  skip-cert-verify: false
-  sni: forshynewh.duckdns.org
-  tls: true
-  type: hysteria2
-  udp: true
-- name: 🇳🇱NL_1|2.0MB/s|YT-RU|GPT⁺-NL|NF-NL
-  password: 2f0fccb6-4a86-4d9f-9e03-a2dfee6ed7f5
-  port: 8443
-  server: 89.105.219.106
-  sni: speedtestmark.com
-  type: hysteria2
-- name: 🇫🇮FI_1|1.8MB/s|YT-GB|GPT⁺-FI|NF-LV
+- name: 🇫🇮 芬兰 | HYSTERIA2 | 002
   password: 2f0fccb6-4a86-4d9f-9e03-a2dfee6ed7f5
   port: 8443
   server: 92.242.165.40
@@ -25,112 +9,10 @@ proxies:
   type: hysteria2
 - client-fingerprint: chrome
   encryption: none
-  name: 🇺🇸US_1|1.9MB/s|GPT⁺
-  network: ws
-  port: '443'
-  server: 172.64.229.145
-  servername: cfdd-9qe.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: b0842662-f357-441b-8e85-718a83603534
-  ws-opts:
-    headers:
-      Host: cfdd-9qe.pages.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1606 Build/MMB29M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
-    path: /
-  xudp: true
-- cipher: aes-256-gcm
-  name: 🇮🇹IT_1|1.1MB/s|YT-RU|GPT⁺-IT|NF-IT
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.90
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇮🇹IT_2|965KB/s|YT-US|GPT⁺-IT|NF-IT
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.63
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇮🇹IT_3|1.3MB/s|YT-US|GPT⁺-IT|NF-IT
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.99
-  type: ss
-- down: ''
-  fingerprint: ''
-  name: 🇩🇪DE_1|2.6MB/s|YT-DE|GPT⁺-DE|NF-PL
-  obfs: ''
-  obfs-password: ''
-  password: myptyun.Hu5bS3VYUd3iqmaU
-  port: '8443'
-  server: 193.26.157.226
-  skip-cert-verify: false
-  sni: 1o2.690423.xyz
-  type: hysteria2
-  up: ''
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸US_2|1.1MB/s|GPT⁺-US|NF-US
-  network: ws
-  port: '8443'
-  server: 104.17.146.37
-  servername: cfdd-9qe.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: b0842662-f357-441b-8e85-718a83603534
-  ws-opts:
-    headers:
-      Host: cfdd-9qe.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/69.0.3497.100 Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇸🇬SG_1|874KB/s|GPT⁺-SG|NF-SG
-  network: ws
-  port: '2053'
-  server: 172.64.154.81
-  servername: cfdd-9qe.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: b0842662-f357-441b-8e85-718a83603534
-  ws-opts:
-    headers:
-      Host: cfdd-9qe.pages.dev
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.3
-        (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸US_3|1.0MB/s|YT-CN|GPT⁺-US|NF-US
+  name: CF电信优选21
   network: ws
   port: '2096'
-  server: 104.16.218.102
-  servername: cfdd-9qe.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: b0842662-f357-441b-8e85-718a83603534
-  ws-opts:
-    headers:
-      Host: cfdd-9qe.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/46.0.2490.86 Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸US_4|815KB/s|GPT⁺-US|NF-US
-  network: ws
-  port: '2053'
-  server: 104.16.249.120
+  server: 172.64.229.240
   servername: cfdd-9qe.pages.dev
   tls: true
   type: vless
@@ -140,29 +22,21 @@ proxies:
     headers:
       Host: cfdd-9qe.pages.dev
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/47.0.2526.106 Safari/537.36
+        Gecko) Chrome/50.0.2661.102 Safari/537.36
     path: /
   xudp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇳🇱NL_2|1.3MB/s|YT-US|GPT⁺-NL|NF-DE
-  network: ws
-  port: '2083'
-  server: 195.137.226.133
-  servername: nexostore.xnetaro.ir
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7f733b1a-6c00-48ac-ae3b-cbc178a9146e
-  ws-opts:
-    headers:
-      Host: nexostore.xnetaro.ir
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/69.0.3497.100 Safari/537.36
-    path: /wss?TELEGRAM----@VPNine1----@VPNine1----@VPNine1----@VPNine1----@VPNine1----@VPNine1----@VPNine1----@VPNine1----@VPNine1----@VPNine1----@VPNine1----@VPNine1----@VPNine1----@VPNine1----@VPNine1----@VPNine1----@VPNine1----@VPNine1----@VPNine1----@VPNine1
-  xudp: true
+- down: ''
+  fingerprint: ''
+  name: 美国+Xerox
+  obfs: ''
+  obfs-password: ''
+  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
+  port: '4444'
+  server: 13.143.189.144
+  skip-cert-verify: false
+  sni: pl2.nexfile.net
+  type: hysteria2
+  up: ''
 proxy-groups:
 - name: PROXY
   type: select
@@ -174,10 +48,10 @@ proxy-groups:
   type: fallback
   include-all: true
   url: https://www.gstatic.com/generate_204
-  interval: 180
+  interval: 120
   lazy: false
   timeout: 5000
-  max-failed-times: 2
+  max-failed-times: 1
   expected-status: 204
 - name: AUTO
   type: url-test
@@ -236,6 +110,30 @@ rule-providers:
     interval: 86400
     url: https://cdn.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/LocalAreaNetwork.list
     path: ./ruleset/LocalAreaNetwork.list
+  GoogleCN:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    proxy: DIRECT
+    url: https://cdn.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/GoogleCN.list
+    path: ./ruleset/GoogleCN.list
+  ChinaDomain:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    proxy: DIRECT
+    url: https://cdn.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/ChinaDomain.list
+    path: ./ruleset/ChinaDomain.list
+  ChinaCompanyIp:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    proxy: DIRECT
+    url: https://cdn.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/ChinaCompanyIp.list
+    path: ./ruleset/ChinaCompanyIp.list
   AI:
     type: http
     behavior: classical
@@ -279,6 +177,17 @@ rule-providers:
 rules:
 - PROCESS-NAME,subs-check.exe,DIRECT
 - PROCESS-NAME,subs-check,DIRECT
+- IP-CIDR,0.0.0.0/8,DIRECT,no-resolve
+- IP-CIDR,10.0.0.0/8,DIRECT,no-resolve
+- IP-CIDR,100.64.0.0/10,DIRECT,no-resolve
+- IP-CIDR,127.0.0.0/8,DIRECT,no-resolve
+- IP-CIDR,169.254.0.0/16,DIRECT,no-resolve
+- IP-CIDR,172.16.0.0/12,DIRECT,no-resolve
+- IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
+- IP-CIDR,198.18.0.0/16,DIRECT,no-resolve
+- IP-CIDR6,::1/128,DIRECT,no-resolve
+- IP-CIDR6,fc00::/7,DIRECT,no-resolve
+- IP-CIDR6,fe80::/10,DIRECT,no-resolve
 - RULE-SET,LocalAreaNetwork,DIRECT
 - RULE-SET,AI,AI
 - RULE-SET,OpenAi,AI
@@ -290,5 +199,24 @@ rules:
 - DOMAIN-SUFFIX,twimg.com,TWITTER
 - DOMAIN-SUFFIX,abs.twimg.com,TWITTER
 - DOMAIN-SUFFIX,video.twimg.com,TWITTER
-- GEOIP,CN,DIRECT
+- DOMAIN-SUFFIX,cn,DIRECT
+- DOMAIN-SUFFIX,baidu.com,DIRECT
+- DOMAIN-SUFFIX,bdstatic.com,DIRECT
+- DOMAIN-SUFFIX,qq.com,DIRECT
+- DOMAIN-SUFFIX,weixin.qq.com,DIRECT
+- DOMAIN-SUFFIX,bilibili.com,DIRECT
+- DOMAIN-SUFFIX,bilivideo.com,DIRECT
+- DOMAIN-SUFFIX,douyin.com,DIRECT
+- DOMAIN-SUFFIX,byteimg.com,DIRECT
+- DOMAIN-SUFFIX,taobao.com,DIRECT
+- DOMAIN-SUFFIX,tmall.com,DIRECT
+- DOMAIN-SUFFIX,jd.com,DIRECT
+- DOMAIN-SUFFIX,zhihu.com,DIRECT
+- DOMAIN-SUFFIX,163.com,DIRECT
+- DOMAIN-SUFFIX,126.com,DIRECT
+- DOMAIN-SUFFIX,iqiyi.com,DIRECT
+- DOMAIN-SUFFIX,youku.com,DIRECT
+- RULE-SET,GoogleCN,DIRECT
+- RULE-SET,ChinaDomain,DIRECT
+- RULE-SET,ChinaCompanyIp,DIRECT
 - MATCH,PROXY

@@ -3,10 +3,10 @@ tcp-concurrent: true
 proxies:
 - client-fingerprint: chrome
   encryption: none
-  name: 🇩🇪DE_1|690KB/s|YT-US|GPT⁺-DE|NF-DE
+  name: 🇯🇵JP_1|2.7MB/s|GPT|NF-JP
   network: ws
-  port: '2096'
-  server: 172.66.214.22
+  port: '2083'
+  server: 172.64.229.4
   servername: cfdd-9qe.pages.dev
   tls: true
   type: vless
@@ -15,58 +15,201 @@ proxies:
   ws-opts:
     headers:
       Host: cfdd-9qe.pages.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G570M) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
     path: /
   xudp: true
 - client-fingerprint: chrome
-  name: ❓Other_1|780KB/s|YT-RU|NF-SE
-  network: xhttp
-  port: 4443
-  server: swo2.nexfile.net
-  servername: swo2.nexfile.net
+  encryption: none
+  name: 🇯🇵JP_2|3.0MB/s|GPT⁺|NF-JP
+  network: ws
+  port: '2053'
+  server: 172.64.229.134
+  servername: cfdd-9qe.pages.dev
   tls: true
   type: vless
-  uuid: a35c508f-4d5d-4531-842e-6e9d43c762c0
-  xhttp-opts:
-    host: swo2.nexfile.net
-    mode: auto
-    path: /api/v1/sync/
+  udp: true
+  uuid: b0842662-f357-441b-8e85-718a83603534
+  ws-opts:
+    headers:
+      Host: cfdd-9qe.pages.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/56.0.2924.87 Safari/537.36
+    path: /
+  xudp: true
+- cipher: aes-256-gcm
+  name: 🇮🇹IT_1|1.4MB/s|YT-US|GPT⁺-IT|NF-IT
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.63
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇮🇹IT_2|1.0MB/s|YT-US|GPT⁺-IT|NF-IT
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.99
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇮🇹IT_3|877KB/s|YT-RU|GPT⁺-IT|NF-IT
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.54
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇮🇹IT_4|975KB/s|YT-US|GPT⁺-IT|NF-IT
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.72
+  type: ss
+- down: ''
+  fingerprint: ''
+  name: 🇩🇪DE_1|3.4MB/s|YT-DE|GPT⁺-DE|NF-PL
+  obfs: ''
+  obfs-password: ''
+  password: myptyun.Hu5bS3VYUd3iqmaU
+  port: '8443'
+  server: 193.26.157.226
+  skip-cert-verify: false
+  sni: 1o2.690423.xyz
+  type: hysteria2
+  up: ''
+- cipher: aes-256-gcm
+  name: 🇮🇹IT_5|921KB/s|YT-US|GPT⁺-IT|NF-IT
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.45
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇮🇹IT_6|667KB/s|YT-US|GPT⁺-IT|NF-IT
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.90
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇮🇹IT_7|814KB/s|YT-US|GPT⁺-IT|NF-IT
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.18
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇮🇹IT_8|1.2MB/s|YT-US|GPT⁺-IT|NF-IT
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.36
+  type: ss
+  udp: true
 - client-fingerprint: chrome
   encryption: none
+  name: 🇩🇪DE_2|1.7MB/s|YT-US|GPT⁺-DE|NF-DE
+  network: ws
+  port: '2087'
+  server: 172.66.214.144
+  servername: cfdd-9qe.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: b0842662-f357-441b-8e85-718a83603534
+  ws-opts:
+    headers:
+      Host: cfdd-9qe.pages.dev
+      User-Agent: Mozilla/5.0 (Unknown; Linux) AppleWebKit/538.1 (KHTML, like Gecko)
+        Chrome/v1.0.0 Safari/538.1
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇯🇵JP_3|2.6MB/s|YT-JP|GPT⁺-JP|NF-JP
+  network: ws
+  port: '2096'
+  server: 172.64.229.67
+  servername: cfdd-9qe.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: b0842662-f357-441b-8e85-718a83603534
+  ws-opts:
+    headers:
+      Host: cfdd-9qe.pages.dev
+      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_3|2.1MB/s|YT-US|GPT⁺-DE|NF-DE
+  network: ws
+  port: '443'
+  server: 172.66.214.203
+  servername: cfdd-9qe.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: b0842662-f357-441b-8e85-718a83603534
+  ws-opts:
+    headers:
+      Host: cfdd-9qe.pages.dev
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.110 Safari/537.36
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸US_1|578KB/s|YT-CN|GPT⁺-US|NF-US
+  network: ws
+  port: '2096'
+  server: 104.19.17.142
+  servername: cfdd-9qe.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: b0842662-f357-441b-8e85-718a83603534
+  ws-opts:
+    headers:
+      Host: cfdd-9qe.pages.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/48.0.2564.109 Safari/537.36
+    path: /
+  xudp: true
+- cipher: aes-256-gcm
+  name: 🇮🇹IT_9|1.0MB/s|YT-US|GPT⁺-IT|NF-IT
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.81
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: TunService
+  name: 🇫🇮FI_1|542KB/s|YT-RU|GPT⁺-FI|NF-LV
+  network: grpc
+  packet-encoding: xudp
+  port: 8443
+  reality-opts:
+    public-key: Sq7mtLmaanwsTVNBR9gU7ECU87ftrb_wFGRLLNRBlmQ
+    short-id: ''
+  server: 122.8.47.4
+  servername: www.philips.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: ffaa2141-759b-424f-f28c-23dbeae00f10
+  xudp: true
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 🇬🇧GB_1|661KB/s|YT-GB|GPT⁺-GB|NF-GB
-  network: tcp
+  name: 🇦🇹AT_1|914KB/s|YT-RU|GPT⁺-AT|NF-DE
+  network: raw
   port: '443'
   reality-opts:
-    public-key: QFYzek1TNFeZxhHP3gH-42RUYDGw0ZiigeDcUOFL2Vs
-    short-id: bd44ae7c721b8252
-  server: 157.228.64.24
-  servername: gb1.japancase.site
+    public-key: zEntiD6D81wY__YHPvIw78e09CBIgYkyQ5meIo7c_hg
+    short-id: 41ae8e266bc3346f
+  server: at1.japancase.site
+  servername: at1.japancase.site
   tls: true
   type: vless
   udp: true
   uuid: db80088c-32a1-4cb8-a907-0f3cb7844152
-  xudp: true
-- alpn:
-  - h2
-  client-fingerprint: chrome
-  encryption: mlkem768x25519plus.native.0rtt.2UUI6mzH47SWktMv0lyg6Eckdd62hNt6c86vJ5B5bQw
-  name: 🇳🇱NL_1|1.5MB/s|GPT⁺-NL|NF-NL
-  network: ws
-  port: '443'
-  server: panel-production-fb3a.up.railway.app
-  servername: panel-production-fb3a.up.railway.app
-  tls: true
-  type: vless
-  udp: true
-  uuid: e23c0f8e-c68e-4675-8974-42840e114598
-  ws-opts:
-    headers:
-      Host: panel-production-fb3a.up.railway.app
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/68.0.3440.106 Safari/537.36
-    path: /ws
   xudp: true
 proxy-groups:
 - name: PROXY

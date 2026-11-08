@@ -218,18 +218,30 @@ proxy-groups:
   - STABLE
   - AUTO
   - DIRECT
+  - CFDD-BACKUP
 - name: STABLE
   type: fallback
-  include-all: true
   url: https://www.gstatic.com/generate_204
   interval: 120
   lazy: false
   timeout: 5000
   max-failed-times: 1
   expected-status: 204
+  proxies: &id001
+  - 🇮🇹IT_8|1.2MB/s|YT-US|GPT⁺-IT|NF-IT
+  - 🇮🇹IT_7|814KB/s|YT-US|GPT⁺-IT|NF-IT
+  - 🇮🇹IT_1|1.4MB/s|YT-US|GPT⁺-IT|NF-IT
+  - 🇮🇹IT_2|1.0MB/s|YT-US|GPT⁺-IT|NF-IT
+  - 🇮🇹IT_3|877KB/s|YT-RU|GPT⁺-IT|NF-IT
+  - 🇮🇹IT_4|975KB/s|YT-US|GPT⁺-IT|NF-IT
+  - 🇩🇪DE_1|3.4MB/s|YT-DE|GPT⁺-DE|NF-PL
+  - 🇮🇹IT_5|921KB/s|YT-US|GPT⁺-IT|NF-IT
+  - 🇮🇹IT_6|667KB/s|YT-US|GPT⁺-IT|NF-IT
+  - 🇮🇹IT_9|1.0MB/s|YT-US|GPT⁺-IT|NF-IT
+  - 🇫🇮FI_1|542KB/s|YT-RU|GPT⁺-FI|NF-LV
+  - 🇦🇹AT_1|914KB/s|YT-RU|GPT⁺-AT|NF-DE
 - name: AUTO
   type: url-test
-  include-all: true
   url: https://www.gstatic.com/generate_204
   interval: 300
   tolerance: 150
@@ -237,6 +249,7 @@ proxy-groups:
   timeout: 5000
   max-failed-times: 2
   expected-status: 204
+  proxies: *id001
 - name: AI
   type: select
   proxies:
@@ -267,15 +280,16 @@ proxy-groups:
   - DIRECT
 - name: TWITTER
   type: select
+  proxies: *id001
+- name: CFDD-BACKUP
+  type: select
   proxies:
-  - PROXY
-  - STABLE
-  - AUTO
-  - AI
-  - NETFLIX
-  - YOUTUBE
-  - TELEGRAM
-  - DIRECT
+  - 🇯🇵JP_1|2.7MB/s|GPT|NF-JP
+  - 🇯🇵JP_2|3.0MB/s|GPT⁺|NF-JP
+  - 🇩🇪DE_2|1.7MB/s|YT-US|GPT⁺-DE|NF-DE
+  - 🇯🇵JP_3|2.6MB/s|YT-JP|GPT⁺-JP|NF-JP
+  - 🇩🇪DE_3|2.1MB/s|YT-US|GPT⁺-DE|NF-DE
+  - 🇺🇸US_1|578KB/s|YT-CN|GPT⁺-US|NF-US
 rule-providers:
   LocalAreaNetwork:
     type: http

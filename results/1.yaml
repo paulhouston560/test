@@ -1,42 +1,6 @@
 mode: rule
 tcp-concurrent: true
 proxies:
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇯🇵JP_1|2.7MB/s|GPT|NF-JP
-  network: ws
-  port: '2083'
-  server: 172.64.229.4
-  servername: cfdd-9qe.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: b0842662-f357-441b-8e85-718a83603534
-  ws-opts:
-    headers:
-      Host: cfdd-9qe.pages.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G570M) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇯🇵JP_2|3.0MB/s|GPT⁺|NF-JP
-  network: ws
-  port: '2053'
-  server: 172.64.229.134
-  servername: cfdd-9qe.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: b0842662-f357-441b-8e85-718a83603534
-  ws-opts:
-    headers:
-      Host: cfdd-9qe.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/56.0.2924.87 Safari/537.36
-    path: /
-  xudp: true
 - cipher: aes-256-gcm
   name: 🇮🇹IT_1|1.4MB/s|YT-US|GPT⁺-IT|NF-IT
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
@@ -99,78 +63,6 @@ proxies:
   server: 202.50.253.36
   type: ss
   udp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_2|1.7MB/s|YT-US|GPT⁺-DE|NF-DE
-  network: ws
-  port: '2087'
-  server: 172.66.214.144
-  servername: cfdd-9qe.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: b0842662-f357-441b-8e85-718a83603534
-  ws-opts:
-    headers:
-      Host: cfdd-9qe.pages.dev
-      User-Agent: Mozilla/5.0 (Unknown; Linux) AppleWebKit/538.1 (KHTML, like Gecko)
-        Chrome/v1.0.0 Safari/538.1
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇯🇵JP_3|2.6MB/s|YT-JP|GPT⁺-JP|NF-JP
-  network: ws
-  port: '2096'
-  server: 172.64.229.67
-  servername: cfdd-9qe.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: b0842662-f357-441b-8e85-718a83603534
-  ws-opts:
-    headers:
-      Host: cfdd-9qe.pages.dev
-      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_3|2.1MB/s|YT-US|GPT⁺-DE|NF-DE
-  network: ws
-  port: '443'
-  server: 172.66.214.203
-  servername: cfdd-9qe.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: b0842662-f357-441b-8e85-718a83603534
-  ws-opts:
-    headers:
-      Host: cfdd-9qe.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.110 Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸US_1|578KB/s|YT-CN|GPT⁺-US|NF-US
-  network: ws
-  port: '2096'
-  server: 104.19.17.142
-  servername: cfdd-9qe.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: b0842662-f357-441b-8e85-718a83603534
-  ws-opts:
-    headers:
-      Host: cfdd-9qe.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/48.0.2564.109 Safari/537.36
-    path: /
-  xudp: true
 - cipher: aes-256-gcm
   name: 🇮🇹IT_9|1.0MB/s|YT-US|GPT⁺-IT|NF-IT
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
@@ -218,7 +110,6 @@ proxy-groups:
   - STABLE
   - AUTO
   - DIRECT
-  - CFDD-BACKUP
 - name: STABLE
   type: fallback
   url: https://www.gstatic.com/generate_204
@@ -228,8 +119,6 @@ proxy-groups:
   max-failed-times: 1
   expected-status: 204
   proxies: &id001
-  - 🇮🇹IT_8|1.2MB/s|YT-US|GPT⁺-IT|NF-IT
-  - 🇮🇹IT_7|814KB/s|YT-US|GPT⁺-IT|NF-IT
   - 🇮🇹IT_1|1.4MB/s|YT-US|GPT⁺-IT|NF-IT
   - 🇮🇹IT_2|1.0MB/s|YT-US|GPT⁺-IT|NF-IT
   - 🇮🇹IT_3|877KB/s|YT-RU|GPT⁺-IT|NF-IT
@@ -237,6 +126,8 @@ proxy-groups:
   - 🇩🇪DE_1|3.4MB/s|YT-DE|GPT⁺-DE|NF-PL
   - 🇮🇹IT_5|921KB/s|YT-US|GPT⁺-IT|NF-IT
   - 🇮🇹IT_6|667KB/s|YT-US|GPT⁺-IT|NF-IT
+  - 🇮🇹IT_7|814KB/s|YT-US|GPT⁺-IT|NF-IT
+  - 🇮🇹IT_8|1.2MB/s|YT-US|GPT⁺-IT|NF-IT
   - 🇮🇹IT_9|1.0MB/s|YT-US|GPT⁺-IT|NF-IT
   - 🇫🇮FI_1|542KB/s|YT-RU|GPT⁺-FI|NF-LV
   - 🇦🇹AT_1|914KB/s|YT-RU|GPT⁺-AT|NF-DE
@@ -281,15 +172,6 @@ proxy-groups:
 - name: TWITTER
   type: select
   proxies: *id001
-- name: CFDD-BACKUP
-  type: select
-  proxies:
-  - 🇯🇵JP_1|2.7MB/s|GPT|NF-JP
-  - 🇯🇵JP_2|3.0MB/s|GPT⁺|NF-JP
-  - 🇩🇪DE_2|1.7MB/s|YT-US|GPT⁺-DE|NF-DE
-  - 🇯🇵JP_3|2.6MB/s|YT-JP|GPT⁺-JP|NF-JP
-  - 🇩🇪DE_3|2.1MB/s|YT-US|GPT⁺-DE|NF-DE
-  - 🇺🇸US_1|578KB/s|YT-CN|GPT⁺-US|NF-US
 rule-providers:
   LocalAreaNetwork:
     type: http

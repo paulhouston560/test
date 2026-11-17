@@ -1,24 +1,39 @@
 mode: rule
 tcp-concurrent: true
 proxies:
-- cipher: aes-256-gcm
-  name: 🇮🇹IT_1|1.4MB/s|YT-US|GPT⁺-IT|NF-IT
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.63
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇮🇹IT_6|667KB/s|YT-US|GPT⁺-IT|NF-IT
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.90
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇮🇹IT_7|814KB/s|YT-US|GPT⁺-IT|NF-IT
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.18
-  type: ss
+- down: ''
+  fingerprint: ''
+  name: 🇵🇱PL_1|1.4MB/s|YT-PL|GPT⁺-PL|NF-FI
+  obfs: ''
+  obfs-password: ''
+  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
+  port: 4444
+  server: bl1.nexfile.net
+  skip-cert-verify: false
+  sni: bl1.nexfile.net
+  type: hysteria2
+  up: ''
+- client-fingerprint: chrome
+  name: 🇹🇷TR_5|521KB/s|YT-CN|GPT⁺-TR|NF-TR
+  password: d7563108-615c-4338-a7bd-77f359869a4a
+  port: 20028
+  server: sclass-b1.catcat321.com
+  servername: hk.catxstar.com
+  skip-cert-verify: false
+  sni: hk.catxstar.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 🇹🇷TR_1|561KB/s
+  password: d7563108-615c-4338-a7bd-77f359869a4a
+  port: 20027
+  server: sclass-b1.catcat321.com
+  servername: hk.catxstar.com
+  skip-cert-verify: false
+  sni: hk.catxstar.com
+  tls: true
+  type: trojan
+  udp: true
 - cipher: aes-256-gcm
   name: 🇮🇹IT_9|1.0MB/s|YT-US|GPT⁺-IT|NF-IT
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
@@ -38,18 +53,46 @@ proxies:
   type: vless
   udp: true
   uuid: eb8c97f7-a154-4442-91b0-54c0d055ad0b
-- down: ''
-  fingerprint: ''
-  name: 🇵🇱PL_1|1.4MB/s|YT-PL|GPT⁺-PL|NF-FI
-  obfs: ''
-  obfs-password: ''
-  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
-  port: 4444
-  server: bl1.nexfile.net
-  skip-cert-verify: false
-  sni: bl1.nexfile.net
-  type: hysteria2
-  up: ''
+- cipher: aes-256-gcm
+  name: 🇮🇹IT_4|975KB/s|YT-US|GPT⁺-IT|NF-IT
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.72
+  type: ss
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: grpc
+  name: 🇳🇱NL_1|546KB/s|YT-RU|GPT⁺-NL|NF-FR
+  network: grpc
+  port: '443'
+  reality-opts:
+    public-key: EpfNfUY-xtHzn-b8SX58Spb3FUV1GC1qWJ-wAkXunjA
+    short-id: c8d752a5b8522c12
+  server: 50.7.38.218
+  servername: dock.foghollow.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: 49db4ce7-ad48-41a3-9b6f-4c6dabd94504
+  xudp: true
+- cipher: aes-256-gcm
+  name: 🇮🇹IT_6|667KB/s|YT-US|GPT⁺-IT|NF-IT
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.90
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇮🇹IT_1|1.4MB/s|YT-US|GPT⁺-IT|NF-IT
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.63
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇮🇹IT_7|814KB/s|YT-US|GPT⁺-IT|NF-IT
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.18
+  type: ss
 - cipher: aes-256-gcm
   name: 🇮🇹IT_2|1.0MB/s|YT-US|GPT⁺-IT|NF-IT
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
@@ -61,12 +104,6 @@ proxies:
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.54
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇮🇹IT_4|975KB/s|YT-US|GPT⁺-IT|NF-IT
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.72
   type: ss
 - down: ''
   fingerprint: ''
@@ -144,14 +181,15 @@ proxy-groups:
   max-failed-times: 1
   expected-status: 204
   proxies: &id001
-  - 🇮🇹IT_3|877KB/s|YT-RU|GPT⁺-IT|NF-IT
-  - 🇮🇹IT_1|1.4MB/s|YT-US|GPT⁺-IT|NF-IT
-  - 🇮🇹IT_6|667KB/s|YT-US|GPT⁺-IT|NF-IT
-  - 🇮🇹IT_7|814KB/s|YT-US|GPT⁺-IT|NF-IT
-  - 🇮🇹IT_9|1.0MB/s|YT-US|GPT⁺-IT|NF-IT
   - 🇵🇱PL_1|1.4MB/s|YT-PL|GPT⁺-PL|NF-FI
-  - 🇮🇹IT_2|1.0MB/s|YT-US|GPT⁺-IT|NF-IT
+  - 🇹🇷TR_5|521KB/s|YT-CN|GPT⁺-TR|NF-TR
+  - 🇮🇹IT_9|1.0MB/s|YT-US|GPT⁺-IT|NF-IT
   - 🇮🇹IT_4|975KB/s|YT-US|GPT⁺-IT|NF-IT
+  - 🇮🇹IT_6|667KB/s|YT-US|GPT⁺-IT|NF-IT
+  - 🇮🇹IT_1|1.4MB/s|YT-US|GPT⁺-IT|NF-IT
+  - 🇮🇹IT_7|814KB/s|YT-US|GPT⁺-IT|NF-IT
+  - 🇮🇹IT_2|1.0MB/s|YT-US|GPT⁺-IT|NF-IT
+  - 🇮🇹IT_3|877KB/s|YT-RU|GPT⁺-IT|NF-IT
   - 🇩🇪DE_1|3.4MB/s|YT-DE|GPT⁺-DE|NF-PL
   - 🇮🇹IT_5|921KB/s|YT-US|GPT⁺-IT|NF-IT
   - 🇮🇹IT_8|1.2MB/s|YT-US|GPT⁺-IT|NF-IT
@@ -198,14 +236,15 @@ proxy-groups:
 - name: TWITTER
   type: select
   proxies:
-  - 🇮🇹IT_1|1.4MB/s|YT-US|GPT⁺-IT|NF-IT
-  - 🇮🇹IT_6|667KB/s|YT-US|GPT⁺-IT|NF-IT
-  - 🇮🇹IT_7|814KB/s|YT-US|GPT⁺-IT|NF-IT
-  - 🇮🇹IT_9|1.0MB/s|YT-US|GPT⁺-IT|NF-IT
   - 🇵🇱PL_1|1.4MB/s|YT-PL|GPT⁺-PL|NF-FI
+  - 🇹🇷TR_5|521KB/s|YT-CN|GPT⁺-TR|NF-TR
+  - 🇮🇹IT_9|1.0MB/s|YT-US|GPT⁺-IT|NF-IT
+  - 🇮🇹IT_4|975KB/s|YT-US|GPT⁺-IT|NF-IT
+  - 🇮🇹IT_6|667KB/s|YT-US|GPT⁺-IT|NF-IT
+  - 🇮🇹IT_1|1.4MB/s|YT-US|GPT⁺-IT|NF-IT
+  - 🇮🇹IT_7|814KB/s|YT-US|GPT⁺-IT|NF-IT
   - 🇮🇹IT_2|1.0MB/s|YT-US|GPT⁺-IT|NF-IT
   - 🇮🇹IT_3|877KB/s|YT-RU|GPT⁺-IT|NF-IT
-  - 🇮🇹IT_4|975KB/s|YT-US|GPT⁺-IT|NF-IT
   - 🇩🇪DE_1|3.4MB/s|YT-DE|GPT⁺-DE|NF-PL
   - 🇮🇹IT_5|921KB/s|YT-US|GPT⁺-IT|NF-IT
   - 🇮🇹IT_8|1.2MB/s|YT-US|GPT⁺-IT|NF-IT
@@ -214,7 +253,9 @@ proxy-groups:
 - name: NEW-WEB
   type: select
   proxies:
+  - 🇹🇷TR_1|561KB/s
   - 新线路-01｜网页已验证
+  - 🇳🇱NL_1|546KB/s|YT-RU|GPT⁺-NL|NF-FR
 rule-providers:
   LocalAreaNetwork:
     type: http

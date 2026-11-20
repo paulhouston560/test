@@ -3,6 +3,49 @@ tcp-concurrent: true
 proxies:
 - down: ''
   fingerprint: ''
+  name: 🇺🇸US_1|1.7MB/s|YT-US|GPT-US|NF-US
+  obfs: ''
+  obfs-password: ''
+  password: 3a17ce52-4547-45aa-9820-a7d03ad5faca
+  port: 443
+  server: 45.86.74.193
+  skip-cert-verify: false
+  sni: media.embrofree.org
+  type: hysteria2
+  up: ''
+- cipher: aes-256-gcm
+  name: 🇮🇹IT_2|1.0MB/s|YT-US|GPT⁺-IT|NF-IT
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.99
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇮🇹IT_1|1.4MB/s|YT-US|GPT⁺-IT|NF-IT
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.63
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇮🇹IT_4|975KB/s|YT-US|GPT⁺-IT|NF-IT
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.72
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇮🇹IT_3|877KB/s|YT-RU|GPT⁺-IT|NF-IT
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.54
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇩🇪DE_2|546KB/s|YT-DE|GPT⁺-DE|NF-DE
+  password: D0oxPVbL3iwWGluKtfGVOBpdBMI3jv3t
+  port: '3230'
+  server: bash.mrvservice.ir
+  type: ss
+  udp: true
+- down: ''
+  fingerprint: ''
   name: 🇵🇱PL_1|1.4MB/s|YT-PL|GPT⁺-PL|NF-FI
   obfs: ''
   obfs-password: ''
@@ -39,30 +82,6 @@ proxies:
   udp: true
   uuid: 49db4ce7-ad48-41a3-9b6f-4c6dabd94504
   xudp: true
-- cipher: aes-256-gcm
-  name: 🇮🇹IT_1|1.4MB/s|YT-US|GPT⁺-IT|NF-IT
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.63
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇮🇹IT_2|1.0MB/s|YT-US|GPT⁺-IT|NF-IT
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.99
-  type: ss
-- down: ''
-  fingerprint: ''
-  name: 🇺🇸US_1|1.7MB/s|YT-US|GPT-US|NF-US
-  obfs: ''
-  obfs-password: ''
-  password: 3a17ce52-4547-45aa-9820-a7d03ad5faca
-  port: 443
-  server: 45.86.74.193
-  skip-cert-verify: false
-  sni: media.embrofree.org
-  type: hysteria2
-  up: ''
 - client-fingerprint: chrome
   name: 🇹🇷TR_5|521KB/s|YT-CN|GPT⁺-TR|NF-TR
   password: d7563108-615c-4338-a7bd-77f359869a4a
@@ -94,12 +113,6 @@ proxies:
   udp: true
   uuid: eb8c97f7-a154-4442-91b0-54c0d055ad0b
 - cipher: aes-256-gcm
-  name: 🇮🇹IT_4|975KB/s|YT-US|GPT⁺-IT|NF-IT
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.72
-  type: ss
-- cipher: aes-256-gcm
   name: 🇮🇹IT_6|667KB/s|YT-US|GPT⁺-IT|NF-IT
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
@@ -110,12 +123,6 @@ proxies:
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.18
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇮🇹IT_3|877KB/s|YT-RU|GPT⁺-IT|NF-IT
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.54
   type: ss
 - down: ''
   fingerprint: ''
@@ -193,19 +200,20 @@ proxy-groups:
   max-failed-times: 1
   expected-status: 204
   proxies: &id001
-  - 🇵🇱PL_1|1.4MB/s|YT-PL|GPT⁺-PL|NF-FI
-  - 🇮🇹IT_1|1.4MB/s|YT-US|GPT⁺-IT|NF-IT
-  - 🇮🇹IT_2|1.0MB/s|YT-US|GPT⁺-IT|NF-IT
-  - 🇺🇸US_1|1.7MB/s|YT-US|GPT-US|NF-US
-  - 🇹🇷TR_5|521KB/s|YT-CN|GPT⁺-TR|NF-TR
-  - 🇮🇹IT_9|1.0MB/s|YT-US|GPT⁺-IT|NF-IT
-  - 🇮🇹IT_4|975KB/s|YT-US|GPT⁺-IT|NF-IT
   - 🇮🇹IT_6|667KB/s|YT-US|GPT⁺-IT|NF-IT
-  - 🇮🇹IT_7|814KB/s|YT-US|GPT⁺-IT|NF-IT
   - 🇮🇹IT_3|877KB/s|YT-RU|GPT⁺-IT|NF-IT
-  - 🇩🇪DE_1|3.4MB/s|YT-DE|GPT⁺-DE|NF-PL
-  - 🇮🇹IT_5|921KB/s|YT-US|GPT⁺-IT|NF-IT
   - 🇮🇹IT_8|1.2MB/s|YT-US|GPT⁺-IT|NF-IT
+  - 🇮🇹IT_9|1.0MB/s|YT-US|GPT⁺-IT|NF-IT
+  - 🇮🇹IT_5|921KB/s|YT-US|GPT⁺-IT|NF-IT
+  - 🇺🇸US_1|1.7MB/s|YT-US|GPT-US|NF-US
+  - 🇮🇹IT_2|1.0MB/s|YT-US|GPT⁺-IT|NF-IT
+  - 🇩🇪DE_2|546KB/s|YT-DE|GPT⁺-DE|NF-DE
+  - 🇹🇷TR_5|521KB/s|YT-CN|GPT⁺-TR|NF-TR
+  - 🇮🇹IT_1|1.4MB/s|YT-US|GPT⁺-IT|NF-IT
+  - 🇮🇹IT_4|975KB/s|YT-US|GPT⁺-IT|NF-IT
+  - 🇵🇱PL_1|1.4MB/s|YT-PL|GPT⁺-PL|NF-FI
+  - 🇮🇹IT_7|814KB/s|YT-US|GPT⁺-IT|NF-IT
+  - 🇩🇪DE_1|3.4MB/s|YT-DE|GPT⁺-DE|NF-PL
   - 🇫🇮FI_1|542KB/s|YT-RU|GPT⁺-FI|NF-LV
   - 🇦🇹AT_1|914KB/s|YT-RU|GPT⁺-AT|NF-DE
 - name: AUTO
@@ -249,16 +257,17 @@ proxy-groups:
 - name: TWITTER
   type: select
   proxies:
-  - 🇵🇱PL_1|1.4MB/s|YT-PL|GPT⁺-PL|NF-FI
-  - 🇮🇹IT_1|1.4MB/s|YT-US|GPT⁺-IT|NF-IT
-  - 🇮🇹IT_2|1.0MB/s|YT-US|GPT⁺-IT|NF-IT
   - 🇺🇸US_1|1.7MB/s|YT-US|GPT-US|NF-US
+  - 🇮🇹IT_2|1.0MB/s|YT-US|GPT⁺-IT|NF-IT
+  - 🇮🇹IT_1|1.4MB/s|YT-US|GPT⁺-IT|NF-IT
+  - 🇮🇹IT_4|975KB/s|YT-US|GPT⁺-IT|NF-IT
+  - 🇮🇹IT_3|877KB/s|YT-RU|GPT⁺-IT|NF-IT
+  - 🇩🇪DE_2|546KB/s|YT-DE|GPT⁺-DE|NF-DE
+  - 🇵🇱PL_1|1.4MB/s|YT-PL|GPT⁺-PL|NF-FI
   - 🇹🇷TR_5|521KB/s|YT-CN|GPT⁺-TR|NF-TR
   - 🇮🇹IT_9|1.0MB/s|YT-US|GPT⁺-IT|NF-IT
-  - 🇮🇹IT_4|975KB/s|YT-US|GPT⁺-IT|NF-IT
   - 🇮🇹IT_6|667KB/s|YT-US|GPT⁺-IT|NF-IT
   - 🇮🇹IT_7|814KB/s|YT-US|GPT⁺-IT|NF-IT
-  - 🇮🇹IT_3|877KB/s|YT-RU|GPT⁺-IT|NF-IT
   - 🇩🇪DE_1|3.4MB/s|YT-DE|GPT⁺-DE|NF-PL
   - 🇮🇹IT_5|921KB/s|YT-US|GPT⁺-IT|NF-IT
   - 🇮🇹IT_8|1.2MB/s|YT-US|GPT⁺-IT|NF-IT

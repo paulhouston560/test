@@ -1,15 +1,99 @@
 proxies:
-    - alpn:
-        - h3
-      auth-str: dongtaiwang.com
-      down: "55"
-      name: "\U0001F1FA\U0001F1F8US_1|1.0MB/s|GPT⁺|YT-CN|NF|1%"
-      password: dongtaiwang.com
-      port: 11008
-      server: 38.6.222.132
-      servername: bing.com
+    - name: "\U0001F1F0\U0001F1F7KR_1|1.9MB/s|GPT|NF|6%"
+      password: ""
+      port: "1080"
+      server: 59.11.209.162
       skip-cert-verify: true
-      sni: bing.com
+      type: socks5
+      username: ""
+    - name: "\U0001F1F9\U0001F1EDTH_1|1.2MB/s|GPT⁺"
+      password: fAgE2jqK
+      port: 42000
+      server: 151.246.108.69
+      type: socks5
+      username: h87527jJ
+    - name: "\U0001F1FA\U0001F1F8US_1|1.5MB/s|GPT⁺|NF|80%"
+      password: "null"
+      port: 9002
+      server: 138.199.35.220
+      skip-cert-verify: true
       tls: true
-      type: hysteria
-      up: "11"
+      type: http
+      username: "null"
+    - name: ❓Other_1|2.4MB/s
+      password: YlRoWvE0dL_cUqS94wPeKnA4
+      port: 62000
+      server: 87.84.49.245
+      type: socks5
+      username: ks878449260d
+    - name: "\U0001F1F9\U0001F1EDTH_2|1.4MB/s|GPT⁺|YT-US|0%"
+      password: 1pB7HV6u
+      port: 42000
+      server: 151.246.109.158
+      type: socks5
+      udp: true
+      username: AJ3d9gJw
+    - name: "\U0001F1FA\U0001F1F8US_2|1.4MB/s|GPT⁺|YT-US|NF|80%"
+      password: "null"
+      port: 9002
+      server: 138.199.35.209
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+      username: "null"
+    - name: "\U0001F1ED\U0001F1F0HK_1|4.1MB/s|GPT⁺|YT-HK|D+|0%"
+      password: d7563108-615c-4338-a7bd-77f359869a4a
+      port: 30492
+      server: ddrr2.tube-cat.com
+      skip-cert-verify: true
+      sni: r.hk9.cat.bilibili.com
+      type: trojan
+      udp: true
+      x-toolall-mihomo: true
+    - name: "\U0001F1EF\U0001F1F5JP_1|4.4MB/s|GPT⁺|3%"
+      password: d7563108-615c-4338-a7bd-77f359869a4a
+      port: 40465
+      server: ddrr2.tube-cat.com
+      skip-cert-verify: true
+      sni: r.JP13.cat.bilibili.com
+      type: trojan
+      udp: true
+      x-toolall-mihomo: true
+    - name: "\U0001F1F9\U0001F1FCTW_1|1.3MB/s|GPT⁺|YT-CN|NF|0%"
+      password: d7563108-615c-4338-a7bd-77f359869a4a
+      port: 28478
+      server: ddrr1.tube-cat.com
+      skip-cert-verify: true
+      sni: r.tw2.cat.bilibili.com
+      type: trojan
+      udp: true
+      x-toolall-mihomo: true
+    - name: "\U0001F1F9\U0001F1FCTW_2|1.6MB/s|GPT|YT-CN|NF"
+      password: d7563108-615c-4338-a7bd-77f359869a4a
+      port: 27353
+      server: ddrr1.tube-cat.com
+      skip-cert-verify: true
+      sni: r.tw2.cat.bilibili.com
+      type: trojan
+      udp: true
+      x-toolall-mihomo: true
+    - name: "\U0001F1F0\U0001F1F7KR_2|1.3MB/s|GPT|YT-KR|NF|5%"
+      password: d7563108-615c-4338-a7bd-77f359869a4a
+      port: 32896
+      server: ddrr1.tube-cat.com
+      skip-cert-verify: true
+      sni: r.KR2.cat.bilibili.com
+      type: trojan
+      udp: true
+      x-toolall-mihomo: true
+    - name: "\U0001F1FA\U0001F1F8US_3|1.6MB/s|GPT⁺|YT-US|NF|47%"
+      password: ""
+      port: 443
+      server: 149.88.21.129
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+      username: ""
+      x-toolall-mihomo: true

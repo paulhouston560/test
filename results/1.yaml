@@ -1,18 +1,6 @@
 mode: rule
 tcp-concurrent: true
 proxies:
-- down: ''
-  fingerprint: ''
-  name: 🇩🇪DE_4|1.7MB/s|YT-RU|GPT⁺-DE|NF-DE
-  obfs: ''
-  obfs-password: ''
-  password: ca60984f-b1f0-4073-bd33-4c75168f749a
-  port: '443'
-  server: 31.59.169.225
-  skip-cert-verify: false
-  sni: ge-beer-1.fantoff.online
-  type: hysteria2
-  up: ''
 - cipher: aes-256-gcm
   name: 🇮🇹IT_6|667KB/s|YT-US|GPT⁺-IT|NF-IT
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
@@ -25,23 +13,11 @@ proxies:
   port: 19999
   server: 202.50.253.99
   type: ss
-- down: ''
-  fingerprint: ''
-  name: 🇧🇬BG_1|1.7MB/s|YT-RU|GPT⁺-BG|NF-BG
-  obfs: ''
-  obfs-password: ''
-  password: ca60984f-b1f0-4073-bd33-4c75168f749a
-  port: '443'
-  server: 45.137.201.211
-  skip-cert-verify: false
-  sni: wwe.fantoff.online
-  type: hysteria2
-  up: ''
 - cipher: aes-256-gcm
-  name: 🇮🇹IT_8|1.2MB/s|YT-US|GPT⁺-IT|NF-IT
+  name: 🇮🇹IT_5|921KB/s|YT-US|GPT⁺-IT|NF-IT
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
-  server: 202.50.253.36
+  server: 202.50.253.45
   type: ss
   udp: true
 - cipher: aes-256-gcm
@@ -50,6 +26,74 @@ proxies:
   port: 19999
   server: 202.50.253.63
   type: ss
+- cipher: aes-256-gcm
+  name: 🇮🇹IT_4|975KB/s|YT-US|GPT⁺-IT|NF-IT
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.72
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇮🇹IT_7|814KB/s|YT-US|GPT⁺-IT|NF-IT
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.18
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇮🇹IT_9|1.0MB/s|YT-US|GPT⁺-IT|NF-IT
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.81
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  name: 🇵🇱PL_1|607KB/s|YT-RU|GPT⁺-PL|NF-PL
+  network: tcp
+  port: '443'
+  server: 94.183.167.172
+  servername: s8k4.scan-cdn.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d7121b33-e335-4921-bb00-4c0b157e7fc1
+  xudp: true
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 🇨🇦CA_1|1.4MB/s|YT-RU|GPT⁺-CA|NF-US
+  network: raw
+  port: '443'
+  reality-opts:
+    public-key: fVYMiP7jX5yo5loyRrDdajLFBM6FNkZIfBIsezKjdm8
+    short-id: 723ace0d14784964
+  server: 94.241.140.130
+  servername: rucanmicro2.gangplatform.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9df9ee1a-0671-4c6c-93c7-65598fb946f7
+  xudp: true
+- client-fingerprint: qq
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇭🇰HK_1|1.4MB/s|YT-RU|NF-HK
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: u9GnN8KGzfV0xQj6R8Ydp1nvY4exEWlTIcIbA27N0Wo
+    short-id: bad10ef561d2e2a1
+  server: 103.88.241.220
+  servername: ruhongmicro2.gangplatform.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9df9ee1a-0671-4c6c-93c7-65598fb946f7
+  xudp: true
+- cipher: aes-256-gcm
+  name: 🇮🇹IT_8|1.2MB/s|YT-US|GPT⁺-IT|NF-IT
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.36
+  type: ss
+  udp: true
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 🇺🇸US_1|1.5MB/s|YT-RU|GPT⁺-US|NF-US
@@ -65,6 +109,82 @@ proxies:
   udp: true
   uuid: 3208bc65-8489-442e-982a-6d18893a38c0
   xudp: true
+- cipher: aes-256-gcm
+  name: 🇭🇰HK_1|628KB/s|YT-HK|NF-HK
+  password: vyrzxzt9yix5jocj
+  port: '26934'
+  server: 121.54.188.7
+  type: ss
+  udp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇱🇹LT_1|1.7MB/s|YT-RU|GPT⁺-LT|NF-LV
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
+    short-id: 868419504747f6de
+  server: 84.32.209.54
+  servername: lt.memepn.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: f69e272f-e0e5-4e9d-b180-5be63930cde9
+- client-fingerprint: edge
+  grpc-opts:
+    grpc-service-name: 99f2107b03f8
+  name: 🇺🇸US_1|555KB/s|YT-US|GPT⁺-US|NF-US
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: cO3wYHISTeorXcM8ffaDCDdqZ-olBQL-GyZqb-W7rTk
+    short-id: bd8f712209a9c283
+  server: 162.35.101.177
+  servername: 0592efg.us8.h1clayd.click
+  tls: true
+  type: vless
+  udp: true
+  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇮🇱IL_1|1.2MB/s|YT-IL|GPT⁺-IL|NF-DE
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: VZS639V1i-35g7VXb9EoTYL-Srm7858sxcvFAunncmA
+    short-id: 8d0d0679f42ffd98
+  server: 196.196.148.76
+  servername: 8a2e72t.nl20.h1clayd.shop
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
+  xudp: true
+- down: ''
+  fingerprint: ''
+  name: 🇩🇪DE_4|1.7MB/s|YT-RU|GPT⁺-DE|NF-DE
+  obfs: ''
+  obfs-password: ''
+  password: ca60984f-b1f0-4073-bd33-4c75168f749a
+  port: '443'
+  server: 31.59.169.225
+  skip-cert-verify: false
+  sni: ge-beer-1.fantoff.online
+  type: hysteria2
+  up: ''
+- down: ''
+  fingerprint: ''
+  name: 🇧🇬BG_1|1.7MB/s|YT-RU|GPT⁺-BG|NF-BG
+  obfs: ''
+  obfs-password: ''
+  password: ca60984f-b1f0-4073-bd33-4c75168f749a
+  port: '443'
+  server: 45.137.201.211
+  skip-cert-verify: false
+  sni: wwe.fantoff.online
+  type: hysteria2
+  up: ''
 - down: ''
   fingerprint: ''
   name: 🇺🇸US_1|1.7MB/s|YT-US|GPT-US|NF-US
@@ -77,12 +197,6 @@ proxies:
   sni: media.embrofree.org
   type: hysteria2
   up: ''
-- cipher: aes-256-gcm
-  name: 🇮🇹IT_4|975KB/s|YT-US|GPT⁺-IT|NF-IT
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.72
-  type: ss
 - cipher: aes-256-gcm
   name: 🇮🇹IT_3|877KB/s|YT-RU|GPT⁺-IT|NF-IT
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
@@ -121,12 +235,6 @@ proxies:
   sni: pl.anonch.org
   type: hysteria2
   up: ''
-- cipher: aes-256-gcm
-  name: 🇮🇹IT_7|814KB/s|YT-US|GPT⁺-IT|NF-IT
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.18
-  type: ss
 - down: ''
   fingerprint: ''
   name: 🇵🇱PL_1|1.4MB/s|YT-PL|GPT⁺-PL|NF-FI
@@ -176,13 +284,6 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- cipher: aes-256-gcm
-  name: 🇮🇹IT_9|1.0MB/s|YT-US|GPT⁺-IT|NF-IT
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.81
-  type: ss
-  udp: true
 - client-fingerprint: chrome
   name: 新线路-01｜网页已验证
   port: 8443
@@ -207,13 +308,6 @@ proxies:
   sni: 1o2.690423.xyz
   type: hysteria2
   up: ''
-- cipher: aes-256-gcm
-  name: 🇮🇹IT_5|921KB/s|YT-US|GPT⁺-IT|NF-IT
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.45
-  type: ss
-  udp: true
 - client-fingerprint: chrome
   encryption: none
   grpc-opts:
@@ -265,15 +359,10 @@ proxy-groups:
   max-failed-times: 1
   expected-status: 204
   proxies: &id001
+  - 🇮🇹IT_6|667KB/s|YT-US|GPT⁺-IT|NF-IT
+  - 🇮🇹IT_5|921KB/s|YT-US|GPT⁺-IT|NF-IT
   - 🇮🇹IT_1|1.4MB/s|YT-US|GPT⁺-IT|NF-IT
   - 🇮🇹IT_4|975KB/s|YT-US|GPT⁺-IT|NF-IT
-  - 🇮🇹IT_6|667KB/s|YT-US|GPT⁺-IT|NF-IT
-  - 🇮🇹IT_8|1.2MB/s|YT-US|GPT⁺-IT|NF-IT
-  - 🇮🇹IT_3|877KB/s|YT-RU|GPT⁺-IT|NF-IT
-  - 🇮🇹IT_7|814KB/s|YT-US|GPT⁺-IT|NF-IT
-  - 🇮🇹IT_9|1.0MB/s|YT-US|GPT⁺-IT|NF-IT
-  - 🇮🇹IT_5|921KB/s|YT-US|GPT⁺-IT|NF-IT
-  - 🇮🇹IT_2|1.0MB/s|YT-US|GPT⁺-IT|NF-IT
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -317,27 +406,32 @@ proxy-groups:
   proxies:
   - 🇮🇹IT_6|667KB/s|YT-US|GPT⁺-IT|NF-IT
   - 🇮🇹IT_2|1.0MB/s|YT-US|GPT⁺-IT|NF-IT
-  - 🇧🇬BG_1|1.7MB/s|YT-RU|GPT⁺-BG|NF-BG
-  - 🇮🇹IT_8|1.2MB/s|YT-US|GPT⁺-IT|NF-IT
+  - 🇮🇹IT_5|921KB/s|YT-US|GPT⁺-IT|NF-IT
   - 🇮🇹IT_1|1.4MB/s|YT-US|GPT⁺-IT|NF-IT
-  - 🇺🇸US_1|1.7MB/s|YT-US|GPT-US|NF-US
   - 🇮🇹IT_4|975KB/s|YT-US|GPT⁺-IT|NF-IT
+  - 🇮🇹IT_7|814KB/s|YT-US|GPT⁺-IT|NF-IT
+  - 🇮🇹IT_9|1.0MB/s|YT-US|GPT⁺-IT|NF-IT
+  - 🇮🇹IT_8|1.2MB/s|YT-US|GPT⁺-IT|NF-IT
+  - 🇧🇬BG_1|1.7MB/s|YT-RU|GPT⁺-BG|NF-BG
+  - 🇺🇸US_1|1.7MB/s|YT-US|GPT-US|NF-US
   - 🇮🇹IT_3|877KB/s|YT-RU|GPT⁺-IT|NF-IT
   - 🇩🇪DE_2|546KB/s|YT-DE|GPT⁺-DE|NF-DE
   - 🇵🇱PL_1|1.8MB/s|YT-RU|GPT⁺-PL|NF-PL
-  - 🇮🇹IT_7|814KB/s|YT-US|GPT⁺-IT|NF-IT
   - 🇵🇱PL_1|1.4MB/s|YT-PL|GPT⁺-PL|NF-FI
   - 🇹🇷TR_5|521KB/s|YT-CN|GPT⁺-TR|NF-TR
-  - 🇮🇹IT_9|1.0MB/s|YT-US|GPT⁺-IT|NF-IT
   - 🇩🇪DE_1|3.4MB/s|YT-DE|GPT⁺-DE|NF-PL
-  - 🇮🇹IT_5|921KB/s|YT-US|GPT⁺-IT|NF-IT
   - 🇫🇮FI_1|542KB/s|YT-RU|GPT⁺-FI|NF-LV
   - 🇦🇹AT_1|914KB/s|YT-RU|GPT⁺-AT|NF-DE
 - name: RESERVE
   type: select
   proxies:
+  - 🇮🇹IT_2|1.0MB/s|YT-US|GPT⁺-IT|NF-IT
+  - 🇮🇹IT_7|814KB/s|YT-US|GPT⁺-IT|NF-IT
+  - 🇮🇹IT_9|1.0MB/s|YT-US|GPT⁺-IT|NF-IT
+  - 🇮🇹IT_8|1.2MB/s|YT-US|GPT⁺-IT|NF-IT
   - 🇧🇬BG_1|1.7MB/s|YT-RU|GPT⁺-BG|NF-BG
   - 🇺🇸US_1|1.7MB/s|YT-US|GPT-US|NF-US
+  - 🇮🇹IT_3|877KB/s|YT-RU|GPT⁺-IT|NF-IT
   - 🇩🇪DE_2|546KB/s|YT-DE|GPT⁺-DE|NF-DE
   - 🇵🇱PL_1|1.8MB/s|YT-RU|GPT⁺-PL|NF-PL
   - 🇵🇱PL_1|1.4MB/s|YT-PL|GPT⁺-PL|NF-FI
@@ -348,8 +442,15 @@ proxy-groups:
 - name: NEW-WEB
   type: select
   proxies:
-  - 🇩🇪DE_4|1.7MB/s|YT-RU|GPT⁺-DE|NF-DE
+  - 🇵🇱PL_1|607KB/s|YT-RU|GPT⁺-PL|NF-PL
+  - 🇨🇦CA_1|1.4MB/s|YT-RU|GPT⁺-CA|NF-US
+  - 🇭🇰HK_1|1.4MB/s|YT-RU|NF-HK
   - 🇺🇸US_1|1.5MB/s|YT-RU|GPT⁺-US|NF-US
+  - 🇭🇰HK_1|628KB/s|YT-HK|NF-HK
+  - 🇱🇹LT_1|1.7MB/s|YT-RU|GPT⁺-LT|NF-LV
+  - 🇺🇸US_1|555KB/s|YT-US|GPT⁺-US|NF-US
+  - 🇮🇱IL_1|1.2MB/s|YT-IL|GPT⁺-IL|NF-DE
+  - 🇩🇪DE_4|1.7MB/s|YT-RU|GPT⁺-DE|NF-DE
   - 🇬🇧GB_1|862KB/s|YT-RU|GPT⁺-GB|NF-HU
   - 🇹🇷TR_1|561KB/s
   - 🇳🇱NL_1|546KB/s|YT-RU|GPT⁺-NL|NF-FR
